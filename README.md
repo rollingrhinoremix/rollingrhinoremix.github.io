@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<link rel="stylesheet" href="style.css" />
+	
+</head>
+	
+<body>
+		
 # Ubuntu Rolling Remix Website
 
 https://ubunturolling.github.io
@@ -15,4 +26,10 @@ This is the official repository for the Ubuntu Rolling Remix website. Ubuntu Rol
 - Other:
 	- jQuery (jquery.com)
 	- Scrollex (github.com/ajlkn/jquery.scrollex)
-	- Responsive Tools (github.com/ajlkn/responsive-tools)
+	- Responsive Tools (github.com/ajlkn/responsive-tools)		
+		
+</body>
+	
+</html>
+
+
