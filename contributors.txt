@@ -1,0 +1,9 @@
+# List of developers and contributors to the Ubuntu Rolling Remix Project
+
+MrBeeBenson:
+- Project Lead
+- Website developer
+- Maintains development of compiled disk images
+
+Billy G:
+- Maintains the development of the rhino-update script
