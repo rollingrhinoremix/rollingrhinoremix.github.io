@@ -26,7 +26,53 @@
 </div>
 <div id="content">
 <h1>Rolling Rhino Remix - How to create your own Rolling Rhino Remix image</h1>
-<p>We are dedicated to ensuring that all of our software is open source. At the moment Rolling Rhino Remix is not released and is only available to a few select individuals. We are currently working on documenting the process for creating the Rolling Rhino distribution. We are ensuring that it is well documented, easy to follow and without any mistakes so please bare with us.</p>
+<p>We are dedicated to ensuring that Rolling Rhino Remix is a fully open source operating system. This documentation, combined with all of the code hosted on our GitHub provides the information necessary to create your own image of Rolling Rhino Remix.</p>
+<h1>Installation of software and files</h1>
+<p>Before you create your very own Rolling Rhino Remix .iso you will need to install some additional software, create some directories and create some assets. The first step would be to go into your home directory with <code>cd ~</code>, once  you have done this you can begin to create the directories necessary to make a good programming environment. <code>mkdir rollingremix/ rollingremix/assets rollingremix/iso</code>, these directories are recommended and are what we will use in the guide.</p>
+<p>Once you have done this you will need to download the assets we have used from our github repository into ~/rollingremix/assets, to do this you can use this command: <code>git clone https://github.com/rollingrhinoremix/distro ~/rollingremix/assets</code>, it is crucial for this directory to be empty for git to be able to clone our assets into this directory.</p>
+<p>Once this has been completed you will need to install <a href="https://launchpad.net/cubic">Cubic</a>, Cubic is a piece of software which allows you to edit an Ubuntu .iso via chroot, it is not necessary to use this software if you prefer to use other software or edit an Ubuntu image a different way, however this is the method we have adopted and as such this guide will only focus on Cubic.</p>
+<ul>
+<li>To install Cubic you should follow the steps on the Cubic page listed <a href="https://launchpad.net/cubic">here</a>
+<ul>
+<li>It is important to note that Cubic is available only on systems that support PPAs, such as Ubuntu.</li>
+</ul>
+</li>
+</ul>
+<p>You will also need to ensure that Git is installed, if it isn't then you can install it via the Ubuntu package manager with <code>sudo apt install git</code></p>
+<h1>Installing an Ubuntu daily build</h1>
+<p>We create our .iso images based on Ubuntu daily builds, which you are able to download <a href="https://cdimage.ubuntu.com/daily-live/current/">here</a>. If Ubuntu is later in the development cycle you may need to find a beta disk image or use the latest release. You should place this file in your assets folder located in <code>~/rollingremix/assets</code></p>
+<h1>Initialising Cubic</h1>
+<p>When you launch Cubic you will be asked to select a project directory. This should be the <code>~/rollingremix/iso</code> folder that you have created, this is where Cubic will extract the Ubuntu filesystem and allow you to edit it directly via a command-line interface.</p>
+<p>Once you have selected a project folder you will see a file icon next to the Filename on the left-hand side, you will need to press this icon and select the Ubuntu daily build that you have downloaded and placed in <code>~/rollingremix/assets</code> Once you have done this you will need to look to the right-hand side and change the version, file name, volume ID, release, disk name and release URL. Once you have done this you will need to de-select the checkbox at OS Release.</p>
+<p>Here is how we have changed our disk image information (please note to manually change yyyy.mm.dd into YEAR.MONTH.DAY):</p>
+<ul>
+<li><strong>Version:</strong> yyyy.mm.dd</li>
+<li><strong>File Name:</strong> rolling-rhino-yyyy-mm-dd.iso</li>
+<li><strong>Volume ID:</strong> Rolling Rhino Remix yyyy.mm.dd</li>
+<li><strong>LEAVE THE RELEASE BLANK!</strong></li>
+<li><strong>Disk Name:</strong> Rolling Rhino Remix yyyy.mm.dd</li>
+<li><strong>Release URL:</strong> https://rollingrhinoremix.github.io</li>
+</ul>
+<p>We have also provided an image of the above for you:</p>
+<p><img src="../assets/images/cubic-menu.png" alt="Image of the above information in Cubic"></p>
+<p>After this is done you will need to click the button up-top called next. This will then extract the Ubuntu file system into the ~/rollingremix/iso directory. It is recommended to have a large amount of storage space on your system while you create your disk image as the extracted Ubuntu file system is quite large.</p>
+<h1>Creating the distribution</h1>
+<p>Congratulations! You are now ready to create your very own Rolling Rhino Remix disk image! The first step you will need to do is edit the file <code>/etc/os-release</code>, it is recommended to use nano for editing files within the distribution. To edit the file use <code>nano /etc/os-release</code> and edit the line that says &quot;PRETTY_NAME&quot;, you will want it to look like this: <code>PRETTY_NAME=&quot;Rolling Rhino Remix&quot;</code>.</p>
+<p>Once you have completed this step you will need to begin to place files from <code>~/rollingremix/assets</code> into the system. It is recommended to have a file manager window open and on the same desktop so you can drag and drop files from the file manager into the cubic directories (Cubic supports drag &amp; drop really well). In the Cubic terminal you will need to go into the directory /etc/skel with the command <code>cd /etc/skel</code>, this directory places items in the users home directory after installation. You will need to show all hidden files in ~/rollingremix/assets with CTRL+H if you are using the default file manager from GNOME. Once this has been done you can drag the .bashrc and .sources.sh files into the directory.</p>
+<p>After this has been done you will need to go back to your home directory with <code>cd ~</code> and run <code>apt install update &amp;&amp; apt install upgrade</code></p>
+<ul>
+<li>You will not need to type sudo as you are already in root in the Cubic terminal.</li>
+</ul>
+<p>After the system upgrades you will need to install an additional program, Git, this program is required for the <code>rhino-update</code> function that is provided by the Rolling Rhino Remix team. You can install git by typing <code>apt install git</code> into the Cubic terminal.</p>
+<p>Once this is done you have almost finished, just two more additional steps! You will need to go into the backgrounds directory in Cubic with <code>cd /usr/share/backgrounds</code> and then drag in the <code>rolling-rhino.png</code> file, which is our beautiful wallpaper.</p>
+<p>Once this has been done you will need to set the wallpaper as the default one. To do this go back to your home directory with <code>cd ~</code> and then type <code>nano /usr/share/glib-2.0/schemas/10_ubuntu-settings.gschema.override</code>, this is the file that sets some of the Ubuntu settings by default. You will see two categories near the top that say <code>[org.gnome.desktop.background]</code> and <code>[org.gnome.desktop.screensaver]</code>, there they will have a line that says something similar to: <code>picture-uri = 'file:///usr/share/backgrounds/warty-final-ubuntu.png'</code>, this will need to be changed to say <code>rolling-rhino.png</code> as opposed to <code>warty-final-ubuntu.png</code></p>
+<p>Once you have done this you can save and exit, then continue to the next step.</p>
+<h1>Finishing steps</h1>
+<p>Once you have clicked the next button you will be taken to a page where you are able to select packages removed for a typical/minimal installation. We do not modify the packages removed for either install and so you can click the next button again.</p>
+<p>After this you will be taken to another page where you are able to edit the Kernel, Preseed and Boot, we also do not make any changes here so you will be able to click the next button.</p>
+<p>After this you can select the compression for the Linux filesystem, it is not important which you pick but we choose gzip. Once you have done this you can generate your completed disk image! The generation for the disk image can take a while and does drain battery and processing power, so buckle up!</p>
+<p>Once the .iso is generated it is recommended to select the checkbox at the bottom of the screen which will delete all project files, it is optional however these files require sudo to delete and take up a lot of space, so it's just nice to delete it automatically :)</p>
+<p>Congratulations on creating your own version of Rolling Rhino Remix!</p>
 <hr />
 <p>Made with love from all of our <a href="https://rollingrhinoremix.github.io/contributors.txt">developers &amp; contributors</a> &lt;3</p>
 <p>Ubuntu and Canonical are registered trademarks of Canonical Ltd. Rolling Rhino Remix is not affiliated with the Ubuntu Project.</p>

@@ -7,3 +7,6 @@ MrBeeBenson:
 
 Billy G:
 - Maintains the development of the rhino-update script
+
+Martin Wimpress: 
+- Has opened issues up to help the development and alert us to any major issues
