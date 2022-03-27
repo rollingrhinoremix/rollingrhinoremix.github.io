@@ -1,5 +1,7 @@
 # List of developers and contributors to the Ubuntu Rolling Remix Project
 
+* All scripts and assets have been created by the Rolling Rhino Remix team, inspiration has been taken from Martin Wimpress' project "Rolling Rhino", of which he has permitted the use of the name "Rolling Rhino Remix" for our distribution.
+
 MrBeeBenson:
 - Project Lead
 - Website developer
@@ -10,3 +12,5 @@ Billy G:
 
 Martin Wimpress: 
 - Has opened issues up to help the development and alert us to any major issues
+- Has allowed the use of the name "Rolling Rhino Remix"
+* His scripts have inspired us, the Rolling Rhino Remix team, to create the distribution
