@@ -17,7 +17,7 @@ body {
     width: 100%;
     height: 200px;
     background: linear-gradient(90deg, rgba(233,84,32,1) 18%, rgba(119,41,83,1) 80%); 
-    margin-bottom: 16px;
+    /* margin-bottom: 16px; */
 }
 
 .header-text {
@@ -80,6 +80,25 @@ a:hover {
     color: #E95420;
     opacity: 0.8;
     transition: 0.3s;
+}
+
+/* Alert banner */
+.alert {
+    width: 100%;
+    height: auto;
+    background-color: rgb(247, 132, 0);
+    color: white;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.alert h3 {
+    font-size: 1.4rem;
+    padding: 25px;
+}
+
+.alert a {
+    color: white;
 }
 
 /* Mobile Optimisations */
