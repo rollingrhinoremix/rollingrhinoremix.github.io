@@ -10,7 +10,13 @@ MrBeeBenson:
 Billy G:
 - Maintains the development of the rhino-update script
 
+Tricanivu:
+- Submitted PR to fix typos in the README.MD file in https://github.com/rollingrhinoremix/distro
+
+nv35:
+- Fixed a typo on the website.
+
 Martin Wimpress: 
 - Has opened issues up to help the development and alert us to any major issues
 - Has allowed the use of the name "Rolling Rhino Remix"
-* His scripts have inspired us, the Rolling Rhino Remix team, to create the distribution
+* His scripts have inspired us, the Rolling Rhino Remix team, to create the distribution.
