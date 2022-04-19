@@ -12,7 +12,7 @@
 
 Installing Rolling Rhino Remix is not too dissimilar to installing standard Ubuntu. The first thing you will need to do is flash your USB drive with the .iso file which can be downloaded [here](https://rollingrhinoremix.github.io/download). Once you have flashed the .iso file you will need to boot into it and hit "Install Ubuntu", from there you will be able to follow the standard Ubuntu installation process as you would normally.
 
-Once you have installed Rolling Rhino Remix you will be required to read our [Quick Start Guide](../docs-quickstart/) and follow the steps documented to complete your set up.
+Once you have installed Rolling Rhino Remix you will be required to read our [Quick Start Guide](../docs-quickstart) and follow the steps documented to complete your set up.
 
 <hr />
 

@@ -12,7 +12,7 @@
 
 Welcome to the Quick Start Guide for Rolling Rhino Remix! Thank you for installing our Linux distribution. This distribution is the collective work of a few contributors. 
 
-- This guide assumes that you have already installed Rolling Rhino Remix, if you have not then please follow our [Installation guide](../docs-install/).
+- This guide assumes that you have already installed Rolling Rhino Remix, if you have not then please follow our [Installation guide](../docs-install).
 
 So firstly, congratulations on installing Rolling Rhino Remix! Each .iso image is created utilising an Ubuntu Daily Build, so you may already notice a few features that have not yet released in Ubuntu. 
 
@@ -22,7 +22,7 @@ The first step you will have to take once you have booted into your desktop is t
 
 This will initialise Rolling Rhino Remix. It will replace `/etc/apt/sources.list` with the Ubuntu devel repositories (as opposed to the next Ubuntu release). Once it has completed this, it will automatically begin to update your system with the latest from the devel repositories. Once your system has updated please reboot to begin the next step. **You will not be required to run rhino-init again once you have completed this step.**
 
-**Before the next step it will be important to read our [bug tracker](https://rollingrhinoremix.github.io/) to see if there will be any issues upgrading your system for your hardware.**
+**Before the next step it will be important to read our [bug tracker](https://rollingrhinoremix.github.io) to see if there will be any issues upgrading your system for your hardware.**
 
 Once your system has been rebooted you will need to open a second terminal and run:
 

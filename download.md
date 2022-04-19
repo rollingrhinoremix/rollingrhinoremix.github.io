@@ -17,7 +17,7 @@ The image can be burned to a CD, mounted as an ISO file, or be directly written 
 - **Current release:** 2022.04.19
 - [Release announcement](https://rollingrhinoremix.github.io/blog#2022-04-19)
 - **ISO Size:** 3.4 GB
-- [Installation guide](https://rollingrhinoremix.github.io/docs-install/)
+- [Installation guide](https://rollingrhinoremix.github.io/docs-install)
 - **Checksum (MD5):** f5efdd70e0c307cb2873f4cfd5d362a5  rolling-rhino-2022-04-19.iso
 
 # Download mirrors:
