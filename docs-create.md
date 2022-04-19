@@ -27,7 +27,7 @@ You will also need to ensure that Git is installed, if it isn't then you can ins
 
 # Installing an Ubuntu daily build
 
-We create our .iso images based on Ubuntu daily builds, which you are able to download [here](https://cdimage.ubuntu.com/daily-live/current/). If Ubuntu is later in the development cycle you may need to find a beta disk image or use the latest release. You should place this file in your assets folder located in `~/rollingremix/assets`
+We create our .iso images based on Ubuntu daily builds, which you are able to download [here](https://cdimage.ubuntu.com/daily-live/current). If Ubuntu is later in the development cycle you may need to find a beta disk image or use the latest release. You should place this file in your assets folder located in `~/rollingremix/assets`
 
 # Initialising Cubic
 
