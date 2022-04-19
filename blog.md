@@ -12,9 +12,9 @@
 
 <hr />
 
-<div id="2022-04-15" markdown="1">
+<div id="2022-04-19" markdown="1">
 
-# Release 2022.04.19
+# Release 2022.04.19 & What's to come for the future.
 
 After almost 3 weeks of hard work we have released the latest packaged version of Rolling Rhino Remix.
 
@@ -32,8 +32,17 @@ If you are using an already existing installation of Rolling Rhino Remix then yo
 
 If you wish to download Rolling Rhino Remix with a fresh disk image then you can download it [here](https://rollingrhinoremix.github.io/download).
 
-- From this release onwards all of our utilities, such as rhino-config and rhino-update, will be updated irrespective of disk image releases. Large-scale changes will still be detailed on our blog page.
-- We have also updated our website, let us know what you think about it in our [Discord](https://discord.gg/JMu4SYRs2n).
+# The future of Rolling Rhino Remix
+
+This has been known for a while but all discussion and development for Rolling Rhino Remix now happens on our Discord, which you can join [here](https://discord.gg/JMu4SYRs2n).
+
+From this release onwards all of our utilities, such as rhino-config and rhino-update, will be updated irrsepective of disk image releases. Large-scale changes to the utilities will still recieve updates on our blog page. This will allow for users to get the latest and greatest changes to Rhino without any wait.
+
+We have updated our website, it now uses server-side Jekyll to generate the pages rather than Eleventy being ran client-side then the generated pages being uploaded to GitHub. This will allow for people to make web-pages and fix our mistakes easier as they will be in pure Markdown as opposed to HTML. 
+
+The biggest change for the future of Rolling Rhino Remix is the integration of [Pacstall](https://pacstall.dev). We have worked along-side the developers of Pacstall to integrate their software into our Distribution. Pacstall provides a similar experience to the [AUR](https://aur.archlinux.org) on Ubuntu, and working along-side these developers to integrate it into our Distribution will mean that you will have a new way to install bleeding-edge software onto your system.
+
+As always, thanks to everyone who has shown an interest in the project, and a special thank you to our [developers & contributors](https://rollingrhinoremix.github.io) who have helped improve the project.
 
 </div>
 

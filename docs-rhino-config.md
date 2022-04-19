@@ -10,7 +10,7 @@
 
 # Rolling Rhino Remix - rhino-config Documentation
 
-The rhino-config command has been created to extend the capabilities of rhino-update. It is not recommended to use rhino-config unless you are aware of what options you are enabling. When you run rhino-config you will be prompted to choose Yes/No on certain configurations, if you choose "Yes", then the changes will be reflected on your system with your next rhino-update. 
+The rhino-config command has been created to extend the capabilities of rhino-update. It is not recommended to use rhino-config unless you are aware of what options you are enabling. When you run rhino-config you will be prompted to choose Yes/No on certain configurations, if you choose "Yes", then the changes will be reflected on your system with your next rhino-update. If you have already enabled a configuration option, then you will not be prompted again for that option.
 
 To run rhino-config just open a terminal and type `rhino-config`, once you have completed configuration please make sure to update your system with `rhino-update`. 
 
