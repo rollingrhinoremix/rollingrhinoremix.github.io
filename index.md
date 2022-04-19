@@ -28,6 +28,8 @@ I have personally felt like Ubuntu should have always adopted the rolling releas
 
 The main tool that we have created is `rhino-update`, it will ensure that system updates are ran smoothly, and extends the capabilities of what apt is able to provide. Since not all updates in the devel repository are bleeding-edge due to it being a development repository for future Ubuntu releases, we will be providing some software in our own repositories, such as the latest Linux Kernel. 
 
+We have also created a new tool called `rhino-config`, which extends the capabilities of `rhino-update`, by default our update script will only update your system, but you can use our configuration utility so that the update script is permitted to install the latest Linux kernel or replace snapd. 
+
 <hr />
 
 # How do I utilise the distribution?
