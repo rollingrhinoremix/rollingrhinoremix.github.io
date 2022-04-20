@@ -26,6 +26,8 @@ In order to enable Pacstall onto your system please read our [Pacstall documenta
 
 </div>
 
+<hr />
+
 <div id="2022-04-19" markdown="1">
 
 # Release 2022.04.19 & What's to come for the future.
