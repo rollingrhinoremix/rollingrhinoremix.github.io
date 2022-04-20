@@ -12,6 +12,8 @@
 
 We are dedicated to ensuring that Rolling Rhino Remix is a fully open source operating system. This documentation, combined with all of the code hosted on our GitHub provides the information necessary to create your own image of Rolling Rhino Remix. 
 
+- The steps below are for the manual creation of the disk image, if you wish to automatically generate the disk image using our creation script, click [here](https://github.com/rollingrhinoremix/creation_script).
+
 # Installation of software and files
 
 Before you create your very own Rolling Rhino Remix .iso you will need to install some additional software, create some directories and create some assets. The first step would be to go into your home directory with `cd ~`, once  you have done this you can begin to create the directories necessary to make a good programming environment. `mkdir rollingremix/ rollingremix/assets rollingremix/iso`, these directories are recommended and are what we will use in the guide. 
