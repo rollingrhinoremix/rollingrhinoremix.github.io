@@ -12,6 +12,20 @@
 
 <hr />
 
+<div id="rhino-v120" markdown="1">
+
+# Pacstall integration - rhino-update & rhino-config v1.2
+
+The Rolling Rhino Remix development team has worked closely with the development team of [Pacstall](https://pacstall.dev) to bring their software onto our distribution. Pacstall is an AUR-inspired package manager for Ubuntu. It brings the experience of the Arch User Repository directly to Ubuntu and Ubuntu-based systems with an ever-growing number of user-maintained packages. 
+
+We have integrated, along with the help of the Pacstall development team, Pacstall directly into our Rhino utilities. Pacstall can now be enabled via `rhino-config` and all Pacstall applications can be updated via `rhino-update`.
+
+`rhino-config` has also recieved some new features, such as the user not being prompted multiple times for configurations that they have already enabled. 
+
+In order to enable Pacstall onto your system please read our [Pacstall documentation](https://rollingrhinoremix.github.io/docs-pacstall).
+
+</div>
+
 <div id="2022-04-19" markdown="1">
 
 # Release 2022.04.19 & What's to come for the future.
