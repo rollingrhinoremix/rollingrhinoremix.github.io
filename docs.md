@@ -15,10 +15,11 @@ The Rolling Rhino Documentation covers how to install and correctly use the Roll
 - Get Started
     - [Quick Start Guide](https://rollingrhinoremix.github.io/docs-quickstart)
     - [How to install Rolling Rhino Remix](https://rollingrhinoremix.github.io/docs-install)
-- Tools created for Rolling Rhino Remix
+- Tools included in Rolling Rhino Remix
     - [rhino-init](https://rollingrhinoremix.github.io/docs-rhino-init)
     - [rhino-update](https://rollingrhinoremix.github.io/docs-rhino-update)
     - [rhino-config](https://rollingrhinoremix.github.io/docs-rhino-config)
+    - [Pacstall](https://rollingrhinoremix.github.io/docs-pacstall)
 - How to create your own image of Rolling Rhino Remix
     - [How to create your own image of Rolling Rhino Remix](https://rollingrhinoremix.github.io/docs-create)
 
