@@ -26,9 +26,13 @@ I have personally felt like Ubuntu should have always adopted the rolling releas
 
 # What new tools are included in the distribution?
 
-The main tool that we have created is `rhino-update`, it will ensure that system updates are ran smoothly, and extends the capabilities of what apt is able to provide. Since not all updates in the devel repository are bleeding-edge due to it being a development repository for future Ubuntu releases, we will be providing some software in our own repositories, such as the latest Linux Kernel. 
+We have created our home-grown utility called Rhino. Rhino has two commands, `rhino-update` and `rhino-config`. 
 
-We have also created a new tool called `rhino-config`, which extends the capabilities of `rhino-update`, by default our update script will only update your system, but you can use our configuration utility so that the update script is permitted to install the latest Linux kernel or replace snapd. 
+`rhino-update` is our extensible update utility, which will ensure that the system updates are ran smoothly. Due to the fact that our update utility is extensible, you can use `rhino-config` to configure the updates you can recieve. You are able to use `rhino-config` for an ever-increasing list of features, such as enabling the installation and upgrades of the latest Linux kernel, removing and replacing Snapd with Flatpaks and enabling Pacstall onto your system.
+
+[Pacstall](https://pacstall.dev) is an AUR-like package manager for Ubuntu and Ubuntu-based systems, and we have worked closely with the Pacstall developers to integrate their software into our distribution. Pacstall brings the experience of the Arch User Repository directly to Ubuntu and Ubuntu-based systems with an ever-growing number of user-maintained packages. 
+
+To learn more about all of the tools we have included in our distribution, please read our [documentation](https://rollingrhinoremix.github.io/docs).
 
 <hr />
 
