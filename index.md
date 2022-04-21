@@ -51,6 +51,8 @@ Whether you want to join the discussion, get involved with development or submit
 We do the large majority of our development on Discord, here you will find discussions on new features and easy communication in our development channels. You are also able to discuss with other users or submit a bug report there.
 
 - [Click here to join our Discord](https://discord.gg/JMu4SYRs2n)
+- [Click here to join our Matrix room](https://matrix.to/#/#rolling-rhino:matrix.org)
+	- The Matrix room is bridged to the general channel on our Discord.
 - You can also send us an email at: **ubunturollingremix@gmail.com**
 
 - Rolling Rhino Remix is a fully open source distribution, you can find the scripts and assets that we have used on our [GitHub](https://github.com/rollingrhinoremix) and the full documented steps we took into creating the distribution [here](https://rollingrhinoremix.github.io/docs-create).
