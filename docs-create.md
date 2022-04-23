@@ -57,7 +57,7 @@ Congratulations! You are now ready to create your very own Rolling Rhino Remix d
 
 Once you have completed this step you will need to begin to place files from `~/rollingremix/assets` into the system. It is recommended to have a file manager window open and on the same desktop so you can drag and drop files from the file manager into the cubic directories (Cubic supports drag & drop really well). In the Cubic terminal you will need to go into the directory /etc/skel with the command `cd /etc/skel`, this directory places items in the users home directory after installation. You will need to show all hidden files in ~/rollingremix/assets with CTRL+H if you are using the default file manager from GNOME. Once this has been done you can drag the .bashrc and .sources.sh files into the directory.
 
-After this has been done you will need to go back to your home directory with `cd ~` and run `apt install update && apt install upgrade`
+After this has been done you will need to go back to your home directory with `cd ~` and run `apt update && apt upgrade`
 
 - You will not need to type sudo as you are already in root in the Cubic terminal. 
 
