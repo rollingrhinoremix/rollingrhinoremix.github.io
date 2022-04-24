@@ -24,6 +24,9 @@ The image can be burned to a CD, mounted as an ISO file, or be directly written 
 
 **Direct Download:**
 
+- JovarkOS:
+    - [Download rolling-rhino-2022-04-19.iso](https://rollingrhino.jovarkos.org/rolling-rhino-2022-04-19.iso)
+    - Our friends at [JovarkOS](https://jovarkos.org) have kindly provided our project with a subdomain and a download mirror.
 - Google Drive:
     - [Download rolling-rhino-2022-04-19.iso](https://drive.google.com/file/d/1W6zqT8MBBCXww9ZfWomqYmjoj5BokKCx/view?usp=sharing)
 - Mega.nz:
