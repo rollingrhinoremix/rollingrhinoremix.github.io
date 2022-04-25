@@ -16,6 +16,8 @@ We are dedicated to ensuring that Rolling Rhino Remix is a fully open source ope
 
 # Installation of software and files
 
+- As of April 25th 2022, the documentation is slightly out of date due to changes in the distro repository. The creation script is also out of date. This will be rectified before the next disk image release, we apologise for the inconvinience.
+
 Before you create your very own Rolling Rhino Remix .iso you will need to install some additional software, create some directories and create some assets. The first step would be to go into your home directory with `cd ~`, once  you have done this you can begin to create the directories necessary to make a good programming environment. `mkdir rollingremix/ rollingremix/assets rollingremix/iso`, these directories are recommended and are what we will use in the guide. 
 
 Once you have done this you will need to download the assets we have used from our github repository into ~/rollingremix/assets, to do this you can use this command: `git clone https://github.com/rollingrhinoremix/distro ~/rollingremix/assets`, it is crucial for this directory to be empty for git to be able to clone our assets into this directory. 
