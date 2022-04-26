@@ -12,6 +12,8 @@
 
 <hr />
 
+<div id="config-v2" markdown="1">
+
 # rhino-config v2.0 & rhino-update v1.2.1
 
 After a couple of weeks of development, rhino-config v2.0 has been completed. We have completely turned rhino-config into a command-line utility, written in Rust, with the help of our new maintainer, Wizard28. This means that support for the legacy python script will be dropping.
@@ -25,6 +27,8 @@ rhino-update has recieved a minor update, which will now download and install th
 ## Legacy rhino-config script
 
 The legacy rhino-config python script will still be available until the next disk image release, so that users who have not yet ran `rhino-update` will not recieve any major breaking changes. The script will officially be deprecated as of 2022.05.03, and will automatically upgrade the user if they have not done so already. it is recommended that you run `rhino-update` to recieve the latest change as soon as possible.
+
+</div>
 
 <hr />
 
