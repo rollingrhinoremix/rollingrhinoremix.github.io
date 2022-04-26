@@ -12,6 +12,26 @@
 
 <hr />
 
+<div id="config-v2" markdown="1">
+
+# rhino-config v2.0 & rhino-update v1.2.1
+
+After a couple of weeks of development, rhino-config v2.0 has been completed. We have completely turned rhino-config into a command-line utility, written in Rust, with the help of our new maintainer, Wizard28. This means that support for the legacy python script will be dropping.
+
+From now on, in order to be able to use rhino-config you must first update your system to pull the latest Rust binary from our repository. To do this, type `rhino-update` in your terminal. The full documentation for rhino-config has been updated and can be found [here](https://rollingrhinoremix.github.io/docs-rhino-config).
+
+- If you would still like an interactive script, similar to the way that rhino-config was in version v1.2, you can run `rhino-config enable --interactive` to have it walk you through the options.
+
+rhino-update has recieved a minor update, which will now download and install the latest rust binary for rhino-config. Along with this it now will install kernel 5.17.4 as opposed to 5.17.3. In order to ensure that updates are ran smoother, the .bashrc file will be replaced and all of our Rhino aliases will be moved to `~/.bash_aliases`, so that we can update the bash aliases without any disruptive change to the system.
+
+## Legacy rhino-config script
+
+The legacy rhino-config python script will still be available until the next disk image release, so that users who have not yet ran `rhino-update` will not recieve any major breaking changes. The script will officially be deprecated as of 2022.05.03, and will automatically upgrade the user if they have not done so already. it is recommended that you run `rhino-update` to recieve the latest change as soon as possible.
+
+</div>
+
+<hr />
+
 <div id="rhino-v120" markdown="1">
 
 # Pacstall integration - rhino-update & rhino-config v1.2
@@ -48,7 +68,7 @@ If you are using an already existing installation of Rolling Rhino Remix then yo
 
 If you wish to download Rolling Rhino Remix with a fresh disk image then you can download it [here](https://rollingrhinoremix.github.io/download).
 
-# The future of Rolling Rhino Remix
+## The future of Rolling Rhino Remix
 
 This has been known for a while but all discussion and development for Rolling Rhino Remix now happens on our Discord, which you can join [here](https://discord.gg/JMu4SYRs2n).
 
