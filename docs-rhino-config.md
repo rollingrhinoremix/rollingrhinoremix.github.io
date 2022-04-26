@@ -10,15 +10,15 @@
 
 # Rolling Rhino Remix - rhino-config Documentation
 
+The rhino-config command line tool created to extend the capabilities of
+rhino-update. It is not recommend to use rhino-config unless you are aware of
+what options you are toggling.
+
 `rhino-config` offers two ways of changing your configuration. A
 non-interactive mode, where you can use flags to toggle options in the CLI, and
 an interactive mode which is recommended for newcomers. Interactive mode will
 walk you through the enabling/disabling of features. Once an option has been
 enabled you will not see it re-appear in `rhino-config`.
-
-The rhino-config command line tool created to extend the capabilities of
-rhino-update. It is not recommend to use rhino-config unless you are aware of
-what options you are toggling.
 
 Here is the usage of the tool.
 
