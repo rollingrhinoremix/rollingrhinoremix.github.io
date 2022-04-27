@@ -16,7 +16,7 @@ We are dedicated to ensuring that Rolling Rhino Remix is a fully open source ope
 
 # Installation of software and files
 
-- As of April 25th 2022, the documentation is slightly out of date due to changes in the distro repository. The creation script is also out of date. This will be rectified before the next disk image release, we apologise for the inconvinience.
+- It is recommended to create a disk image using the creation_script above, rather than the manual guide, as this guide can be outdated at times due to the amount of changes the distribution recieves. We will attempt to update the manual steps taken to create the distribution as much as possible.
 
 Before you create your very own Rolling Rhino Remix .iso you will need to install some additional software, create some directories and create some assets. The first step would be to go into your home directory with `cd ~`, once  you have done this you can begin to create the directories necessary to make a good programming environment. `mkdir rollingremix/ rollingremix/assets rollingremix/iso`, these directories are recommended and are what we will use in the guide. 
 
@@ -57,7 +57,7 @@ After this is done you will need to click the button up-top called next. This wi
 
 Congratulations! You are now ready to create your very own Rolling Rhino Remix disk image! The first step you will need to do is edit the file `/etc/os-release`, it is recommended to use nano for editing files within the distribution. To edit the file use `nano /etc/os-release` and edit the line that says "PRETTY_NAME", you will want it to look like this: `PRETTY_NAME="Rolling Rhino Remix"`.
 
-Once you have completed this step you will need to begin to place files from `~/rollingremix/assets` into the system. It is recommended to have a file manager window open and on the same desktop so you can drag and drop files from the file manager into the cubic directories (Cubic supports drag & drop really well). In the Cubic terminal you will need to go into the directory /etc/skel with the command `cd /etc/skel`, this directory places items in the users home directory after installation. You will need to show all hidden files in ~/rollingremix/assets with CTRL+H if you are using the default file manager from GNOME. Once this has been done you can drag the .bashrc and .sources.sh files into the directory.
+Once you have completed this step you will need to begin to place files from `~/rollingremix/assets` into the system. It is recommended to have a file manager window open and on the same desktop so you can drag and drop files from the file manager into the cubic directories (Cubic supports drag & drop really well). In the Cubic terminal you will need to go into the directory /etc/skel with the command `cd /etc/skel`, this directory places items in the users home directory after installation. You will need to show all hidden files in ~/rollingremix/assets with CTRL+H if you are using the default file manager from GNOME. Once this has been done you can drag the .bashrc, .bash_aliases and .sources.sh files into the directory.
 
 After this has been done you will need to go back to your home directory with `cd ~` and run `apt update && apt upgrade`
 
@@ -68,6 +68,8 @@ After the system upgrades you will need to install an additional program, Git, t
 Once this is done you have almost finished, just two more additional steps! You will need to go into the backgrounds directory in Cubic with `cd /usr/share/backgrounds` and then drag in the `rolling-rhino.png` file, which is our beautiful wallpaper.
 
 Once this has been done you will need to set the wallpaper as the default one. To do this go back to your home directory with `cd ~` and then type `nano /usr/share/glib-2.0/schemas/10_ubuntu-settings.gschema.override`, this is the file that sets some of the Ubuntu settings by default. You will see two categories near the top that say `[org.gnome.desktop.background]` and `[org.gnome.desktop.screensaver]`, there they will have a line that says something similar to: `picture-uri = 'file:///usr/share/backgrounds/warty-final-ubuntu.png'`, this will need to be changed to say `rolling-rhino.png` as opposed to `warty-final-ubuntu.png`
+
+Next you will need to install the latest rhino-config binary onto the system. To do this we recommend you install it using wget, which is preinstalled on Ubuntu. Just type `wget https://github.com/rollingrhinoremix/rhino-config/releases/download/v2.0/rhino-config` to install the latest binary. Once this is done you will need to mark the binary as executable with `chmod +x rhino-config`, and finally move it into /usr/bin with `mv rhino-config /usr/bin`
 
 Once you have done this you can save and exit, then continue to the next step.
 
