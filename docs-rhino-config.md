@@ -85,18 +85,22 @@ You can combine these flags too, if you want to enable both pacstall and the mai
 rhino-config enable --pacstall --mainline # or rhino-config enable -p -m
 ```
 
-### Options
+## Options
 
 These are the options that `rhino-config` lets you toggle.
 
-#### The latest Linux kernel
+- The latest Linux kernel
+
+The flags for enabling/disabling the mainline kernel are `-m` or `--mainline`
 
 The latest Linux kernel is installed from the Ubuntu Mainline repositories. The
 important thing to note is that this kernel does not apply any of the patches
 received from Ubuntu, and so can potentially be more insecure as a result of
 this.
 
-#### Purging Snapd
+- Purging Snapd
+
+The flags for purging/reinstalling snapd are `-s` or `--snapdpurge`
 
 You're able to disable snapd from rhino-config, and it will automatically
 replace it with Flatpaks, and install the Flathub repository as a result of
@@ -113,7 +117,9 @@ On disabling `snapdpurge`, `snapd` will be reinstalled on your
 system along with `gnome-software-plugin-snap`. This doesn't
 uninstall Flatpak from your system.
 
-## Enabling Pacstall
+- Enabling Pacstall
+
+The flags for enabling/disabling Pacstall are `-p` or `--pacstall`
 
 You are able to enable Pacstall, an AUR-like experience, on your system, to do
 this you will first need to run `rhino-config` to enable it to install via our

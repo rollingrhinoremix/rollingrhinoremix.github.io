@@ -12,6 +12,18 @@
 
 <hr />
 
+<div id="development-update-2" markdown="1">
+
+# Development is underway for 2022.05.03!
+
+Development has begun for the next disk image release. A lot of small changes are going into this release to create the best possible user experience. The newly packaged rhino-config v2.0 binaries will be provided by default, along with a set of brand-new wallpapers. At the moment we are unsure whether the default wallpaper will change, but some alternatives will be provided in `/usr/share/backgrounds/rolling-backgrounds`. Other small changes such as the rest of the `config-v2` update that was pushed to rhino-update will also be provided by default, and all packages will be updated to their latest versions.
+
+This is the first disk image that will be built ontop of the released Jammy disk image, and so when you switch to the devel series with `rhino-init`, it will prompt an error similar to `E: expected Jammy but got Kinetic.`, This can be rectified by hitting "y" (for yes) to switch the devel series to track Kinetic. Your system will still be Rolling, it justs means that the development branch is now tracking the upcoming Ubuntu release. 
+
+</div>
+
+<hr />
+
 <div id="config-v2" markdown="1">
 
 # rhino-config v2.0 & rhino-update v1.2.1
