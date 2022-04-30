@@ -12,7 +12,7 @@
 
 <hr />
 
-<div id="joining-oin">
+<div id="joining-oin" markdown="1">
 
 # Ensuring software remains free - Rolling Rhino Remix has joined the Open Inventions Network
 
