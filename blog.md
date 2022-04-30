@@ -12,6 +12,20 @@
 
 <hr />
 
+<div id="joining-oin">
+
+# Ensuring software remains free - Rolling Rhino Remix has joined the Open Inventions Network
+
+Free software is crucial for software development. The goal of Rolling Rhino Remix is to provide a free, open-source operating system based on Ubuntu. That is why Rolling Rhino Remix has joined the [Open Inventions Network](https://openinventionnetwork.com/). The Open Invention Network is a patent non-agression community that supports the freedom of Linux and Open Source software, and helps reduce the risks of patent risks. All members of the Open Invention Network sign the same agreement to cross license their Linux System patents royalty free. The Open Invention Network owns over 2.7 million patents & applications and all members also gain access to the Open Invention Network's portfolio of 350 intellectual property assets. 
+
+Many companies and projects have joined the Open Invention Network, including: Canonical, Red Hat, IBM, Suse, Phillips and Microsoft. By joining the Open Invention Network we will have access to the patents they have agreed to provide to the Network, as well as giving any project and company the ability to utilise our patents. 
+
+- [Statistics and information from the Open Invention Network website](https://openinventionnetwork.com/)
+
+</div>
+
+<hr />
+
 <div id="development-update-2" markdown="1">
 
 # Development is underway for 2022.05.03!
