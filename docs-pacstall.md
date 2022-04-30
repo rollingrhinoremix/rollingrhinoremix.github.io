@@ -19,7 +19,7 @@ You are able to browse the [Pacstall package list](https://pacstall.dev/packages
 - Pacstall -R [Package Name] - This will remove an installed package from your system.
 - Pacstall -S [Package Name] - This will search to see if a package exists with that name
 - Pacstall -V - This will tell you which version of the package you have installed
-- Pacstall -H - This will provide you with other help commands for Pacstall.
+- Pacstall -h - This will provide you with other help commands for Pacstall.
 
 To upgrade your Pacstall packages, please use `rhino-update`, this will update Pacstall as well as all of the applications you have installed from it. 
 
