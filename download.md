@@ -16,30 +16,30 @@ The image can be burned to a CD, mounted as an ISO file, or be directly written 
 
 - **Current release:** 2022.05.03
 - [Release announcement](https://rollingrhinoremix.github.io/blog#2022-05-03)
-- **ISO Size:** unreleased
+- **ISO Size:** 3.7GB
 - [Installation guide](https://rollingrhinoremix.github.io/docs-install)
-- **Checksum (MD5):** unreleased
+- **Checksum (MD5):** e45ff05501da5ee87f24883c1417f9b0  rolling-rhino-2022-05-03.iso
 
 # Download mirrors:
 
 **Direct Download:**
 
 - JovarkOS:
-    - [Download rolling-rhino-2022-05-03.iso](#)
+    - [Download rolling-rhino-2022-05-03.iso](https://rollingrhino.jovarkos.org/rolling-rhino-2022-05-03.iso)
     - Our friends at [JovarkOS](https://jovarkos.org) have kindly provided our project with a subdomain and a download mirror.
 - Google Drive:
-    - [Download rolling-rhino-2022-05-03.iso](#)
+    - [Download rolling-rhino-2022-05-03.iso](https://drive.google.com/file/d/1h8mY01nT6McMyUsxl_0KdWOsd6RS_xo0/view?usp=sharing)
 - Mega.nz:
-    - [Download rolling-rhino-2022-05-03.iso](#)
+    - [Download rolling-rhino-2022-05-03.iso](https://mega.nz/file/gu4ySJzT#qKMhq46LQOTDCy98K4gOdkR0CXcabuB4Brt9awP2VMg)
 - Mediafire
-    - [Download rolling-rhino-2022-05-03.iso](#)
+    - [Download rolling-rhino-2022-05-03.iso](https://www.mediafire.com/file/6bvj84i3x0sg31h/rolling-rhino-2022-05-03.iso/file)
 - Archive.org
-    - [Download rolling-rhino-2022-05-03.iso](#)
+    - [Download rolling-rhino-2022-05-03.iso](https://archive.org/details/rolling-rhino-2022-05-03)
 
 **Torrent:**
 
 - Archive.org
-    - [Download rolling-rhino-2022-05-03.iso](#)
+    - [Download rolling-rhino-2022-05-03.iso](https://archive.org/details/rolling-rhino-2022-05-03)
 
 <hr />
 
