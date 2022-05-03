@@ -12,6 +12,26 @@
 
 <hr />
 
+<div id="2022-05-03" markdown="1">
+
+# Release 2022.05.03
+
+After two weeks of development we are now ready to release the latest packaged version of Rolling Rhino Remix!
+
+**What's new?**
+- All packages are updated to their latest version in the repository
+- The rhino-config v2.0.1 binary is now included in the distribution
+- A seperate ~/.bash_aliases file has been included in the distribution that will be updated whenever one of our aliases requires an update.
+- Bug fixes.
+
+If you are using an already existing installation of Rolling Rhino Remix then you will be able to upgrade to the latest version with `rhino-update`.
+
+If you wish to download Rolling Rhino Remix with a fresh disk image then you can download it [here](https://rollingrhino.org/download).
+
+</div>
+
+<hr />
+
 <div id="joining-oin" markdown="1">
 
 # Ensuring software remains free - Rolling Rhino Remix has joined the Open Inventions Network
