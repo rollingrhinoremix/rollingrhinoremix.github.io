@@ -20,7 +20,7 @@ After two weeks of development we are now ready to release the latest packaged v
 
 **What's new?**
 - All packages are updated to their latest version in the repository
-- The [rhino-config v2.0.1]() binary is now included in the distribution
+- The rhino-config v2.0.1 binary is now included in the distribution
 - A seperate ~/.bash_aliases file has been included in the distribution that will be updated whenever one of our aliases requires an update.
 - Bug fixes.
 
