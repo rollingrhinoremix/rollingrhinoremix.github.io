@@ -13,6 +13,7 @@
 - Please be aware that Rolling Rhino Remix is a rolling release distribution. Bugs are to be expected and it will not be perfectly stable. This is also amplified by the fact that Ubuntu is not a rolling release distribution by nature. While we will attempt to prevent bugs as much as possible there is no guarentee. 
 
 **List of known bugs:**
+- Current issue affecting curl package due to Ubuntu repository updates. This has affected the installation of Pacstall when enabled via rhino-config. For now rhino-update will not install Pacstall or keep it up to date due to this issue.
 - Issue affecting release 2022.03.26 relating to rhino-update and bash aliases. Please click [here](https://rollingrhinoremix.github.io/blog#2022-03-26bug) to learn how to mitigate this issue. **This bug only affects release 2022.03.26, any release after that will not be affected and does not require any manual intervention.**
 
 <hr />
