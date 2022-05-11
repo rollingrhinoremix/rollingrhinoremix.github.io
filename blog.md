@@ -12,6 +12,18 @@
 
 <hr />
 
+<div id="rhino-update-v130" markdown="1">
+
+# rhino-update v1.3 - Quality of life
+
+Our upgrade utility, rhino-update has recieved its first major update in almost 12 days. These changes include
+- A brand-new feature that ensures that the mainline Linux kernel is not installed twice. This was created to help save bandwidth if required. If users have a slower internet connection, running an upgrade can take a long while, especially if the same kernel is being reinstalled.
+- An important bug fix that allows for Pacstall to be installed, rather than giving an error. Now users are able to install Pacstall onto their system once again.
+
+To recieve the latest updates, please run `rhino-update` to upgrade your system.
+
+<hr />
+
 <div id="2022-05-03" markdown="1">
 
 # Release 2022.05.03
