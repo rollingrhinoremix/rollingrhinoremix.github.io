@@ -52,17 +52,14 @@
                 <p>This is the recommended way to use <code>rhino-config</code> if you’ve never used it before.</p>
                 <hr /><br />
                 <p>If you are experienced with <code>rhino-config</code> and want to skip the interactive mode, then you can run <code>rhino-config &lt;command&gt; &lt;option&gt;</code> to <code>enable</code> or<code>disable</code> an option.</p>
-                <p>For example if you need to disable the mainline kernel for example you can run:</p>
-                <p><code>rhino-config disable --mainline</code> or <code>rhino-config disable -m</code></p>
+                <p>For example if you need to disable snap being removed for example you can run:</p>
+                <p><code>rhino-config disable --snapdpurge</code> or <code>rhino-config disable -s</code></p>
                 <p>Similarly you can enable pacstall:</p>
                 <p><code>rhino-config enable --pacstall</code> or <code>rhino-config enable -p</code></p>
-                <p>You can combine these flags too, if you want to enable both pacstall and the mainline kernel:</p>
-                <p><code>rhino-config enable --pacstall --mainline</code> or <code>rhino-config enable -p -m</code></p>
+                <p>You can combine these flags too, if you want to enable both pacstall and remove snap:</p>
+                <p><code>rhino-config enable --pacstall --snapdpurge</code> or <code>rhino-config enable -p -s</code></p>
                 <h2>Options</h2>
                 <p>These are the options that <code>rhino-config</code> lets you toggle.</p>
-                <p>&bull; The latest Linux kernel</p>
-                <p>The flags for enabling/disabling the mainline kernel are <code>-m</code> or <code>--mainline</code></p>
-                <p>The latest Linux kernel is installed from the Ubuntu Mainline repositories. The important thing to note is that this kernel does not apply any of the patches received from Ubuntu, and so can potentially be more insecure as a result of this.</p>
                 <p>&bull; Purging Snapd</p>
                 <p>The flags for purging/reinstalling snapd are <code>-s</code> or <code>--snapdpurge</code></p>
                 <p>You’re able to disable snapd from rhino-config, and it will automatically replace it with Flatpaks, and install the Flathub repository as a result of this. By disabling snapd all snapcraft applications will be deleted and snap will be flagged to not be reinstalled via apt. When enabled you may lose your web browser as a result of Firefox being packaged as a snap application by default. You are able to install the Flatpak version of Firefox, however with <code>flatpak install firefox</code>.</p>
