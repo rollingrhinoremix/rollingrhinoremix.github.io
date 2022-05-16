@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Rolling Rhino Remix | Home</title>
+        <title>Rolling Rhino Remix | News</title>
         <!-- SEO -->
         <meta property="og:title" content="Rolling Rhino Remix" />
         <meta property="og:locale" content="en_US" />
@@ -14,9 +14,9 @@
         <meta name="twitter:card" content="summary" />
         <meta property="twitter:title" content="Rolling Rhino Remix" />
         <!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="assets/images/rolling_rhino_circle-dark.png" />
+        <link rel="shortcut icon" type="image/x-icon" href="../assets/images/rolling_rhino_circle-dark.png" />
         <!-- CSS and JS -->
-        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="../assets/css/style.css" />
     </head>
 
     <body>
@@ -34,31 +34,179 @@
         <!-- Header -->
         <div class="header">
             <div class="header-content">
-                <h1>Rolling Rhino Remix</h1>
-                <h3>Ubuntu finally got Rolling!</h3>
-                <img src="assets/images/laptop.png" alt="Laptop with Rolling Rhino Remix." width="100%" height="100%"/>
+                <img src="../assets/images/rolling_rhino_circle.png" alt="Rolling Rhino Logo (Light version)" width="20%" height="20%"/>
+                <h1>Rolling Rhino Remix - News</h1>
+                <h3>Read the latest news from the Rolling Rhino Remix development team</h3>
             </div>
         </div>
 
         <!-- Information -->
         <div class="information">
             <div class="content">
-                <h1>Rolling Rhino Remix</h1>
-                <p>Rolling Rhino Remix is an unofficial Ubuntu flavour which converts the Ubuntu operating system into a rolling release Linux distribution by tracking the devel series. A rolling release distribution is a Linux distribution which receives continuous package updates, and as such there are no major updates (unlike Ubuntu’s current release model where there is clear progression between versions). A rolling release model offers new and experienced users a new way to utilise their desktop PC, without the hassle of major upgrades.</p>
-                <p>&bull; It is important to note that Rolling Rhino Remix is a Linux distribution for those who are already experienced with Linux, it is not recommended to use this distribution as a beginner.</p>
+
+                <div id="development-update-4">
+                    <h1>Why we are delaying the release of our next disk image</h1>
+                    <p>We are sorry to announce but our next disk image will not release on 2022.05.21 as initially planned, instead it will recieve an additional 7 days of development and release on the 28th of May instead. The reason for this additional time is for a few reasons:</p>
+                    <p>
+                        &bull; We are now going to be providing Rolling Rhino Remix with a minimal disk image, this disk image will be based on the daily builds of Ubuntu server, and will provide users with a more Arch Linux style install, with only the base packages they will require for their system. <br />
+                        &bull; We have a brand-new build system, known as RRR-builder which generates disk images. This is a departure from Cubic, which was our previous method of disk image creation. We would like the time to adequately test and fix issues in this brand new disk image builder. <br />
+                        &bull; We have a brand new Rhino utility in the works that was designed specifically designed for Rolling Rhino Remix minimal. It will be known as rhino-deinst and is a Terminal User Interface desktop environment installer. It will be installed and usable on both minimal and full-desktop Rolling Rhino Remix.
+                    </p>
+                    <h2>What will happen to Rolling Rhino Remix from now then?</h2>
+                    <p>Not much will change. Users who still wish to have the Ubuntu-desktop preinstalled by default can use our "Rolling Rhino Remix - Full Desktop" disk image. This will provide them with the exact same experience that Rolling Rhino Remix currently has. Users who wish to use the Minimal disk image will have a slightly more difficult installation, however a system with no pre-installed desktop environment or extra packages. This is especially good for perfectionists who like to have full control over their system. Users who utilise our minimal disk image can use our new utility, rhino-deinst, to easily install a desktop environment.</p>
+                    <hr />
+                </div>
+
+                <div id="development-update-3">
+                    <h1>Development underway for 2022.05.21 & Rhino utilities.</h1>
+                    <p>This will be an interesting release as the disk image release will sync up to the updates released on our Rhino utilites. Below we will list the changes that are coming to Rolling Rhino Remix and our utilities.</p>
+                    <h2>Release 2022.05.21:</h2>
+                    <p>Development has begun on the next release. The development team have taken feedback from users and contributors to see what features users will want the most. Rolling Rhino Remix will now begin to include the latest Linux kernel by default. The mainline Linux kernel has a list of benefits and drawbacks. By default the mainline Linux kernel does not provide ZFS support, however the disk image will now also come packaged with <code>zfs-dkms</code> to provide the support for this. Users who already have Rolling Rhino Remix installed will have it installed on a system upgrade. The most exciting change in this release will be our brand-new wallpapers, which will provide a nicer splash of colour to the desktop and will integrate better with our new brand identity. The two new wallpapers automatically change between light and dark whenever you change your desktop theme between light and dark mode. To get a sneak peak at the new wallpapers, you can go view them on our <a href="https://rollingrhino.org/branding">branding page</a>.</p>
+                    <h2>Updates to our rhino utilities:</h2>
+                    <p>Both of our Rhino utilities will get some big updates in this release cycle. Our rhino-update utility will now automatically install the latest Linux kernel, have the ability to verify Linux kernel checksums and recieve some code cleanup. Our configuration utility, rhino-config, will no longer have the option to support the mainline Linux kernel due to it being installed by default on all systems.</p>
+                    <p>&bull; If users would prefer to utilise the Ubuntu kernel as opposed to the mainline Linux kernel, they are able to select it in the GRUB boot menu on system startup.</p>
+                    <hr />
+                </div>
+
+                <div id="branding">
+                    <h1>Changes to our brand</h1>
+                    <p>Rolling Rhino Remix has gone through a major brand redesign before the next release. This includes brand new logos, new wallpapers and a brand-new website.</p>
+                    <p>We believe that a good brand is essential for any project. Logos should be instantly recognisable and visible when small, and websites should be unique and readable. We have undergone major design changes to bring the best possible experience to Rolling Rhino Remix. Everything evolves, and Rolling Rhino Remix is no different, going through three website and brand design changes since the beginning of the project, however we have now created a brand identity which we believe encapsulates what Rolling Rhino Remix is about, while being unique and sticking to our Ubuntu roots.</p>
+                    <p>We have now established a set of brand guidelines which you can view <a href="https://rollingrhino.org/branding">here</a>. Our set of Brand Guidelines exist so that Rolling Rhino Remix is communicated with the same precision we used to create it.</p>
+                    <p>We hope you enjoy these new changes to Rolling Rhino Remix, and our brand.</p>
+                    <hr />
+                </div>
+
+                <div id="rhino-update-v130">
+                    <h1>rhino-update v1.3 - Quality of life</h1>
+                    <p>Our upgrade utility, rhino-update has received its first major update in almost 12 days. These changes include some tweaks to improve our upgrade utility and general quality of life changes.</p>
+                    <p>
+                        &bull; A brand-new feature that ensures that the mainline Linux kernel is not installed twice. This was created to help save bandwidth if required. If users have a slower internet connection, running an upgrade can take a long while, especially if the same kernel is being reinstalled. <br />
+                        &bull; An important bug fix that allows for Pacstall to be installed, rather than giving an error. Now users are able to install Pacstall onto their system once again.
+                    </p>
+                    <p>To receive the latest updates, please run <code>rhino-update</code> to upgrade your system.</p>
+                    <hr />
+                </div>
+
+                <div id="2022-05-03">
+                    <h1>Release 2022.05.03</h1>
+                    <p>After two weeks of development we are now ready to release the latest packaged version of Rolling Rhino Remix!</p>
+                    <p>
+                        <b>What’s new?</b> <br/>
+                        &bull; All packages are updated to their latest version in the repository. <br/>
+                        &bull; The rhino-config v2.0.1 binary is now included in the distribution. <br/>
+                        &bull; A separate ~/.bash_aliases file has been included in the distribution that will be updated whenever one of our aliases requires an update. <br/>
+                        &bull; Bug fixes.
+                    </p>
+                    <p>If you are using an already existing installation of Rolling Rhino Remix then you will be able to upgrade to the latest version with <code>rhino-update</code>.</p>
+                    <p>If you wish to download Rolling Rhino Remix with a fresh disk image then you can download it <a href="https://rollingrhino.org/download">here</a>.</p>
+                    <hr />
+                </div>
                 
-                <h1>Why use Rolling Rhino Remix?</h1>
-                <p>If you prefer the easy-to-use nature of Ubuntu but prefer the style of a rolling release from other distributions such as Arch Linux then Rolling Rhino Remix might be for you! We work hard to ensure that Rolling Rhino Remix has the best possible user experience. We have created tools and additional repositories to try to ensure that Ubuntu works smoothly as a Rolling Release distribution.</p>
-                <p>I have personally felt like Ubuntu should have always adopted the rolling release model rather than providing interim releases. Ubuntu would still be able to provide LTS releases for enterprise use and those who would prefer a point release distribution, and then the rolling release version could be provided as the recommended distribution for desktop users.</p>
+                <div id="joining-oin">
+                    <h1>Ensuring software remains free - Rolling Rhino Remix has joined the Open Inventions Network</h1>
+                    <p>Free software is crucial for software development. The goal of Rolling Rhino Remix is to provide a free, open-source operating system based on Ubuntu. That is why Rolling Rhino Remix has joined the <a href="https://openinventionnetwork.com/">Open Inventions Network</a>. The Open Invention Network is a patent non-agression community that supports the freedom of Linux and Open Source software, and helps reduce the risks of patent risks. All members of the Open Invention Network sign the same agreement to cross license their Linux System patents royalty free. The Open Invention Network owns over 2.7 million patents & applications and all members also gain access to the Open Invention Network’s portfolio of 350 intellectual property assets.</p>
+                    <p>Many companies and projects have joined the Open Invention Network, including: Canonical, Red Hat, IBM, Suse, Phillips and Microsoft. By joining the Open Invention Network we will have access to the patents they have agreed to provide to the Network, as well as giving any project and company the ability to utilise our patents.</p>
+                    <p>&bull; <a href="https://openinventionnetwork.com/">Statistics and information from the Open Invention Network website</a></p>
+                    <hr />
+                </div>
 
-                <h1>What new tools are included in the distribution?</h1>
-                <p>We have created our home-grown utility called Rhino. Rhino has two commands, <code>rhino-update</code> and <code>rhino-config</code>.</p>
-                <p>rhino-update is our extensible update utility, which will ensure that the system is updated smoothly. Due to the extensibility of our update utility, you can use rhino-config to configure the updates you can receive. You are able to use rhino-config for an ever-increasing list of features, such as enabling the installation and upgrades of the latest Linux kernel, removing and replacing snapd with Flatpaks and enabling Pacstall on your system.</p>
-                <p><a href="https://pacstall.dev">Pacstall</a> is an AUR-like package manager for Ubuntu and Ubuntu-based systems, and we have worked closely with the Pacstall developers to integrate it into our distribution. Pacstall brings the experience of the Arch User Repository directly to Ubuntu and Ubuntu-based systems with an ever-growing number of user-maintained packages.</p>
-                <p>To learn more about all of the tools we have included in our distribution, please read our <a href="https://rollingrhino.org/docs">documentation.</a></p>
+                <div id="development-update-2">
+                    <h1>Development is underway for 2022.05.03!</h1>
+                    <p>Development has begun for the next disk image release. A lot of small changes are going into this release to create the best possible user experience. The newly packaged rhino-config v2.0 binaries will be provided by default, along with a set of brand-new wallpapers. At the moment we are unsure whether the default wallpaper will change, but some alternatives will be provided in <code>/usr/share/backgrounds/rolling-backgrounds</code>. Other small changes such as the rest of the <code>config-v2</code> update that was pushed to rhino-update will also be provided by default, and all packages will be updated to their latest versions.</p>
+                    <p>This is the first disk image that will be built on top of the released Jammy disk image, and so when you switch to the devel series with <code>rhino-init</code>, it will prompt an error similar to <code>E: expected Jammy but got Kinetic.</code>, This can be rectified by hitting “y” (for yes) to switch the devel series to track Kinetic. Your system will still be Rolling, it just means that the development branch is now tracking the upcoming Ubuntu release.</p>
+                    <hr />
+                </div>
 
-                <h1>How do I utilise the distribution?</h1>
-                <p>This is important to read as you will need the documentation in order to understand how the distribution functions and is fundamentally different from Ubuntu. You will need to go through some additional steps to get started such as initialising the distribution. Updating the distribution is also different compared to how you would on a standard Ubuntu desktop. It is recommended that you read our <a href="https://rollingrhino.org/docs-quickstart">Quick Start Guide</a> in order to understand and utilise our distribution correctly.</p>
+                <div id="config-v2">
+                    <h1>rhino-config v2.0 & rhino-update v1.2.1</h1>
+                    <p>After a couple of weeks of development, rhino-config v2.0 has been completed. We have completely turned rhino-config into a command-line utility, written in Rust, with the help of our new maintainer, Wizard28. This means that support for the legacy python script will be dropping.</p>
+                    <p>From now on, in order to be able to use rhino-config you must first update your system to pull the latest Rust binary from our repository. To do this, type <code>rhino-update</code> in your terminal. The full documentation for rhino-config has been updated and can be found <a href="https://rollingrhino.org/docs-rhino-config">here</a>.</p>
+                    <p>&bull; If you would still like an interactive script, similar to the way that rhino-config was in version v1.2, you can run <code>rhino-config enable --interactive</code> to have it walk you through the options.</p>
+                    <p>rhino-update has received a minor update, which will now download and install the latest rust binary for rhino-config. Along with this it now will install kernel 5.17.4 as opposed to 5.17.3. In order to ensure that updates are ran smoother, the .bashrc file will be replaced and all of our Rhino aliases will be moved to ~/.bash_aliases, so that we can update the bash aliases without any disruptive change to the system.</p>
+                    <h2>Legacy rhino-config script</h2>
+                    <p>The legacy rhino-config python script will still be available until the next disk image release, so that users who have not yet ran rhino-update will not receive any major breaking changes. The script will officially be deprecated as of 2022.05.03, and will automatically upgrade the user if they have not done so already. it is recommended that you run <code>rhino-update</code> to receive the latest change as soon as possible.</p>
+                    <hr />
+                </div>
+
+                <div id="rhino-v120">
+                    <h1>Pacstall integration - rhino-update & rhino-config v1.2</h1>
+                    <p>The Rolling Rhino Remix development team has worked closely with the development team of <a href="https://pacstall.dev">Pacstall</a> to bring their software onto our distribution. Pacstall is an AUR-inspired package manager for Ubuntu. It brings the experience of the Arch User Repository directly to Ubuntu and Ubuntu-based systems with an ever-growing number of user-maintained packages.</p>
+                    <p>We have integrated, along with the help of the Pacstall development team, Pacstall directly into our Rhino utilities. Pacstall can now be enabled via <code>rhino-config</code> and all Pacstall applications can be updated via <code>rhino-update</code>.</p>
+                    <p>In order to enable Pacstall onto your system please read our <a href="https://rollingrhino.org/docs-pacstall">Pacstall documentation</a>.</p>
+                    <hr />
+                </div>
+
+                <div id="2022-04-19">
+                    <h1>Release 2022.04.19 & What’s to come for the future.</h1>
+                    <p>After almost 3 weeks of hard work we have released the latest packaged version of Rolling Rhino Remix.</p>
+                    <p>
+                        <b>What's new?</b> <br/>
+                        &bull; All packages have been updated to their latest versions in the Ubuntu repositories. <br/>
+                        &bull; The <a href="https://github.com/rollingrhinoremix/rhino-config">rhino-config</a> utility has been created to extend the capabilities of rhino-update. <br/>
+                        &bull; The <a href="https://github.com/rollingrhinoremix/rhino-config">rhino-config</a> utility has the ability to purge and hold snapd from apt updates and install the mainline kernel. <br/>
+                        &bull; Bug fixes. <br/>
+                        &bull; Code refactoring <br/>
+                    </p>
+                    <p>If you are using an already existing installation of Rolling Rhino Remix then you will be able to upgrade to the latest version with <code>rhino-update</code>.</p>
+                    <p>
+                        &bull; Before you update it is important to note that a bug in 2022.03.26 requires manual intervention to fix otherwise the upgrade to the latest release will not work. In order to fix this bug click <a href="https://rollingrhino.org/blog#2022-03-26bug">here</a>.</li>
+                    </p>
+                    <p>If you wish to download Rolling Rhino Remix with a fresh disk image then you can download it <a href="https://rollingrhino.org/download">here</a>.</p>
+                    <h2>The future of Rolling Rhino Remix</h2>
+                    <p>This has been known for a while but all discussion and development for Rolling Rhino Remix now happens on our Discord, which you can join <a href="https://discord.gg/JMu4SYRs2n">here</a>.</p>
+                    <p>From this release onwards all of our utilities, such as rhino-config and rhino-update, will be updated irrsepective of disk image releases. Large-scale changes to the utilities will still receive updates on our blog page. This will allow for users to get the latest and greatest changes to Rhino without any wait.</p>
+                    <p>We have updated our website, it now uses server-side Jekyll to generate the pages rather than Eleventy being ran client-side then the generated pages being uploaded to GitHub. This will allow for people to make web-pages and fix our mistakes easier as they will be in pure Markdown as opposed to HTML.</p>
+                    <p>The biggest change for the future of Rolling Rhino Remix is the integration of <a href="https://pacstall.dev">Pacstall</a>. We have worked along-side the developers of Pacstall to integrate their software into our Distribution. Pacstall provides a similar experience to the <a href="https://aur.archlinux.org">AUR</a> on Ubuntu, and working along-side these developers to integrate it into our Distribution will mean that you will have a new way to install bleeding-edge software onto your system.</p>
+                    <p>As always, thanks to everyone who has shown an interest in the project, and a special thank you to our <a href="https://rollingrhino.org">developers & contributors</a> who have helped improve the project.</p>
+                    <hr />
+                </div>
+
+                <div id="2022-03-26bug">
+                    <h1>Bug in 2022.03.26 - Requires manual intervention</h1>
+                    <p>During the development cycle of 2022.04.14 I have noticed a bug that will affect currently existing versions of Rolling Rhino Remix (2022.03.26 is the only version released.), the bash alias that calls <code>rhino-update</code> runs the update.sh script as sudo, which has presented problems when we look for files in the user’s home directories. Luckily you are able to easily manually patch the system yourself.</p>
+                    <p>The fix is fairly straightforward, all you will need is <code>git</code> and <code>mv</code>, both of which are provided in Rolling Rhino Remix</p>
+                    <p>
+                        To apply the fix, do the following: <br/>
+                        &bull; cd ~ <br/>
+                        &bull; git clone https://github.com/rollingrhinoremix/distro <br/>
+                        &bull; mv ~/distro/.bashrc ~ <br/>
+                        &bull; mv ~/distro/.bash_aliases
+                    </p>
+                    <p>and there you go, the fix has been applied and you will continue getting updates from us. The next update, which releases with 2022.04.14, will work as intended if you have applied this patch.</p>
+                    <hr />
+                </div>
+
+                <div id="development-update-1">
+                    <h1>Development underway for 2022.04.14!</h1>
+                    <p>Development has gone underway for the next packaged .iso of Rolling Rhino Remix! This release won’t just be a newly compiled disk image with the latest updates. We are aiming to release a new update to the Rhino utility by the time we have released 2022.04.14. The new feature, rhino-config will at first only support the option to configure whether you would prefer to use the mainline Linux kernel or stick with the current Ubuntu kernel with all of their optimisations however support will be extended in the future to allow for the installation of proprietary drivers and other features too.</p>
+                    <p>
+                        This release has been delayed by an extra couple of days for two various reasons: <br/>
+                        &bull; Due to conflicting schedules in personal lives we have had to delay the release, as preparing for a release takes a lot of work. <br/>
+                        &bull; We are aiming to release rhino-config in this release and we are determined to do it.
+                    </p>
+                    <p>
+                        Other changes in this future release include: <br/>
+                        &bull; Us trialing a more automated process for .iso creation using a bash script, which will allow us more time to work on other features of the distribution, such as Rhino <br/>
+                        &bull; Having the new disk images have the latest updates so users are not required to update a lot of packages upon installation.
+                    </p>
+                    <hr />
+                </div>
+
+                <div id="2022-03-26">
+                    <h1>Release 2022.03.26</h1>
+                    <p>Rolling Rhino Remix has had its first official public release! Ubuntu is now (unofficially) provided as a rolling release distribution! You are able to download the .iso file for the distribution <a href="https://rollingrhino.org/download">here</a>.</p>
+                    <p>
+                        <b>What’s new?</b> <br/>
+                        &bull; All packages have been updated to their latest versions in the Ubuntu repository <br/>
+                        &bull; The <a href="https://rollingrhino.org/docs">rhino</a> utility tool has been created and packaged in the distribution. Rhino is used as a drop-in replacement for <code>apt update</code> and <code>apt upgrade</code> and allows for the initialisation of the distribution upon first installation. To learn more please read the <a href="https://rollingrhino.org/docs">rhino documentation</a> and our <a href="https://rollingrhinoremix.github.io/docs-quickstart">Quick Start guide</a>. <br/>
+                        &bull; We have replaced the default background with our own background image featuring our mascot, a rhino! You are able to download the background image <a href="https://rollingrhino.org/branding/">here</a>.
+                    </p>
+                    <p>Furthermore Rolling Rhino is now fully open source upon its first release, if you for any reason decide to create your own disk image rather than use the ones we have created, you can. Just read our documentation and follow the steps provided <a href="https://rollingrhino.org/docs">here</a>.</p>
+                    <p>Thank you to all of our contributors who have made our first release possible! You are able to view the full list of contributors <a href="https://rollingrhino.org/contributors/">here</a>.</p>
+                    <hr />
+                </div>
+
             </div>
         </div>
 
