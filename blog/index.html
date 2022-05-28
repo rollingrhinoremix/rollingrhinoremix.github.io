@@ -26,7 +26,7 @@
             <li style="float:left"><a class="name" href="https://rollingrhino.org">Rolling Rhino Remix</a></li>
             <li><a href="https://rollingrhino.org/contact">Contact</a></li>
             <li><a href="https://rollingrhino.org/blog">News</a></li>
-            <li><a href="https://rollingrhino.org/docs">Documentation</a></li>
+            <li><a href="https://github.com/rollingrhinoremix/docs/wiki" target="_blank">Wiki</a></li>
             <li><a href="https://rollingrhino.org/download">Download</a></li>
             <li><a href="https://rollingrhino.org">Home</a></li>
         </ul>
@@ -44,6 +44,27 @@
         <div class="information">
             <div class="content">
 
+                <div id="2022-05-28">
+                    <h1>Release 2022.05.28 + more</h1>
+                    <p>After over three weeks of development we are proud to release 2022.05.28. This release has been our most ambitious release yet, with the launch of a brand-new utility, a minimal installation mode and more new features.</p>
+                    <p>
+                        <b>What's new?</b> <br />
+                        &bull; New minimal installation option is available in the Ubuntu Ubiquity Installer. <br />
+                        &bull; Our new utility, rhino-deinst, which installs Desktop Environments and Window Managers easily through a Terminal User Interface has been included in the distribution by default. <br />
+                        &bull; Our disk images are now built with our brand new RRR-builder build system. This uses ZSTD compression which saves space.<br />
+                        &bull; Our brand-new wallpapers have been included into the system by default. These wallpapers will automatically change between light and dark depending on whether you have set your system to use light or dark mode.
+                        &bull; In addition, these wallpapers can be selected from gnome control center or the settings app. The background will change depending on if dark mode is enabled.
+                    </p>
+                    <p>Originally our minimal installation option was planned to be a seperate disk image, however we decided through its development that it would be best to include it in the standard Rolling Rhino Remix disk image, and modify Ubiquity's currently existing Minimal installation option to provide a minimalistic setup with no preinstalled Desktop Environment or extra packages.</p>
+                    <p>If you are using an already existing installation of Rolling Rhino Remix then you will be able to upgrade to the latest version with <code>rhino-update</code>.</p>
+                    <p>If you wish to download Rolling Rhino Remix with a fresh disk image then you can download it <a href="https://rollingrhino.org/download">here</a>.</p>
+                    <h2>Documentation has been ported to our GitHub Wiki</h2>
+                    <p>We have deccided that the best way to provide adequate documentation is through a community maintained Wiki. We have utilities GitHub's Wiki feature for this reason. All documentation has been ported to the GitHub Wiki and we will be utilising the Wiki for documentation from now on. The documentation page on our website has been removed and our menu now links to the Wiki instead.</p>
+                    <h2>New release cycle</h2>
+                    <p>Our new release cycle sees Rolling Rhino Remix releasing monthly disk images instead. These disk images will see relatively little feature change, however they will compile the latest package updates as well as the latest updates from our utilities and new utilities if they are created. The next disk image release will occur on the 1st July 2022.</p>
+                    <hr />
+                </div>
+
                 <div id="development-update-4">
                     <h1>Why we are delaying the release of our next disk image</h1>
                     <p>We are sorry to announce but our next disk image will not release on 2022.05.21 as initially planned, instead it will recieve an additional 7 days of development and release on the 28th of May instead. The reason for this additional time is for a few reasons:</p>
@@ -51,6 +72,7 @@
                         &bull; We are now going to be providing Rolling Rhino Remix with a minimal disk image, this disk image will be based on the daily builds of Ubuntu server, and will provide users with a more Arch Linux style install, with only the base packages they will require for their system. <br />
                         &bull; We have a brand-new build system, known as RRR-builder which generates disk images. This is a departure from Cubic, which was our previous method of disk image creation. We would like the time to adequately test and fix issues in this brand new disk image builder. <br />
                         &bull; We have a brand new Rhino utility in the works that was designed specifically designed for Rolling Rhino Remix minimal. It will be known as rhino-deinst and is a Terminal User Interface desktop environment installer. It will be installed and usable on both minimal and full-desktop Rolling Rhino Remix.
+                        &bull; The disk image size has been reduced because of ZSTD compression.
                     </p>
                     <h2>What will happen to Rolling Rhino Remix from now then?</h2>
                     <p>Not much will change. Users who still wish to have the Ubuntu-desktop preinstalled by default can use our "Rolling Rhino Remix - Full Desktop" disk image. This will provide them with the exact same experience that Rolling Rhino Remix currently has. Users who wish to use the Minimal disk image will have a slightly more difficult installation, however a system with no pre-installed desktop environment or extra packages. This is especially good for perfectionists who like to have full control over their system. Users who utilise our minimal disk image can use our new utility, rhino-deinst, to easily install a desktop environment.</p>
