@@ -1,11 +1,12 @@
 :root {
-    --background: white;
-    --background-alt: #fbf1ff;
-    --heading: black;
-    --text: #636363;
-    --accent-orange: #E95420;
+    --background: #10172A;
+    --background-alt: #10172A;
+    --heading: #FFFFFF;
+    --text: #94a3b8;
+    --accent-orange: #93A2B7;
     --accent-purple: #77216F;
     --accent-muted-orange: #ffa280;
+    --header: #121b32;
 }
 
 * {
