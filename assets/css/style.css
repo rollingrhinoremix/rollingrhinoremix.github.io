@@ -18,6 +18,20 @@ body {
     color: var(--text);
     font-family: Arial, Helvetica, sans-serif;
 }
+/* Rhino Tools */
+.rhino-tools {
+    margin: 0;
+    background-color: var(--background);
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.rhino-examples {
+    width: 60vw;
+    margin: auto;
+    float: center
+}
 
 svg {
     margin: 0 !important;
