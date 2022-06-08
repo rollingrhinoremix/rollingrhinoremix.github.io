@@ -1,0 +1,61 @@
+#download {
+    position: absolute;
+    
+    width: 100vw;
+}
+
+#download-title {
+    position: relative;
+
+    left: 50%;
+
+    transform: translate(-50%, 0);
+
+    width: fit-content;
+
+    color: #ffffff; /* fallback if gradient doesn't work */
+
+    background-image: -webkit-linear-gradient(left, #e95420, #78216f);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#download-section1 {
+    width: 100%;
+
+    background: #ffffff;
+}
+
+#download-section1-pb1 {
+    position: relative;
+    left: -5px;
+
+    top: -20px;
+
+    width: 100vw;
+    height: 15px;
+}
+
+#download-section1-pb2 {
+    position: relative;
+    left: -5px;
+
+    top: 5px;
+
+    width: 100vw;
+    height: 15px;
+}
+
+.download-section1-text {
+    margin: 1em;
+}
+
+.download-links {
+    color: #e95420;
+}
+
+#download-section1-mirrors-title {
+    position: relative;
+    left: 0.5em;
+}

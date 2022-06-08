@@ -1,0 +1,133 @@
+.navlink {
+    font-family: 'Ubuntu';
+    font-size: 1.5em;
+    text-decoration: none;
+
+    text-align: center;
+
+    color: #000000;
+
+    padding: 0.4em;
+
+    animation: navlink-hover-off 0.2s;
+}
+.active {
+    color: #D33A26;
+}
+.inactive {
+    color: #000000;
+}
+.inactive:hover {
+    color: #D33A26;
+    animation: navlink-hover-on 0.2s;
+}
+
+#navlink-wiki-image {
+    width: 0.75em;
+    height: auto;
+    
+    margin-left: 3px;
+}
+
+#navbar-logo {
+    position: relative;
+
+    top: 0.5em;
+
+    left: 1em;
+}
+#navbar-logo > img {
+    display: inline;
+    width: 4em;
+    min-width: 90px;
+    
+    height: auto;
+}
+
+#navlink-container {
+    position: absolute;
+
+    top: 0vw;
+
+    left: 50vw;
+
+    width: 40vw;
+    height: auto;
+
+    transform: translate(-50%, 0);
+
+    /* flex box */
+    display: flex;
+    flex-direction: ltr;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+
+    background: #ffffff;
+
+    box-shadow: 3px 3px 5px #000000;
+
+    border-radius: 25px;
+
+    animation: navbar-intro 0.3s;
+}
+
+@keyframes navbar-intro {
+    from {opacity: 0; filter: blur(5px); top: -2em;}
+    to {opacity: 1; filter: blur(0); top: 0;}
+}
+@keyframes navbar-outro {
+    from {opacity: 1; filter: blur(0); top: 0;}
+    to {opacity: 0; filter: blur(5px); top: -2em;}
+}
+
+/* mobile format */
+@media only screen and (orientation: portrait) {
+
+    #navlink-container {
+        position: absolute;
+    
+        top: 50vw;
+    
+        left: 50vw;
+    
+        width: 40vw;
+        height: auto;
+    
+        transform: translate(-50%, -50%);
+    
+        /* flex box */
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+    
+        background: #ffffff;
+
+        padding-top: 2em;
+        padding-bottom: 2em;
+    
+        border-radius: 25px;
+    
+        animation: navbar-intro 0.3s;
+    }
+
+    @keyframes navbar-intro {
+        from {opacity: 0; filter: blur(5px); top: calc(50vw - 2em);}
+        to {opacity: 1; filter: blur(0); top: 50vw;}
+    }
+    @keyframes navbar-outro {
+        from {opacity: 1; filter: blur(0); top: 50vw;}
+        to {opacity: 0; filter: blur(5px); top: calc(50vw - 2em);}
+    }
+    
+}
+
+@keyframes navlink-hover-on {
+    from {color: #000000;}
+    to {color: #D33A26;}
+}
+
+@keyframes navlink-hover-off {
+    from {color: #D33A26;}
+    to {color: #000000;}
+}
