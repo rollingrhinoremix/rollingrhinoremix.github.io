@@ -1,0 +1,19 @@
+#error404 {
+    position: absolute;
+    top: 10em;
+
+    width: 100%;
+
+    color: #ffffff;
+}
+#error404 > * {
+    text-align: center;
+}
+
+#error404-return-link {
+    position: relative;
+    
+    left: 45%;
+
+    color: #D33A26;
+}
