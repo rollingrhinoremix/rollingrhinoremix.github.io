@@ -45,6 +45,32 @@
         <div class="information">
             <div class="content">
 
+                <div id="rhino-config-v300">
+                    <h1>rhino-config v3.0 & rhino-update v1.4 released!</h1>
+                    <p>The development team has been hard at work for two big updates to Rolling Rhino Remix utilities, as rhino-config gets the long awaited update that allows for you to switch to alternate Linux-based Kernels such as xanmod and liquorix. Our update utility, rhino-update also receives many quality of life changes.</p>
+                    <h2>rhino-config v3.0</h2>
+                    <p>
+                        <b>What's changed?</b> <br />
+                        &bull; The mainline flag has been removed from rhino-config, with the latest Linux kernel, delivered straight from the Ubuntu mainline repositories, being installed by default on an update. <br />
+                        &bull; A new sub-command, <code>rhino-config switch-kernel</code>, allows for the ability to switch to an alternate Linux kernel.
+                    </p>
+                    <p>It is recommended you read the <a href="https://github.com/rollingrhinoremix/docs/wiki/rhino-config" target="_blank">rhino-config Wiki page</a> so you have information on how to utilise the new sub-commands. <br /> &bull; It is important to note that the Wiki may take a short while to be updated.</p>
+                    <h2>rhino-update v1.4</h2>
+                    <p>
+                        <b>What's changed?</b> <br />
+                        &bull; If Flatpak is installed on the system, Flatpak applications will be updated automatically via rhino-update. <br />
+                        &bull; A bug fix to not update Pacstall as root has been applied. <br />
+                        &bull; A minor change to use the latest tagged release automatically for rhino utilities. <br />
+                        &bull; A bug fix to not rely on rhino-config configuration files to check if snapd is installed to handle Snap application updates. <br />
+                        &bull; System files such as /etc/os-release are updated by rhino-update. Standards are also now adhered to. <br />
+                        &bull; The ability to install alternate kernels has been provided. This feature runs in parallel to rhino-config v3.0. <br />
+                        &bull; Kernel files are now downloaded simultaneously, which will make upgrade times significantly faster.
+                    </p>
+                    <p>The majority of these changes happened in incremental steps, and users will have received most of these changes already, but they are now compiled into one release.</p>
+                    <p>Nevertheless, some new features such as rhino-config v3.0, the ability to install alternate kernels, as well as simultaneously downloading kernel files have just been released. To receive the latest upgrades to your system, please run `rhino-update`.</p>
+                    <hr />
+                </div>
+
                 <div id="development-update-5">
                     <h1>Development underway for 2022.07.01 + New updates coming soon</h1>
                     <p>Development has begun for the release of our next disk image, which will now be released on July 1st. With most of the necessary major changes happening to the distribution, the release of new disk images will focus more on polishing and refining the user experience from out of the box, as well as compiling the latest changes provided by our team and within the Ubuntu repositories. The big change to note for this release will be that the latest Linux kernel, straight from the Ubuntu mainline PPA, will be used as the default Linux kernel from now on, rather than the default Ubuntu kernel, which can sometimes lag behind in versions. As a result of this, the mainline option is being removed in rhino-config.</p>
