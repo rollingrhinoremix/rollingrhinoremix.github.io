@@ -1,0 +1,31 @@
+#footer {
+    position: relative;
+
+    font-family: 'Roboto Mono';
+
+    margin: 1em;
+
+    width: 100vw;
+    height: 10em;
+
+    color: #ffffff;
+}
+
+.footer-hr {
+    width: 80%;
+    height: 0.25em;
+    background: #ffffff;
+
+    border-radius: 25px;
+    border: none;
+}
+
+#footer-disclaimer {
+    font-size: 0.8em;
+
+    color: #cccccc;
+}
+
+.footer-link {
+    color: #cccccc;
+}
