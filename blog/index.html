@@ -45,6 +45,15 @@
         <div class="information">
             <div class="content">
 
+                <div id="rhino-update-150">
+                    <h1>rhino-update v1.5 - Nala integration</h1>
+                    <p>The Rolling Rhino Remix project has worked closely with the lead developer of the <a href="https://gitlab.com/volian/nala" target="_blank">Nala</a> project, Volitank. We have partnered up with them to bring Nala to the distribution and utilise it within rhino-update.</p>
+                    <p>Nala is a front-end for libapt-pkg. It has many great features that make it a great alternative to utilising the apt command itself, while keeping the same core functionality of downloading and installing .deb packaged from repositories. Especially for newer users it can be hard to understand what apt is trying to do when installing or upgrading. Outside of pretty formatting, the number 1 reason to use Nala over apt is parallel downloads. Nala is much faster at apt when it comes to updating repositories as well as installing or upgrading packages. The formatting makes it much more human readable. 
+                    </p>
+                    <p>So, how was it integrated? Rolling Rhino Remix now has Nala preinstalled on all systems once an update has occured. The next disk image release, 2022.07.01, will also contain the Nala package preinstalled. It is recommended to install and remove packages via Nala instead of apt now. To update your packages, it is still recommended to utilise <code>rhino-update</code>. Rhino-update will now utilise Nala for package upgrades.</p>
+                    <hr />
+                </div>
+
                 <div id="rhino-config-v300">
                     <h1>rhino-config v3.0 & rhino-update v1.4 released!</h1>
                     <p>The development team has been hard at work for two big updates to Rolling Rhino Remix utilities, as rhino-config gets the long awaited update that allows for you to switch to alternate Linux-based Kernels such as xanmod and liquorix. Our update utility, rhino-update also receives many quality of life changes.</p>
