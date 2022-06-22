@@ -1,0 +1,14 @@
+#news {
+    position: absolute;
+}
+#news-title {
+    position: relative;
+
+    left: 50%;
+
+    transform: translate(-50%, 0);
+
+    width: fit-content;
+
+    color: #ffffff;
+}
