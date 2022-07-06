@@ -37,7 +37,7 @@ export default function DownloadPage() {
             <div class="spacer"></div>
 
             {/* section 1 */}
-            <div id="download-section1">
+            <div class="card">
                 {/* mini spacer */}
                 <div class="mini-spacer"></div>
 

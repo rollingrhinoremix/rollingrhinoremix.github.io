@@ -29,7 +29,7 @@ export default function DonatePage() {
             <div class="spacer"></div>
 
             {/* donate arguments */}
-            <div id="donate-arguments">
+            <div id="donate-arguments" class="card">
                 {/* title */}
                 <h2 class="gradient">Your donations will go to...</h2>
                 

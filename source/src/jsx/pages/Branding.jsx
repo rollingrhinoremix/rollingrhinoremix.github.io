@@ -6,7 +6,7 @@ import "../../css/general.css"
 
 export default function BrandingPage() {
     return (
-        <div id="branding">
+        <div id="branding" class="page-width">
             {/* spacer */}
             <div class="spacer"></div>
 
@@ -55,7 +55,7 @@ export default function BrandingPage() {
                 <div class="mini-spacer"></div>
 
                 {/* container (flexbox) for logo images */}
-                <div id="branding-logos-images-container">
+                <div id="branding-logos-images-container" class="card">
                     <img class="branding-logo" src="assets/BrandingPage/Logos/logoLight.png" alt="Logo variation"/>
                     <img class="branding-logo" src="assets/BrandingPage/Logos/logoDark.png" alt="Logo variation"/>
                     <img class="branding-logo" src="assets/BrandingPage/Logos/logoGray.png" alt="Logo variation" style="margin-right: 0;"/>
@@ -65,9 +65,13 @@ export default function BrandingPage() {
                 <div class="spacer"></div>
 
                 {/* container (flexbox) for logo banners  */}
-                <div id="branding-logos-banners-container">
+                <div id="branding-logos-banners-container" class="card">
+                    <div class="mini-spacer"></div>
+
                     <img class="branding-banner-logo" src="assets/BrandingPage/Logos/logoBannerLight.png" alt="Banner logo variation"/>
                     <img class="branding-banner-logo" src="assets/BrandingPage/Logos/logoBannerDark.png" alt="Banner logo variation" style="margin-bottom: 0;"/>
+
+                    <div class="mini-spacer"></div>
                 </div>
             </div>
 
@@ -89,9 +93,13 @@ export default function BrandingPage() {
                 {/* mini spacer */}
                 <div class="mini-spacer"></div>
 
-                <div id="branding-wallpapers-container">
+                <div id="branding-wallpapers-container" class="card">
+                    <div class="mini-spacer"></div>
+
                     <img class="branding-wallpaper" src="assets/BrandingPage/Wallpapers/wallpaperLight.png" alt="Wallpaper variation"/>
                     <img class="branding-wallpaper" src="assets/BrandingPage/Wallpapers/wallpaperDark.png" alt="Wallpaper variation" style="margin-bottom: 0;"/>
+                
+                    <div class="mini-spacer"></div>
                 </div>
             </div>
 

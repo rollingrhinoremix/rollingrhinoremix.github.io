@@ -1,10 +1,5 @@
 #info {
     position: absolute;
-
-    top: 0;
-    left: 0;
-
-    width: 100vw;
 }
 
 #info-title {
@@ -18,23 +13,6 @@
 }
 
 #info-contributors-section {
-    position: relative;
-
-    left: 50%;
-
-    transform: translate(-50%, 0);
-
-    width: 50%;
-
-    border-radius: 25px;
-
-    color: #ffffff;
-
-    background: #4e4e4e;
-
-    padding: 1em;
-
-    box-shadow: 0px 2px 3px #000000;
 }
 
 .info-contributors-title {
@@ -94,23 +72,6 @@
 }
 
 #info-press-section {
-    position: relative;
-
-    left: 50%;
-
-    transform: translate(-50%, 0);
-
-    width: 50%;
-
-    border-radius: 25px;
-
-    color: #ffffff;
-
-    background: #4e4e4e;
-
-    padding: 1em;
-
-    box-shadow: 0px 2px 3px #000000;   
 }
 
 #info-press-title {
@@ -141,12 +102,4 @@
 
 /* mobile optimizations */
 @media screen and (orientation: portrait) {
-    #info-contributors-section {
-        margin-left: 1em;
-        width: 90%;
-    }
-    #info-press-section {
-        margin-left: 1em;
-        width: 90%;
-    }
 }

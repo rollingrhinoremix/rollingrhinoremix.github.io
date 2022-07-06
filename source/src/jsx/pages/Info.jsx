@@ -9,7 +9,7 @@ import "../../css/general.css"
 
 export default function InfoPage() {
     return (
-        <div id="info">
+        <div id="info" class="page-width">
             {/* spacer */}
             <div class="spacer"></div>
 
@@ -17,7 +17,7 @@ export default function InfoPage() {
             <h1 id="info-title" class="gradient">Info</h1>
 
             {/* contributors */}
-            <div id="info-contributors-section">
+            <div id="info-contributors-section" class="card">
                 {/* mini title */}
                 <h1 class="info-contributors-title">Official Developers</h1>
 
@@ -94,7 +94,7 @@ export default function InfoPage() {
             <div class="spacer"></div>
 
             {/* press */}
-            <div id="info-press-section">
+            <div id="info-press-section" class="card">
                 {/* mini title */}
                 <h2 id="info-press-title">Press</h2>
 

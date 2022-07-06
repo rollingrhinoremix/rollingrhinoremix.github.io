@@ -16,26 +16,6 @@
 
 /* -------------- SECTION 1 -------------- */
 
-#download-section1 {
-    position: relative;
-
-    left: 50%;
-
-    transform: translate(-50% ,0);
-
-    width: 60%;
-
-    text-align: left;
-
-    border-radius: 25px;
-    
-    color: #ffffff;
-
-    background: #4e4e4e;
-
-    box-shadow: 0px 2px 3px #000000;
-}
-
 .download-section1-text {
     position: relative;
 
@@ -49,16 +29,12 @@
 }
 
 .download-section1-title {
-    text-align: center;
+    position: relative;
 }
 
 
 /* mobile optimization */
 @media screen and (orientation: portrait) {
-    #download {
-        width: 110%; /* strangely this page needs to be extended to 110% to fit the screen width on mobile, probably a bug, should fix later */
-    }
-
     #download-section1 {
         width: 80%;
     }

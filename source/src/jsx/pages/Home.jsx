@@ -23,7 +23,7 @@ export default function HomePage() {
             <h1 class="home-title gradient" style="top: -2em;">Ubuntu just got rolling.</h1>
 
             {/* section 1 */}
-            <div id="home-section1">
+            <div class="card">
                 {/* mini spacer */}
                 <div class="mini-spacer"></div>
 
@@ -33,7 +33,7 @@ export default function HomePage() {
                 {/* container for section1 contents */}
                 <div id="home-section1-contents">
                     {/* paragraph */}
-                    <p id="home-section1-paragraph">
+                    <p id="home-section1-paragraph" style="text-align: left;">
                         Rolling Rhino Remix is an unofficial Ubuntu flavour which converts the Ubuntu operating system into a rolling release Linux distribution by 
                         tracking the devel series. A rolling release distribution is a Linux distribution which receives continuous package updates, 
                         and as such there are no major updates (unlike Ubuntu's current release model where there is clear progression between versions). 
@@ -123,7 +123,7 @@ export default function HomePage() {
             </div>
 
             {/* section 3 */}
-            <div id="home-section3">
+            <div class="card">
                 {/* argument divs, they're called arguments because they're arguments FOR the operating system */}
 
                 {/* argument 1 */}

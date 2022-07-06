@@ -29,24 +29,6 @@
     color: #e95420;
 }
 
-#donate-arguments {
-    position: relative;
-
-    left: 50%;
-
-    transform: translate(-50%, 0);
-
-    width: 50%;
-
-    background: #4e4e4e;
-
-    padding: 1em;
-
-    border-radius: 25px;
-
-    box-shadow: 0px 2px 3px #000000;
-}
-
 #donate-arguments > h2 {
     position: relative;
 

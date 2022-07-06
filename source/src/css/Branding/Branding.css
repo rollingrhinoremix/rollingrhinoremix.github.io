@@ -1,7 +1,5 @@
 #branding {
     position: absolute;
-
-    width: 100%;
 }
 
 #branding-title {
@@ -20,8 +18,7 @@
     color: #ffffff;
 }
 
-#branding-paragraph 
-{
+#branding-paragraph {
     position: relative;
 
     left: 50%;
@@ -58,20 +55,7 @@
 }
 
 #branding-logos-images-container {
-    position: relative;
-
-    left: 50%;
-
-    transform: translate(-50%, 0);
-
-    width: 60%;
-    height: fit-content;
-
-    background: #4e4e4e;
-    box-shadow: 0px 2px 3px #000000;
-
-    padding: 2em;
-    border-radius: 25px;
+    padding: 1em;
 
     /* flexbox */
     display: flex;
@@ -90,23 +74,17 @@
 }
 
 #branding-logos-banners-container {
+    padding: 1em;
+}
+
+.branding-banner-logo {
     position: relative;
 
     left: 50%;
 
     transform: translate(-50%, 0);
 
-    width: 60%;
-
-    background: #4e4e4e;
-    box-shadow: 0px 2px 3px #000000;
-
-    padding: 2em;
-    border-radius: 25px;
-}
-
-.branding-banner-logo {
-    width: 100%;
+    width: 90%;
 
     border-radius: 10px;
 
@@ -132,24 +110,14 @@
     color: #ffffff;
 }
 
-#branding-wallpapers-container {
+.branding-wallpaper {
     position: relative;
 
     left: 50%;
 
     transform: translate(-50%, 0);
 
-    width: 60%;
-    
-    background: #4e4e4e;
-    box-shadow: 0px 2px 3px #000000;
-
-    padding: 2em;
-    border-radius: 25px;
-}
-
-.branding-wallpaper {
-    width: 100%;
+    width: 90%;
 
     border-radius: 10px;
 
@@ -180,8 +148,6 @@
     }
 
     #branding-logos-images-container {
-        width: 75%;
-
         flex-direction: column;
     }
     .branding-logo {
@@ -194,13 +160,5 @@
         width: 80%;
 
         margin: 0 0 2em 0;
-    }
-
-    #branding-logos-banners-container {
-        width: 75%;
-    }
-
-    #branding-wallpapers-container {
-        width: 75%;
     }
 }

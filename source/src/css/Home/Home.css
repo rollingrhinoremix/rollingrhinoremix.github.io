@@ -31,24 +31,6 @@
 
 /* -------------- SECTION 1 -------------- */
 
-#home-section1 {
-    position: relative;
-
-    left: 50%;
-
-    transform: translate(-50% ,0);
-
-    width: 90%;
-
-    border-radius: 25px;
-    
-    color: #ffffff;
-
-    background: #4e4e4e;
-
-    box-shadow: 0px 2px 3px #000000;
-}
-
 #home-section1-header {
     text-align: center;
 }
@@ -61,9 +43,11 @@
 }
 
 #home-section1-paragraph {
-    width: 35%;
+    width: 80%;
 
     font-size: 1.2em;
+
+    margin-bottom: 2em;
 }
 
 #home-image1 {
@@ -173,25 +157,6 @@
 }
 
 /* -------------- SECTION 3 -------------- */
-
-#home-section3 {
-    position: relative;
-
-    left: 50%;
-
-    transform: translate(-50%, 0);
-
-    width: 60%;
-
-    padding: 1em;
-
-    border-radius: 25px;
-
-    background: #4e4e4e;
-    color: #ffffff;
-
-    box-shadow: 0px 2px 3px #000000;
-}
 
 .home-section3-argument {
     margin: 2em;
