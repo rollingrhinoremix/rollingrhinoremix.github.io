@@ -44,7 +44,7 @@ export default function HomePage() {
                     <img id="home-image1" src="assets/place-holder.png"/>
                 </div>
 
-                <div class="spacer"></div>
+                <div class="mini-spacer"></div>
             </div>
 
             {/* section 2 */}

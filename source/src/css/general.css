@@ -29,7 +29,7 @@
 }
 
 .page-width {
-    width: 100%;
+    width: 100vw;
 }
 
 .card {
@@ -58,7 +58,7 @@
 /* portrait mode */
 @media screen and (orientation: portrait) {
     .page-width {
-        width: 111%;
+        width: 100vw;
     }
 
     .card {

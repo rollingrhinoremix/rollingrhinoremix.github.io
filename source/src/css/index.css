@@ -9,12 +9,12 @@
 }
 
 body {
-    overflow-x: hidden;
     margin: 0;
     background: #2d2d2d;
 
     font-size: 1em;
 
+    overflow-x: hidden;
     width: 100%;
 }
 
@@ -28,8 +28,11 @@ body {
 
 /* if on mobile/portrait */
 @media screen and (orientation: portrait) {
-    /* double font size */
     body {
-        font-size: 2em;
+        font-size: 1em;
+    }
+
+    h1 {
+        font-size: 1.8em;
     }
 }

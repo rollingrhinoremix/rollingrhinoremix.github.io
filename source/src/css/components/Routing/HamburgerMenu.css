@@ -12,8 +12,8 @@
 
     margin: 0;
 
-    width: 120vw;
-    height: 120vh;
+    width: 100vw;
+    height: 100vh;
 
     background: rgba(0, 0, 0, 0.4);
 
@@ -85,7 +85,7 @@
         transform: translate(50%, 20%); /* re-arrange positioning */
 
         /* make hamburger slightly larger on mobile */
-        width: 8vw;
-        height: 8vw;
+        width: 3em;
+        height: 2.5em;
     }
 }

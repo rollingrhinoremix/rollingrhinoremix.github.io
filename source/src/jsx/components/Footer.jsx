@@ -33,13 +33,7 @@ export default function Footer() {
             <br></br><br></br>
 
             {/* flex box to contain some info */}
-            <p style="
-                display: flex;
-                flex-direction: ltr;
-                flex-wrap: nowrap;
-
-                justify-content: space-evenly;
-            ">
+            <p id="footer-bottom-text-container">
                 {/* copyright */}
                 <span>&copy Rolling Rhino Remix</span>
 
