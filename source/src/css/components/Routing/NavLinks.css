@@ -9,14 +9,14 @@
 
     padding: 0.4em; 
 }
-.active {
+.navlink.active {
     color: #e95420;
 }
-.inactive {
+.navlink.inactive {
     color: #ffffff;
     animation: navlink-hover-off 0.15s;
 }
-.inactive:hover {
+.navlink.inactive:hover {
     color: #e95420;
     animation: navlink-hover-on 0.15s;
 }
