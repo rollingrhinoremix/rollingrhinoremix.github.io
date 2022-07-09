@@ -28,11 +28,11 @@ export default function BrandingPage() {
 
                 These guidelines and assets provide everything that builds the Rolling Rhino Remix brand. To help ensure the continued success of Rolling Rhino Remix, please use them as instructed.
 
-                Our logos, wallpapers and assets are licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>. Rolling Rhino Remix itself is licensed under the GNU General Public License v3.0. <br></br>
+                Our logos, wallpapers and assets are licensed under <a class="paragraph-link" href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>. Rolling Rhino Remix itself is licensed under the GNU General Public License v3.0. <br></br>
 
                 <br></br>
 
-                Color palette can be found <a href="https://design.ubuntu.com/brand/colour-palette/" target="_blank">here.</a>
+                Color palette can be found <a class="paragraph-link" href="https://design.ubuntu.com/brand/colour-palette/" target="_blank">here.</a>
             </p>
 
             {/* mini spacer */}

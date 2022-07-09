@@ -106,45 +106,47 @@ export default function InfoPage() {
 
                     {/* flexbox container for links */}
                     <span id="info-press-text-link-container">
+
                         <span class="info-press-link">
-                            • <a href="https://www.theregister.com/2022/03/29/rolling_release_ubuntu_remix/" target="_blank">The Register</a>
+                            • <a class="paragraph-link" href="https://www.theregister.com/2022/03/29/rolling_release_ubuntu_remix/" target="_blank">The Register</a>
                         </span>
 
                         <br></br>
 
                         <span>
-                            • <a href="https://www.zdnet.com/article/rolling-rhino-delivers-a-rolling-release-take-on-ubuntu-desktop/" target="_blank">ZDNet</a>
+                            • <a class="paragraph-link" href="https://www.zdnet.com/article/rolling-rhino-delivers-a-rolling-release-take-on-ubuntu-desktop/" target="_blank">ZDNet</a>
                         </span>
 
                         <br></br>
 
                         <span>
-                            • <a href="https://fossbytes.com/ubuntu-rolling-release-rolling-rhino/" target="_blank">FOSSBYTES</a>
+                            • <a class="paragraph-link" href="https://fossbytes.com/ubuntu-rolling-release-rolling-rhino/" target="_blank">FOSSBYTES</a>
                         </span>
 
                         <br></br>
 
                         <span>
-                            • <a href="https://retrology.net/rolling-rhino-converts-ubuntu-into-a-rolling-release/" target="_blank">Retrology</a>
+                            • <a class="paragraph-link" href="https://retrology.net/rolling-rhino-converts-ubuntu-into-a-rolling-release/" target="_blank">Retrology</a>
                         </span>
 
                         <br></br>
 
                         <span>
-                            • <a href="https://tuxdigital.com/podcasts/this-week-in-linux/twil-192/" target="_blank">Tuxdigital's "This Week in Linux 192"</a>
+                            • <a class="paragraph-link" href="https://tuxdigital.com/podcasts/this-week-in-linux/twil-192/" target="_blank">Tuxdigital's "This Week in Linux 192"</a>
                         </span>
 
                         <br></br>
 
                         <span>
-                            • <a href="http://lxer.com/module/newswire/view/313425/index.html" target="_blank">LXer</a>
+                            • <a class="paragraph-link" href="http://lxer.com/module/newswire/view/313425/index.html" target="_blank">LXer</a>
                         </span>
 
                         <br></br>
 
                         <span>
-                            • <a href="https://fullcirclemagazine.org/podcast/full-circle-weekly-news-256/" target="_blank">Full Circle Weekly News #256</a>
+                            • <a class="paragraph-link" href="https://fullcirclemagazine.org/podcast/full-circle-weekly-news-256/" target="_blank">Full Circle Weekly News #256</a>
                         </span>
+
                     </span>
                 </p>
             </div>

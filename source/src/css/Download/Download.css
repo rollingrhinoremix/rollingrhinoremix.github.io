@@ -24,12 +24,10 @@
     max-width: 80%;
 }
 
-.download-links {
-    color: #e95420;
-}
-
 .download-section1-title {
     position: relative;
+
+    text-align: center;
 }
 
 

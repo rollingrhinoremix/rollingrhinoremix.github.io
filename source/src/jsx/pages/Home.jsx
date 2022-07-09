@@ -171,7 +171,7 @@ export default function HomePage() {
                         <br></br>
                         <br></br>
    
-                        <a href="https://pacstall.dev/" target="_blank" style="color: #e95420;">Pacstall</a> is an AUR-like package manager 
+                        <a class="paragraph-link" href="https://pacstall.dev/" target="_blank">Pacstall</a> is an AUR-like package manager 
                         for Ubuntu and Ubuntu-based systems, and we have worked closely with the Pacstall developers to integrate it into our distribution. 
                         Pacstall brings the experience of the Arch User Repository directly to 
                         Ubuntu and Ubuntu-based systems with an ever-growing number of user-maintained packages.
@@ -180,12 +180,12 @@ export default function HomePage() {
                         <br></br>
                         <br></br>
 
-                        <a href="https://gitlab.com/volian/nala" target="_blank" style="color: #e95420;">Nala</a> is a libapt-pkg 
+                        <a class="paragraph-link" href="https://gitlab.com/volian/nala" target="_blank">Nala</a> is a libapt-pkg 
                         front-end which improves the core functionality of apt. 
                         We have (once again) worked closely with the developers of Nala to integrate it into Rolling Rhino Remix. 
                         Nala provides functionality such as transaction history, parallel downloads and better output formatting. 
                         Nala makes apt much more user-friendly as a result of this. 
-                        Please read our <a href="https://github.com/rollingrhinoremix/docs/wiki/nala" target="_blank" style="color: #e95420;">Nala documentation</a> to 
+                        Please read our <a class="paragraph-link" href="https://github.com/rollingrhinoremix/docs/wiki/nala" target="_blank">Nala documentation</a> to 
                         understand how to utilise it.
 
                         {/* double line break */}
@@ -210,7 +210,7 @@ export default function HomePage() {
                         By providing a community-maintained Wiki, we hope to provide users with the 
                         information necessary for them to understand how to utilise our utilities as well as 
                         fix and troubleshoot any common issues that have been found within the distribution. You can view our wiki 
-                        <a href="https://github.com/rollingrhinoremix/docs/wiki" target="_blank" style="color: #e95420;">here.</a>
+                        <a class="paragraph-link" href="https://github.com/rollingrhinoremix/docs/wiki" target="_blank">here.</a>
                     </p>
                 </div>
             </div>

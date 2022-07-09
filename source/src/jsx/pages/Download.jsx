@@ -56,11 +56,11 @@ export default function DownloadPage() {
                     
                     <br></br><br></br>
 
-                    <a class="download-links" href={downloadInfo.releaseAnnouncement}>Release Announcement</a>
+                    <a class="paragraph-link" href={downloadInfo.releaseAnnouncement}>Release Announcement</a>
                     
                     <br></br><br></br>
 
-                    <a class="download-links" href="https://github.com/rollingrhinoremix/docs/wiki/Installation-guide" target="_blank">Installation Guide</a>
+                    <a class="paragraph-link" href="https://github.com/rollingrhinoremix/docs/wiki/Installation-guide" target="_blank">Installation Guide</a>
                 </p>
 
                 <br></br>
@@ -74,28 +74,28 @@ export default function DownloadPage() {
                     <p>
                         <b>Google Drive:</b>
                         <br></br>
-                        <a class="download-links" href={googleDriveLink} target="_blank">Download Rolling Rhino {version}</a>
+                        <a class="paragraph-link" href={googleDriveLink} target="_blank">Download Rolling Rhino {version}</a>
                     </p>
 
                     {/* download mirror 2 - mega.nz */}
                     <p>
                         <b>Mega.nz:</b>
                         <br></br>
-                        <a class="download-links" href={meganzLink} target="_blank">Download Rolling Rhino {version}</a>
+                        <a class="paragraph-link" href={meganzLink} target="_blank">Download Rolling Rhino {version}</a>
                     </p>
 
                     {/* download mirror 3 - mediafire */}
                     <p>
                         <b>Mediafire:</b>
                         <br></br>
-                        <a class="download-links" href={mediafireLink} target="_blank">Download Rolling Rhino {version}</a>
+                        <a class="paragraph-link" href={mediafireLink} target="_blank">Download Rolling Rhino {version}</a>
                     </p>
 
                     {/* download mirror 4 - archive.org */}
                     <p>
                         <b>Archive.org:</b>
                         <br></br>
-                        <a class="download-links" href={archiveorgLink} target="_blank">Download Rolling Rhino {version}</a>
+                        <a class="paragraph-link" href={archiveorgLink} target="_blank">Download Rolling Rhino {version}</a>
                     </p>
                 </div>
 

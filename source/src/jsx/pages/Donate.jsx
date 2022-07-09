@@ -22,7 +22,7 @@ export default function DonatePage() {
                 By choosing to the donate to the project you are allowing us to continually improve the project and the infrastructure that holds it together. <br></br>
                 <br></br>
                 You can read how all donations are handled by the project 
-                <a href="https://docs.google.com/document/d/1zPkauRfWKxWTuOD5jY9Fo7q39PgPK0tEOD_D9zNXdoQ/edit" target="_blank">here.</a>
+                <a class="paragraph-link" href="https://docs.google.com/document/d/1zPkauRfWKxWTuOD5jY9Fo7q39PgPK0tEOD_D9zNXdoQ/edit" target="_blank">here.</a>
             </p>
 
             {/* separating spacer */}

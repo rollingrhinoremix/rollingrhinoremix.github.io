@@ -1,6 +1,8 @@
 #hamburger-menu {
     position: fixed;
     z-index: 10;
+
+    width: 100%;
 }
 
 #hamburger-bg {

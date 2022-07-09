@@ -51,7 +51,7 @@
 
     text-decoration: none;
 
-    color: #e95420;
+    color: #f08965;
 }
 .info-contributor > a:hover {
     text-decoration: underline;
@@ -95,9 +95,6 @@
 
     display: flex;
     flex-direction: column;
-}
-#info-press-text-link-container > span > a {
-    color: #e95420;
 }
 
 /* mobile optimizations */
