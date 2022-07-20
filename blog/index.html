@@ -45,6 +45,24 @@
         <div class="information">
             <div class="content">
 
+                <div id="development-update-6">
+                    <h1>Development underway for 2022.08.01 + Utility updates</h1>
+                    <p>The Rolling Rhino Remix development team has begun development on 2022.08.01 which will see small-scale changes. The largest change is the deprecation of <code>rhino-init</code>, with all required directories and files being created on disk image generation. 2022.08.01 will also see the upgrades of packages and kernel version.</p>
+                    <h2>
+                        rhino-update v1.6 + rhino-config v3.1.0
+                    </h2>
+                    <p><code>rhino-update</code> has seen many small-scale changes accumulate over-time through development pull requests, so they've now been compiled into a tagged release.</p>
+                    <p>
+                        <b>What's new?</b> <br />
+                        &bull; Use type -P to check if flatpak and snap are installed. <br />
+                        &bull; Fix typo in the .deb URL <br />
+                        &bull; Updated kernel to 5.18.12 <br />
+                        &bull; Add support for installing even more kernels.
+                    </p>
+                    <p><code>rhino-config</code> saw the upgrades of dependancies as well as the ability to add more kernels, which is then handled via <code>rhino-update.</code></p>
+                    <hr />
+                </div>
+
                 <div id="2022-07-01">
                     <h1>Release 2022.07.01</h1>
                     <p>It's been over a month since the last disk image release of Rolling Rhino Remix has released. We recently shifted our release model to just compile the latest updates to the distribution and release them in monthly disk images. This change was necessary as Rolling Rhino Remix reached a natural stagnation in its development where core distribution features were not required to be developed anymore.</p>
@@ -59,6 +77,7 @@
                         <p>If you wish to download Rolling Rhino Remix with a fresh disk image then you can download it <a href="https://rollingrhino.org/download">here</a>.</p>
                         <p>This version of Rolling Rhino Remix was released two days later than expected. The reason for this was due to time constraints in our personal lives such as College, School and Work. One major bug presented itself in our testing stage on the 30th of June and so we had to fix that as well. We apologise for the late release of this disk image.</p>
                     </p>
+                    <p>To receive the latest upgrades to your system, please run <code>rhino-update</code>.</p>
                     <hr />
                 </div>
 
