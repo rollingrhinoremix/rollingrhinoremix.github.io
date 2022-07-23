@@ -51,14 +51,32 @@ export default function NewsPost(props) {
             <h4 class="news-post-date">{date}</h4>
 
             {/* main paragraph */}
-            <p>{paragraph}</p>
+            {() => {
+                // parse string to document type
+                var parsedToDOM = new DOMParser().parseFromString(paragraph, "text/html");
+
+                // get child nodes (just text and anchors) from the body
+                var text = Array.from(parsedToDOM.body.childNodes)
+
+                // return text wrapped in paragraph tag
+                return <p class="news-post-paragraph-text">{text}</p>;
+            }}
 
             {/* For element iterates thru every section */}
             <For each={sections}>
                 {(section) => 
                     <div>
-                        <h3>{section.title}</h3>
-                        <p>{section.paragraph}</p>
+                        <h2>{section.title}</h2>
+                        {() => {
+                            // parse string to document type
+                            var parsedToDOM = new DOMParser().parseFromString(section.paragraph, "text/html");
+
+                            // get child nodes (just text and anchors) from the body
+                            var text = Array.from(parsedToDOM.body.childNodes)
+
+                            // return text wrapped in paragraph tag
+                            return <p class="news-post-paragraph-text">{text}</p>;
+                        }}
                     </div>
                 }
             </For>

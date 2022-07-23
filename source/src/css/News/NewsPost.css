@@ -50,11 +50,14 @@
     margin-bottom: 0;
 }
 
+.news-post-paragraph-text > a {
+    color: #f08965; /* same color as paragraph link class, but automated here so i don't have to manually add the class to links */
+}
+
 .news-post-date {
     color: #ffffff;
 
     margin-top: 0.2em;
-
 }
 
 .news-post-share-button {

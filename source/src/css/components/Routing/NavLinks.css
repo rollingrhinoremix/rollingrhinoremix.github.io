@@ -70,6 +70,8 @@
 
     box-shadow: 0px 2px 3px #000000;
 
+    border: 0.1px solid #5e5e5e;
+
     border-radius: 25px;
 
     animation: navbar-intro 0.3s;
