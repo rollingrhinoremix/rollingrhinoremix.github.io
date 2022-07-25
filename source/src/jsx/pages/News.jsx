@@ -52,7 +52,7 @@ export default function NewsPage() {
                     and return new instance of NewsPost element,
                     also passing in the post object's info as props */}
                     {(post) => <NewsPost
-                        propID={"post="+post.id}
+                        propID={post.id}
                         date={post.date}
                         title={post.title}
                         paragraph={post.paragraph}

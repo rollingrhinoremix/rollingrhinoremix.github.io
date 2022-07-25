@@ -22,9 +22,7 @@
 
 #hamburger-button {
     position: absolute;
-    left: 0;
-
-    transform: translate(100%, 0);
+    left: calc(100% - 6em);
 
     width: 4em;
     height: 4em;

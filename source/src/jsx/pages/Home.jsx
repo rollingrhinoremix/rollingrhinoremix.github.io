@@ -72,55 +72,41 @@ export default function HomePage() {
                     {/* grid object */}
                     <div class="home-section2-grid-object">
                         {/* image */}
-                        <img src="assets/place-holder.png"/>
+                        <img src="assets/HomePage/EasyInstallation.png"/>
                         {/* text */}
-                        <p>lorem ipsum haha this is text</p>
-                    </div>
-
-                    {/* grid object */}
-                    <div class="home-section2-grid-object">
-                        {/* image */}
-                        <img src="assets/place-holder.png"/>
-                        {/* text */}
-                        <p>lorem ipsum haha this is text</p>
+                        <p>easy installation text</p>
                     </div>
 
                     {/* grid object */}
                     <div class="home-section2-grid-object home-section2-end-line-grid-object">
                         {/* image */}
-                        <img src="assets/place-holder.png"/>
+                        <img src="assets/HomePage/Minimal.png"/>
                         {/* text */}
-                        <p>lorem ipsum haha this is text</p>
+                        <p>minimal text</p>
+                    </div>
+
+                    {/* grid object */}
+                    <div class="home-section2-grid-object">
+                        {/* image */}
+                        <img src="assets/HomePage/rhino.png"/>
+                        {/* text */}
+                        <p>rhino text</p>
                     </div>
 
                     {/* second row */}
 
                     {/* grid object */}
-                    <div class="home-section2-grid-object">
-                        {/* image */}
-                        <img src="assets/place-holder.png"/>
-                        {/* text */}
-                        <p>lorem ipsum haha this is text</p>
-                    </div>
-
-                    {/* grid object */}
-                    <div class="home-section2-grid-object">
-                        {/* image */}
-                        <img src="assets/place-holder.png"></img>
-                        {/* text */}
-                        <p>lorem ipsum haha this is text</p>
-                    </div>
-
-                    {/* grid object */}
                     <div class="home-section2-grid-object home-section2-end-line-grid-object">
                         {/* image */}
-                        <img src="assets/place-holder.png"/>
+                        <img src="assets/HomePage/pacstall.png"/>
                         {/* text */}
-                        <p>lorem ipsum haha this is text</p>
+                        <p>pacstall text</p>
                     </div>
-                    
                 </div>
             </div>
+
+            {/* spacer */}
+            <div class="spacer"></div>
 
             {/* section 3 */}
             <div class="card">

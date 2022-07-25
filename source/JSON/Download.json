@@ -1,5 +1,5 @@
 {
-    "version": "v2022-05-28",
+    "version": "2022-07-01",
 
     "mirrors": {
         "googleDrive": "https://drive.google.com/file/d/1wK6tYcMd0puDOUEjuP3J1qjPqLgQ5rRn/view?usp=sharing",
@@ -11,5 +11,5 @@
         "archiveorg": "https://archive.org/details/rolling-2022-05-28"
     },
 
-    "releaseAnnouncement": "googl"
+    "releaseAnnouncement": "/news#2022-07-01"
 }
