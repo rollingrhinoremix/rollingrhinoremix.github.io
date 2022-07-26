@@ -12,6 +12,9 @@ const version = downloadInfo.version;
 
 // get all mirror links from JSON
 
+// jovark OS
+const jovarkOSLink = downloadInfo.mirrors.jovarkOS;
+
 // google drive
 const googleDriveLink = downloadInfo.mirrors.googleDrive;
 
@@ -72,30 +75,36 @@ export default function DownloadPage() {
                 <div class="download-section1-text">
                     {/* download mirror 1 - google drive */}
                     <p>
+                        <b>JovarkOS:</b>
+                        <br></br>
+                        <a class="paragraph-link" href={jovarkOSLink} target="_blank">Download rolling-{version.replaceAll(".", "-")}.iso</a> {/* replace . with - */}
+                    </p>
+                    {/* download mirror 3 - google drive */}
+                    <p>
                         <b>Google Drive:</b>
                         <br></br>
-                        <a class="paragraph-link" href={googleDriveLink} target="_blank">Download Rolling Rhino {version}</a>
+                        <a class="paragraph-link" href={googleDriveLink} target="_blank">Download rolling-{version.replaceAll(".", "-")}.iso</a> {/* replace . with - */}
                     </p>
 
-                    {/* download mirror 2 - mega.nz */}
+                    {/* download mirror 3 - mega.nz */}
                     <p>
                         <b>Mega.nz:</b>
                         <br></br>
-                        <a class="paragraph-link" href={meganzLink} target="_blank">Download Rolling Rhino {version}</a>
+                        <a class="paragraph-link" href={meganzLink} target="_blank">Download rolling-{version.replaceAll(".", "-")}.iso</a>
                     </p>
 
-                    {/* download mirror 3 - mediafire */}
+                    {/* download mirror 4 - mediafire */}
                     <p>
                         <b>Mediafire:</b>
                         <br></br>
-                        <a class="paragraph-link" href={mediafireLink} target="_blank">Download Rolling Rhino {version}</a>
+                        <a class="paragraph-link" href={mediafireLink} target="_blank">Download rolling-{version.replaceAll(".", "-")}.iso</a>
                     </p>
 
-                    {/* download mirror 4 - archive.org */}
+                    {/* download mirror 5 - archive.org */}
                     <p>
                         <b>Archive.org:</b>
                         <br></br>
-                        <a class="paragraph-link" href={archiveorgLink} target="_blank">Download Rolling Rhino {version}</a>
+                        <a class="paragraph-link" href={archiveorgLink} target="_blank">Download rolling-{version.replaceAll(".", "-")}.iso</a>
                     </p>
                 </div>
 

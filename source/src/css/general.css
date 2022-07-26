@@ -14,7 +14,7 @@
 .code {
     position: relative;
 
-    padding: 0.2em;
+    padding: 1px 4px 1px 4px;
 
     border-radius: 5px;
     background: #1b1b1b;
@@ -53,6 +53,18 @@
 
 .paragraph-link {
     color: #f08965;
+}
+.paragraph-link:hover {
+    color: #000000;
+    background: #f08965;
+
+    text-decoration: none;
+
+    padding: 0px 1px 0px 1px;
+
+    border-radius: 1px;
+
+    margin: -1px;
 }
 
 /* portrait mode */

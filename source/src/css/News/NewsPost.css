@@ -10,7 +10,7 @@
 
     padding: 3em;
 
-    margin-bottom: 5em;
+    margin-bottom: 10%;
 
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
@@ -50,8 +50,21 @@
     margin-bottom: 0;
 }
 
+/* CSS copied from .paragraph-link in general.css */
 .news-post-paragraph-text > a {
     color: #f08965; /* same color as paragraph link class, but automated here so i don't have to manually add the class to links */
+}
+.news-post-paragraph-text > a:hover {
+    color: #000000;
+    background: #f08965;
+
+    text-decoration: none;
+
+    padding: 0px 1px 0px 1px;
+
+    border-radius: 1px;
+
+    margin: -1px;
 }
 
 .news-post-date {

@@ -101,7 +101,7 @@
 
     transform: translate(-50%, 0);
 
-    width: 60%;
+    width: 60vw;
     height: 60%;
 
     display: flex;
@@ -112,7 +112,7 @@
 
 .home-section2-grid-object {
     width: 40%;
-    height: 20em;
+    height: 40%;
 
     margin-right: 20%;
 
@@ -156,6 +156,9 @@
 
 .home-section2-end-line-grid-object {
     margin: 0;
+}
+.home-section2-bottom-row-grid-object {
+    margin-bottom: 0;
 }
 
 /* -------------- SECTION 3 -------------- */
@@ -216,7 +219,7 @@
 
         width: 80vw;
 
-        height: 50vw;
+        height: 80vw;
 
         margin: 0 0 30% 0; /* reset all other margins but at the same time set bottom margin to 30% */
     }

@@ -145,7 +145,7 @@
     
         "date": "Unrecorded Date",
     
-        "paragraph": "This will be an interesting release as the disk image release will sync up to the updates released on our Rhino utilites. Below we will list the changes that are coming to Rolling Rhino Remix and our utilities.<br><br>",
+        "paragraph": "This will be an interesting release as the disk image release will sync up to the updates released on our Rhino utilites. Below we will list the changes that are coming to Rolling Rhino Remix and our utilities.",
         
         "sections": [
             {
@@ -156,7 +156,7 @@
             {
                 "title": "Updates to our rhino utilities:",
     
-                "paragraph": "Both of our Rhino utilities will get some big updates in this release cycle. Our rhino-update utility will now automatically install the latest Linux kernel, have the ability to verify Linux kernel checksums and recieve some code cleanup. Our configuration utility, rhino-config, will no longer have the option to support the mainline Linux kernel due to it being installed by default on all systems.<br><br>• If users would prefer to utilise the Ubuntu kernel as opposed to the mainline Linux kernel, they are able to select it in the GRUB boot menu on system startup."
+                "paragraph": "Both of our Rhino utilities will get some big updates in this release cycle. Our rhino-update utility will now automatically install the latest Linux kernel, have the ability to verify Linux kernel checksums and recieve some code cleanup. Our configuration utility, <span class='code'>rhino-config</span>, will no longer have the option to support the mainline Linux kernel due to it being installed by default on all systems.<br><br>• If users would prefer to utilise the Ubuntu kernel as opposed to the mainline Linux kernel, they are able to select it in the GRUB boot menu on system startup."
             }
         ]
     },
@@ -167,7 +167,7 @@
     
         "date": "Unrecorded Date",
     
-        "paragraph": "Rolling Rhino Remix has gone through a major brand redesign before the next release. This includes brand new logos, new wallpapers and a brand-new website.<br><br>We believe that a good brand is essential for any project. Logos should be instantly recognisable and visible when small, and websites should be unique and readable. We have undergone major design changes to bring the best possible experience to Rolling Rhino Remix. Everything evolves, and Rolling Rhino Remix is no different, going through three website and brand design changes since the beginning of the project, however we have now created a brand identity which we believe encapsulates what Rolling Rhino Remix is about, while being unique and sticking to our Ubuntu roots.<br><br>We have now established a set of brand guidelines which you can view <a href='/branding' target='_blank'>here</a>. Our set of Brand Guidelines exist so that Rolling Rhino Remix is communicated with the same precision we used to create it.<br><br>We hope you enjoy these new changes to Rolling Rhino Remix, and our brand.",
+        "paragraph": "Rhino Remix has gone through a major brand redesign before the next release. This includes brand new logos, new wallpapers and a brand-new website.<br><br>We believe that a good brand is essential for any project. Logos should be instantly recognizable and visible when small, and websites should be unique and readable. We have undergone major design changes to bring the best possible experience to Rolling Rhino Remix. Everything evolves, and Rolling Rhino Remix is no different, going through three website and brand design changes since the beginning of the project, however we have now created a brand identity which we believe encapsulates what Rolling Rhino Remix is about, while being unique and sticking to our Ubuntu roots.<br><br>We have now established a set of brand guidelines which you can view <a href='/branding' target='_blank'>here</a>. Our set of Brand Guidelines exist so that Rolling Rhino Remix is communicated with the same precision we used to create it.<br><br>We hope you enjoy these new changes to Rolling Rhino Remix, and our brand.",
         
         "sections": [
         ]

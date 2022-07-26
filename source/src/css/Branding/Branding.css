@@ -1,8 +1,8 @@
-#branding {
+#branding-page {
     position: absolute;
 }
 
-#branding-title {
+#branding-page-title {
     position: relative;
 
     left: 50%;
@@ -12,13 +12,13 @@
     width: fit-content;
 }
 
-#branding-title2 {
+#branding-page-title2 {
     text-align: center;
 
     color: #ffffff;
 }
 
-#branding-paragraph {
+#branding-page-paragraph {
     position: relative;
 
     left: 50%;
@@ -32,12 +32,12 @@
     color: #ffffff;
 }
 
-#branding-logos-section > h3 {
+#branding-page-logos-section > h3 {
     text-align: center;
 
     color: #ffffff;
 }
-#branding-logos-section > p {
+#branding-page-logos-section > p {
     position: relative;
 
     left: 50%;
@@ -51,7 +51,7 @@
     color: #ffffff;
 }
 
-#branding-logos-images-container {
+#branding-page-logos-images-container {
     padding: 1em;
 
     /* flexbox */
@@ -70,7 +70,7 @@
     border-radius: 20px;
 }
 
-#branding-logos-banners-container {
+#branding-page-logos-banners-container {
     padding: 1em;
 }
 
@@ -88,12 +88,12 @@
     margin-bottom: 5em;
 }
 
-#branding-wallpapers-section > h3 {
+#branding-page-wallpapers-section > h3 {
     text-align: center;
 
     color: #ffffff;
 }
-#branding-wallpapers-section > p {
+#branding-page-wallpapers-section > p {
     position: relative;
 
     left: 50%;
@@ -123,10 +123,10 @@
 
 /* mobile optimization */
 @media screen and (orientation: portrait) {
-    #branding-title {
+    #branding-page-title {
         font-size: 1.6em;
     }
-    #branding-paragraph {
+    #branding-page-paragraph {
         position: relative;
 
         left: 50%;
@@ -136,15 +136,15 @@
         width: 80%;
     }
 
-    #branding-logos-section > p {
+    #branding-page-logos-section > p {
         width: 80%;
     }
 
-    #branding-wallpapers-section > p {
+    #branding-page-wallpapers-section > p {
         width: 80%;
     }
 
-    #branding-logos-images-container {
+    #branding-page-logos-images-container {
         flex-direction: column;
     }
     .branding-logo {

@@ -86,17 +86,17 @@ export default function HomePage() {
                     </div>
 
                     {/* grid object */}
-                    <div class="home-section2-grid-object">
+                    <div class="home-section2-grid-object home-section2-bottom-row-grid-object">
                         {/* image */}
                         <img src="assets/HomePage/rhino.png"/>
                         {/* text */}
-                        <p>rhino text</p>
+                        <p>rhino-deinst text</p>
                     </div>
 
                     {/* second row */}
 
                     {/* grid object */}
-                    <div class="home-section2-grid-object home-section2-end-line-grid-object">
+                    <div class="home-section2-grid-object home-section2-end-line-grid-object home-section2-bottom-row-grid-object" style="margin-bottom: 0;">
                         {/* image */}
                         <img src="assets/HomePage/pacstall.png"/>
                         {/* text */}
