@@ -101,8 +101,8 @@
 
     transform: translate(-50%, 0);
 
-    width: 60vw;
-    height: 60%;
+    width: 55vw;
+    height: 55%;
 
     display: flex;
     flex-direction: ltr;
@@ -116,7 +116,7 @@
 
     margin-right: 20%;
 
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 .home-section2-grid-object > img {
     width: 100%;

@@ -74,7 +74,11 @@ export default function HomePage() {
                         {/* image */}
                         <img src="assets/HomePage/EasyInstallation.png"/>
                         {/* text */}
-                        <p>easy installation text</p>
+                        <p>
+                            Rolling Rhino Remix offers a no-frills, slightly modified version of Ubuntu's Ubiquity installer. 
+                            This graphical installer makes the installation of Rolling Rhino Remix simple, easy and intutive and offers different methods of insallation such as 
+                            our minimal option which comes with no desktop environment or extra packages, allowing you to customise your system from the ground up.
+                        </p>
                     </div>
 
                     {/* grid object */}
@@ -82,7 +86,11 @@ export default function HomePage() {
                         {/* image */}
                         <img src="assets/HomePage/Minimal.png"/>
                         {/* text */}
-                        <p>minimal text</p>
+                        <p>
+                            Our minimal installation option comes with no un-necessary packages and no Desktop Environment out of the box, 
+                            allowing for you to customise your Rolling Rhino Remix system the way that you want it. 
+                            Our quality of life tools such as rhino-deinst provide an easy, TUI method to install a desktop environment.
+                        </p>
                     </div>
 
                     {/* grid object */}
@@ -90,7 +98,13 @@ export default function HomePage() {
                         {/* image */}
                         <img src="assets/HomePage/rhino.png"/>
                         {/* text */}
-                        <p>rhino-deinst text</p>
+                        <p>
+                            Rolling Rhino Remix provides many different quality of life and command-line utilities to 
+                            improve the user experience of the Operating System. Many of these utilities were created by 
+                            the Rolling Rhino Remix team specifically for the distribution. 
+                            You can find information about each of the utilities on our 
+                            <a class="paragraph-link" href="https://github.com/rollingrhinoremix/docs/wiki" target="_blank">Wiki</a>. 
+                        </p>
                     </div>
 
                     {/* second row */}
@@ -98,9 +112,14 @@ export default function HomePage() {
                     {/* grid object */}
                     <div class="home-section2-grid-object home-section2-end-line-grid-object home-section2-bottom-row-grid-object" style="margin-bottom: 0;">
                         {/* image */}
-                        <img src="assets/HomePage/pacstall.png"/>
+                        <img src="assets/HomePage/partners.png"/>
                         {/* text */}
-                        <p>pacstall text</p>
+                        <p>
+                            Rolling Rhino Remix has partnered with two large open source projects, Pacstall and Nala. 
+                            Pacstall is an AUR-like package manager that brings the experience of the Arch User repository to Rolling Rhino Remix. 
+                            Nala is a <span class="code">libapt-pkg</span> frontend which improves the experience of the apt package manager with better output, 
+                            parallel downloads and transaction history.
+                        </p>
                     </div>
                 </div>
             </div>

@@ -6,24 +6,24 @@ import "../../css/general.css"
 
 export default function BrandingPage() {
     return (
-        <div id="branding" class="page-width">
+        <div id="branding-page" class="page-width">
             {/* spacer */}
             <div class="spacer"></div>
 
             {/* title */}
-            <h1 id="branding-title" class="gradient">Rolling Rhino Remix - Brand Guidelines</h1>
+            <h1 id="branding-page-title" class="gradient">Rolling Rhino Remix - Brand Guidelines</h1>
 
             {/* mini spacer */}
             <div class="mini-spacer"></div>
         
             {/* second mini title */}
-            <h3 id="branding-title2">
+            <h3 id="branding-page-title2">
                 Rolling Rhino Remix is <span class="gradient">YOUR </span>
                 Linux operating system
             </h3>
 
             {/* paragraph */}
-            <p id="branding-paragraph">
+            <p id="branding-page-paragraph">
                 Our set of Brand Guidelines exist so that Rolling Rhino Remix is communicated with the same precision we used to create it. <br></br>
 
                 These guidelines and assets provide everything that builds the Rolling Rhino Remix brand. To help ensure the continued success of Rolling Rhino Remix, please use them as instructed.
@@ -39,7 +39,7 @@ export default function BrandingPage() {
             <div class="mini-spacer"></div>
 
             {/* sections for logos */}
-            <div id="branding-logos-section">
+            <div id="branding-page-logos-section">
                 {/* title */}
                 <h3>Our logo</h3>
 
@@ -55,7 +55,7 @@ export default function BrandingPage() {
                 <div class="mini-spacer"></div>
 
                 {/* container (flexbox) for logo images */}
-                <div id="branding-logos-images-container" class="card">
+                <div id="branding-page-logos-images-container" class="card">
                     <div class="mini-spacer"></div>
 
                     <img class="branding-logo" src="assets/BrandingPage/Logos/logoLight.png" alt="Logo variation"/>
@@ -69,7 +69,7 @@ export default function BrandingPage() {
                 <div class="spacer"></div>
 
                 {/* container (flexbox) for logo banners  */}
-                <div id="branding-logos-banners-container" class="card">
+                <div id="branding-page-logos-banners-container" class="card">
                     <div class="mini-spacer"></div>
 
                     <img class="branding-banner-logo" src="assets/BrandingPage/Logos/logoBannerLight.png" alt="Banner logo variation"/>
@@ -83,7 +83,7 @@ export default function BrandingPage() {
             <div class="spacer"></div>
 
             {/* sections for wallpapers */}
-            <div id="branding-wallpapers-section">
+            <div id="branding-page-wallpapers-section">
                 {/* title */}
                 <h3>Our wallpapers</h3>
 
@@ -97,7 +97,7 @@ export default function BrandingPage() {
                 {/* mini spacer */}
                 <div class="mini-spacer"></div>
 
-                <div id="branding-wallpapers-container" class="card">
+                <div id="branding-page-wallpapers-container" class="card">
                     <div class="mini-spacer"></div>
 
                     <img class="branding-wallpaper" src="assets/BrandingPage/Wallpapers/wallpaperLight.png" alt="Wallpaper variation"/>
