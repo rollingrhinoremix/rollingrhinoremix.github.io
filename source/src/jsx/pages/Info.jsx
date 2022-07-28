@@ -1,5 +1,8 @@
 import Footer from "../components/Footer"
 
+// metadata
+import { Title } from "@solidjs/meta"
+
 // import contributors JSON
 import contributors from "../../../JSON/Contributors.json"
 
@@ -7,9 +10,15 @@ import contributors from "../../../JSON/Contributors.json"
 import "../../css/Info/Info.css"
 import "../../css/general.css"
 
+// title string
+var pageTitle = "Rolling Rhino Remix // Info";
+
 export default function InfoPage() {
     return (
         <div id="info" class="page-width">
+            {/* metadata */}
+            <Title>{pageTitle}</Title>
+
             {/* spacer */}
             <div class="spacer"></div>
 

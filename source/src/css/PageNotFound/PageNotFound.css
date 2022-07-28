@@ -9,11 +9,3 @@
 #error404 > * {
     text-align: center;
 }
-
-#error404-return-link {
-    position: relative;
-
-    color: #e95420;
-
-    text-shadow: none;
-}

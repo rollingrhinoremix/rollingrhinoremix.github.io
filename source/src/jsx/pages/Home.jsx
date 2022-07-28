@@ -1,12 +1,21 @@
 import Footer from "../components/Footer"
 
+// metadata
+import { Title } from "@solidjs/meta"
+
 // css
 import "../../css/Home/Home.css"
 import "../../css/general.css"
 
+// title string
+var pageTitle = "Rolling Rhino Remix // Home";
+
 export default function HomePage() {
     return (
         <div id="home-page" class="page-width">
+            {/* metadata */}
+            <Title>{pageTitle}</Title>
+
             {/* title */}
             <h1 class="home-title gradient">Rolling Rhino Remix</h1>
 

@@ -1,5 +1,6 @@
 import { Route, Routes } from "solid-app-router";
 import { createSignal, Show } from "solid-js";
+import { MetaProvider } from "@solidjs/meta"
 import HamburgerMenu from "./jsx/components/HamburgerMenu";
 import DesktopNavbar from "./jsx/components/DesktopNavbar";
 import BrandingPage from "./jsx/pages/Branding";
@@ -41,46 +42,48 @@ else {
 
 function App() {
     return (
-        <div id="app">
-            {/* pages managed by the router */}
-            <Routes id="router">
-                {/* home page */}
-                <Route path="/" element={<HomePage/>}/>
+        <MetaProvider>
+            <div id="app">
+                {/* pages managed by the router */}
+                <Routes id="router">
+                    {/* home page */}
+                    <Route path="/" element={<HomePage/>}/>
 
-                {/* download page */}
-                <Route path="/download" element={<DownloadPage/>}/>
+                    {/* download page */}
+                    <Route path="/download" element={<DownloadPage/>}/>
 
-                {/* news page */}
-                <Route path="/news" element={<NewsPage/>}/>
+                    {/* news page */}
+                    <Route path="/news" element={<NewsPage/>}/>
 
-                {/* info page */}
-                <Route path="/info" element={<InfoPage/>}/>
+                    {/* info page */}
+                    <Route path="/info" element={<InfoPage/>}/>
 
-                {/* donate page */}
-                <Route path="/donate" element={<DonatePage/>}/>
+                    {/* donate page */}
+                    <Route path="/donate" element={<DonatePage/>}/>
 
-                {/* branding page */}
-                <Route path="/branding" element={<BrandingPage/>}/>
+                    {/* branding page */}
+                    <Route path="/branding" element={<BrandingPage/>}/>
 
-                {/* error 404 - page not found */}
-                <Route path="/:id" element={<PageNotFound/>}/>
-            </Routes>
+                    {/* error 404 - page not found */}
+                    <Route path="/:id" element={<PageNotFound/>}/>
+                </Routes>
 
-            {/*
-            Show structure
+                {/*
+                Show structure
 
-            if on desktop (landscape mode) then show desktop navbar
+                if on desktop (landscape mode) then show desktop navbar
 
-            otherwise show hamburger menu
-            */}
-            <Show when={onDesktop()}
-            fallback={
-                <HamburgerMenu></HamburgerMenu>
-            }>
-                <DesktopNavbar></DesktopNavbar>
-            </Show>
+                otherwise show hamburger menu
+                */}
+                <Show when={onDesktop()}
+                fallback={
+                    <HamburgerMenu></HamburgerMenu>
+                }>
+                    <DesktopNavbar></DesktopNavbar>
+                </Show>
 
-        </div>
+            </div>
+        </MetaProvider>
     );
 }
 

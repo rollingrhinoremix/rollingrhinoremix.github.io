@@ -1,12 +1,21 @@
 import Footer from "../components/Footer"
 
+// metadata
+import { Title } from "@solidjs/meta"
+
 // css
 import "../../css/Branding/Branding.css"
 import "../../css/general.css"
 
+// title string
+var pageTitle = "Rolling Rhino Remix // Branding";
+
 export default function BrandingPage() {
     return (
         <div id="branding-page" class="page-width">
+            {/* metadata */}
+            <Title>{pageTitle}</Title>
+
             {/* spacer */}
             <div class="spacer"></div>
 

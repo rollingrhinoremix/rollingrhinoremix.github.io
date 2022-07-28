@@ -1,11 +1,17 @@
 import Footer from "../components/Footer"
 
+// metadata
+import { Title } from "@solidjs/meta"
+
 // import JSON info
 import downloadInfo from "../../../JSON/Download.json"
 
 // css
 import "../../css/Download/Download.css"
 import "../../css/general.css"
+
+// title string
+var pageTitle = "Rolling Rhino Remix // Download";
 
 // version
 const version = downloadInfo.version;
@@ -30,6 +36,9 @@ const archiveorgLink = downloadInfo.mirrors.archiveorg;
 export default function DownloadPage() {
     return (
         <div id="download" class="page-width">
+            {/* metadata */}
+            <Title>{pageTitle}</Title>
+
             {/* spacer */}
             <div class="spacer"></div>
 

@@ -1,7 +1,10 @@
 import Footer from "../components/Footer"
 import NewsPost from "../components/NewsPost"
-import NewsPostSharePopup from "../components//NewsPostSharePopup";
+import NewsPostSharePopup from "../components//NewsPostSharePopup"
 import { For } from "solid-js"
+
+// metadata
+import { Title } from "@solidjs/meta"
 
 // import JSON data
 import posts from "../../../JSON/News.json"
@@ -9,6 +12,9 @@ import posts from "../../../JSON/News.json"
 // css
 import "../../css/News/News.css"
 import "../../css/general.css"
+
+// title string
+var pageTitle = "Rolling Rhino Remix // News";
 
 export default function NewsPage() {
     const togglePopup = (visible) => {
@@ -35,6 +41,9 @@ export default function NewsPage() {
 
     return (
         <div id="news" class="page-width">
+            {/* metadata */}
+            <Title>{pageTitle}</Title>
+
             {/* spacer */}
             <div class="spacer"></div>
 

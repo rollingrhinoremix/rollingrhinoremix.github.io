@@ -1,12 +1,21 @@
 import Footer from "../components/Footer"
 
+// metadata
+import { Title } from "@solidjs/meta"
+
 // css
 import "../../css/Donate/Donate.css"
 import "../../css/general.css"
 
+// title string
+var pageTitle = "Rolling Rhino Remix // Donate";
+
 export default function DonatePage() {
     return (
         <div id="donate" class="page-width">
+            {/* metadata */}
+            <Title>{pageTitle}</Title>
+
             {/* spacer */}
             <div class="spacer"></div>
 
