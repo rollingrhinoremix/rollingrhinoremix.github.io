@@ -1,17 +1,17 @@
 {
-    "version": "2022.07.01",
+    "version": "2022.08.01",
 
     "mirrors": {
-        "jovarkOS": "https://rollingrhino.jovarkos.org/rolling-2022-07-01.iso",
+        "jovarkOS": "https://rollingrhino.jovarkos.org/rolling-2022-08-01.iso",
 
-        "googleDrive": "https://drive.google.com/file/d/1UuNMWitzSLh_v3pFs5zN1C3hk-P_xoOo/view",
+        "googleDrive": "https://drive.google.com/file/d/1NxUO7dRsc0YeWgwiXeSLm1SOTIarLiYw/view?usp=sharing",
         
-        "meganz": "https://mega.nz/file/BrIlhD6C#xnah_jtHyix88iYOExgVUjtAhGuHQQs8sMi8vLtVGSI",
+        "meganz": "https://mega.nz/file/U2BUybqb#-s5pxMAtUZMfdKN79oI73Ai0dyqcVFxXrlEQgLxbfTE",
 
-        "mediafire": "https://www.mediafire.com/file/rfbrpsu5566750i/rolling-2022-07-01.iso/file",
+        "mediafire": "https://www.mediafire.com/file/0pzvddjlqyxmhxk/rolling-2022-08-01.iso/file",
 
-        "archiveorg": "https://archive.org/details/rolling-2022-07-01"
+        "archiveorg": "https://archive.org/details/rolling-2022-08-01"
     },
 
-    "releaseAnnouncement": "/news#2022-07-01"
+    "releaseAnnouncement": "/news#2022-08-01"
 }
