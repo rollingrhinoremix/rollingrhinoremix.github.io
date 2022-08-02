@@ -16,11 +16,11 @@ export default function HomePage() {
             {/* metadata */}
             <Title>{pageTitle}</Title>
 
+            {/* spacer */}
+            <div class="large-spacer"></div>
+
             {/* title */}
             <h1 class="home-title gradient">Rolling Rhino Remix</h1>
-
-            {/* spacer */}
-            <div class="spacer"></div>
 
             {/* laptop image */}
             <img id="home-laptop-image" src="assets/HomePage/laptop.png" alt="Laptop Image"/>

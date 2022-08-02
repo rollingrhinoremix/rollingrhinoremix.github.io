@@ -1,12 +1,18 @@
 .spacer {
     position: relative;
-    height: 5em;
+    height: 3em;
     width: 100vw;
 }
 
 .mini-spacer {
     position: relative;
     height: 1em;
+    width: 100vw;
+}
+
+.large-spacer {
+    position: relative;
+    height: 4em;
     width: 100vw;
 }
 

@@ -45,7 +45,7 @@ export default function NewsPage() {
             <Title>{pageTitle}</Title>
 
             {/* spacer */}
-            <div class="spacer"></div>
+            <div class="large-spacer"></div>
 
             {/* header */}
             <h1 id="news-title" class="gradient">Rolling Rhino News</h1>

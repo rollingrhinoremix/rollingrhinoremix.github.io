@@ -17,7 +17,7 @@ export default function BrandingPage() {
             <Title>{pageTitle}</Title>
 
             {/* spacer */}
-            <div class="spacer"></div>
+            <div class="large-spacer"></div>
 
             {/* title */}
             <h1 id="branding-page-title" class="gradient">Rolling Rhino Remix - Brand Guidelines</h1>

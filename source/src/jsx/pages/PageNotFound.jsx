@@ -17,8 +17,11 @@ export default function PageNotFound() {
             {/* metadata */}
             <Title>{pageTitle}</Title>
 
+            {/* spacer */}
+            <div class="large-spacer"></div>
+
             {/* header */}
-            <h1>Error 404: Page Not found</h1>
+            <h1 class="gradient">Error 404: Page Not found</h1>
 
             {/* paragraph */}
             <p>

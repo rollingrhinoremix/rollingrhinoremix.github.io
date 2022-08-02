@@ -12,8 +12,6 @@
     transform: translate(-50%, 0);
 
     width: fit-content;
-    
-    margin-top: 3em;
 
     color: #ffffff;
 }
@@ -219,9 +217,9 @@
 
         width: 80vw;
 
-        height: 80vw;
+        height: 80%;
 
-        margin: 0 0 30% 0; /* reset all other margins but at the same time set bottom margin to 30% */
+        margin: 0 0 20% 0; /* reset all other margins but at the same time set bottom margin to 30% */
     }
     .home-section2-end-line-grid-object {
         margin: 0 0 30% 0;

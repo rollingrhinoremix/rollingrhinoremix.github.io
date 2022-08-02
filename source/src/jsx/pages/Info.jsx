@@ -20,7 +20,7 @@ export default function InfoPage() {
             <Title>{pageTitle}</Title>
 
             {/* spacer */}
-            <div class="spacer"></div>
+            <div class="large-spacer"></div>
 
             {/* title */}
             <h1 id="info-title" class="gradient">Info</h1>

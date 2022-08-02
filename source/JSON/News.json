@@ -1,10 +1,27 @@
 [
     {
+        "id": "2022-08-01",
+    
+        "title": "Release 2022.08.01",
+    
+        "date": "August 1st, 2022",
+    
+        "paragraph": "It's been a month since the last disk image release of Rolling Rhino Remix. The development team has worked hard to squash issues in this release as well as improve the quality of life for the user.<br><br>",
+        
+        "sections": [
+            {
+                "title": "What's new?",
+    
+                "paragraph": "• Rolling Rhino Remix 2022.08.01 has shipped with the 5.18.15 kernel by default.<br>• <span class='code'>rhino-init</span> has been entirely deprecated for 2022.08.01 and future versions.<br>• All packages have been upgraded to their latest version<br>• Bug fixes.<br><br>If you are using an already existing installation of Rolling Rhino Remix then you will be able to upgrade to the latest version with <span class='code'>rhino-update</span> if you do not have these changes already.<br><br>If you wish to download Rolling Rhino Remix with a fresh disk image then you can download it <a href='/download' target='_blank'>here</a>."
+            }
+        ]
+    },
+    {
         "id": "development-update-6",
     
         "title": "Development underway for 2022.08.01 + Utility updates",
     
-        "date": "July 20th, 2022 ",
+        "date": "July 20th, 2022",
     
         "paragraph": "The Rolling Rhino Remix development team has begun development on 2022.08.01 which will see small-scale changes. The largest change is the deprecation of <span class='code'>rhino-init</span>, with all required directories and files being created on disk image generation. 2022.08.01 will also see the upgrades of packages and kernel version.",
         
@@ -26,7 +43,7 @@
     
         "title": "Release 2022.07.01",
     
-        "date": "Unrecorded Date",
+        "date": "July 3rd, 2022",
     
         "paragraph": "It's been over a month since the last disk image release of Rolling Rhino Remix has released. We recently shifted our release model to just compile the latest updates to the distribution and release them in monthly disk images. This change was necessary as Rolling Rhino Remix reached a natural stagnation in its development where core distribution features were not required to be developed anymore.",
         
@@ -99,7 +116,7 @@
     
         "title": "Release 2022.05.28 + more",
     
-        "date": "Unrecorded Date",
+        "date": "May 28th, 2022",
     
         "paragraph": "After over three weeks of development we are proud to release 2022.05.28. This release has been our most ambitious release yet, with the launch of a brand-new utility, a minimal installation mode and more new features.",
         
@@ -189,7 +206,7 @@
     
         "title": "Release 2022.05.03",
     
-        "date": "Unrecorded Date",
+        "date": "May 3rd, 2022",
     
         "paragraph": "After two weeks of development we are now ready to release the latest packaged version of Rolling Rhino Remix!",
         
@@ -259,7 +276,7 @@
     
         "title": "Release 2022.04.19 & What's to come for the future.",
     
-        "date": "Unrecorded Date",
+        "date": "April 19, 2022",
     
         "paragraph": "After almost 3 weeks of hard work we have released the latest packaged version of Rolling Rhino Remix.",
         
@@ -305,7 +322,7 @@
     
         "title": "Release 2022.03.26",
     
-        "date": "Unrecorded Date",
+        "date": "March 26, 2022",
     
         "paragraph": "Rolling Rhino Remix has had its first official public release! Ubuntu is now (unofficially) provided as a rolling release distribution! You are able to download the .iso file for the distribution <a href='/download' target='_blank'>here</a>.<br><br>",
         

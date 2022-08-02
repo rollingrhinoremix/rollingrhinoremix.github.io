@@ -1,6 +1,5 @@
 #error404 {
     position: absolute;
-    top: 10em;
 
     width: 100%;
 
@@ -8,4 +7,13 @@
 }
 #error404 > * {
     text-align: center;
+}
+#error404 > h1 {
+    position: relative;
+
+    left: 50%;
+
+    transform: translate(-50%, 0);
+
+    width: fit-content;
 }

@@ -40,7 +40,7 @@ export default function DownloadPage() {
             <Title>{pageTitle}</Title>
 
             {/* spacer */}
-            <div class="spacer"></div>
+            <div class="large-spacer"></div>
 
             {/* title */}
             <h1 id="download-title" class="gradient">Download Rolling Rhino Remix</h1>
