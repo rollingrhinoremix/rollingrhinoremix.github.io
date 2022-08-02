@@ -51,6 +51,12 @@ To save you from having to manually write out the tag, you can use the link tool
 The `Text` field is what will be set as the [innerHTML](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML) of the anchor/link.
 The `URL` field is.. well.. the URL of the link lol.
 
+#### Linking to routes
+
+You can simply link to another route (e.g `/download`, `/news`, etc) by simply typing the name of the route in the `URL` field.
+
+Do not forget a `/` before the name of the route.
+
 ### Guide
 
 <img src="./docs-images/guide.png" height=280>
@@ -60,6 +66,12 @@ The `URL` field is.. well.. the URL of the link lol.
 The guide shows a list of aliases that can be used in `Content` text boxes.
 
 ***note:*** Code text is a new class for text pieces that need to be shown as `code blocks`.
+
+Here are some other aliases that aren't mentioned in the guide.
+
+`&bull` : `•`
+
+`&copy` : `©`
 
 ## Rules
 
