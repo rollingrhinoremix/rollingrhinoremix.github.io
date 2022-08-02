@@ -15,7 +15,7 @@ Keep reading for help using the tool, or fast forward straight to the [rules](#r
 
 ### Mandatory Fields
 
-(image of mandatory fields)
+<img src="./docs-images/mandatory.png" height=280>
 
 <br>
 
@@ -29,7 +29,7 @@ Let's look through each of these fields by themselves.
 
 ### Optional Subsections
 
-(image of optional subsections)
+<img src="./docs-images/optional.png" height=280>
 
 <br>
 
@@ -42,7 +42,7 @@ On the right side of the program you'll find different tools and elements to hel
 
 ### Link
 
-(image of link tool)
+<img src="./docs-images/link.png" height=280>
 
 <br>
 
@@ -53,7 +53,7 @@ The `URL` field is.. well.. the URL of the link lol.
 
 ### Guide
 
-(image of guide tool)
+<img src="./docs-images/guide.png" height=280>
 
 <br>
 
