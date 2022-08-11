@@ -70,7 +70,7 @@
 
     background: #4e4e4e;
 
-    padding: 0.6em;
+    padding: 0.5em;
 
     border-radius: 10px;
 
@@ -83,7 +83,7 @@
 
     color: #e95420;
 
-    box-shadow: 1px 1px 10px #000000;
+    box-shadow: 0px 1px 5px #000000;
 
     animation: donate-button-hover-on 0.25s;
 }

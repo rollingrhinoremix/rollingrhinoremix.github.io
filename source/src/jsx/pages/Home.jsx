@@ -8,7 +8,7 @@ import "../../css/Home/Home.css"
 import "../../css/general.css"
 
 // title string
-var pageTitle = "Rolling Rhino Remix // Home";
+var pageTitle = "Rolling Rhino Remix | Home";
 
 export default function HomePage() {
     return (
@@ -25,11 +25,11 @@ export default function HomePage() {
             {/* laptop image */}
             <img id="home-laptop-image" src="assets/HomePage/laptop.png" alt="Laptop Image"/>
 
+            {/* title */}
+            <h1 class="home-title gradient">Ubuntu just got rolling.</h1>
+
             {/* spacer */}
             <div class="spacer"></div>
-
-            {/* title */}
-            <h1 class="home-title gradient" style="top: -2em;">Ubuntu just got rolling.</h1>
 
             {/* section 1 */}
             <div class="card">
@@ -44,13 +44,14 @@ export default function HomePage() {
                     {/* paragraph */}
                     <p id="home-section1-paragraph" style="text-align: left;">
                         Rolling Rhino Remix is an unofficial Ubuntu flavour which converts the Ubuntu operating system into a rolling release Linux distribution by 
-                        tracking the devel series. A rolling release distribution is a Linux distribution which receives continuous package updates, 
+                        tracking the devel series. <br></br>
+                        A rolling release distribution is a Linux distribution which receives continuous package updates, 
                         and as such there are no major updates (unlike Ubuntu's current release model where there is clear progression between versions). 
                         A rolling release model offers new and experienced users a new way to utilise their desktop PC, without the hassle of major upgrades.
                     </p>
                     
                     {/* image */}
-                    <img id="home-image1" src="assets/place-holder.png"/>
+                    <img id="home-image1" src="assets/HomePage/section1.png"/>
                 </div>
 
                 <div class="mini-spacer"></div>

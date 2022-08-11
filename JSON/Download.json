@@ -1,6 +1,12 @@
 {
     "version": "2022.08.01",
 
+    "ISOSize": "3.6 GB",
+
+    "kernel": "5.18.15",
+
+    "checksum": "1e9a4b766f2e6379c28aa581a1875264b2377d580d50959e520bd37ceb82b3dc rolling-2022-08-01.iso",
+
     "mirrors": {
         "jovarkOS": "https://rollingrhino.jovarkos.org/rolling-2022-08-01.iso",
 

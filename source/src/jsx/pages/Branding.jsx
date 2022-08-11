@@ -8,7 +8,7 @@ import "../../css/Branding/Branding.css"
 import "../../css/general.css"
 
 // title string
-var pageTitle = "Rolling Rhino Remix // Branding";
+var pageTitle = "Rolling Rhino Remix | Branding";
 
 export default function BrandingPage() {
     return (

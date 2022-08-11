@@ -8,7 +8,7 @@ import "../../css/Donate/Donate.css"
 import "../../css/general.css"
 
 // title string
-var pageTitle = "Rolling Rhino Remix // Donate";
+var pageTitle = "Rolling Rhino Remix | Donate";
 
 export default function DonatePage() {
     return (
@@ -66,7 +66,7 @@ export default function DonatePage() {
                 properly centered, might be a margin or padding issue,
                 figure out in future */}
             <p id="donate-button">
-                <a href="https://liberapay.com/Rolling-Rhino-Remix/" target="_blank">Donate</a>
+                <a href="https://liberapay.com/Rolling-Rhino-Remix/" target="_blank">Donate via Liberapay</a>
             </p>
 
             {/* spacer */}

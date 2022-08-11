@@ -9,7 +9,7 @@ import "../../css/PageNotFound/PageNotFound.css"
 import "../../css/general.css"
 
 // title string
-var pageTitle = "Rolling Rhino Remix // 404";
+var pageTitle = "Rolling Rhino Remix | 404";
 
 export default function PageNotFound() {
     return (

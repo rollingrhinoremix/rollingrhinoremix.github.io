@@ -14,7 +14,7 @@ import "../../css/News/News.css"
 import "../../css/general.css"
 
 // title string
-var pageTitle = "Rolling Rhino Remix // News";
+var pageTitle = "Rolling Rhino Remix | News";
 
 export default function NewsPage() {
     const togglePopup = (visible) => {

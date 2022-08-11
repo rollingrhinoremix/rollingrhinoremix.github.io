@@ -11,10 +11,19 @@ import "../../css/Download/Download.css"
 import "../../css/general.css"
 
 // title string
-var pageTitle = "Rolling Rhino Remix // Download";
+var pageTitle = "Rolling Rhino Remix | Download";
 
 // version
 const version = downloadInfo.version;
+
+// iso size
+const ISOSize = downloadInfo.ISOSize;
+
+// kernel
+const kernel = downloadInfo.kernel;
+
+// checksum
+const checksum = downloadInfo.checksum;
 
 // get all mirror links from JSON
 
@@ -58,21 +67,33 @@ export default function DownloadPage() {
 
                 {/* paragraph*/}
                 <p class="download-section1-text">
-                    The image can be burned to a CD, mounted as an ISO file, or be directly written to a USB stick using a utility like dd. <br></br>
-                    It is intended for new installations only; an existing Rolling Rhino system can always be updated with rhino-update.
+                    The image can be burned to a CD, mounted as an ISO file, or be directly written to a USB stick using a utility like <span class="code">dd</span>.
+                    It is intended for new installations only; an existing Rolling Rhino system can always be updated with <span class="code">rhino-update</span>.
                 </p>
 
                 {/* a few links */}
                 <p class="download-section1-text">
-                    <b>Current release - {version}</b>
+                    <b>Current release: {version}</b>
                     
-                    <br></br><br></br>
+                    <br></br>
 
                     <a class="paragraph-link" href={downloadInfo.releaseAnnouncement}>Release Announcement</a>
                     
-                    <br></br><br></br>
+                    <br></br>
+
+                    <b>ISO Size: {ISOSize}</b>
+
+                    <br></br>
+
+                    <b>Included Kernel: {kernel}</b>
+
+                    <br></br>
 
                     <a class="paragraph-link" href="https://github.com/rollingrhinoremix/docs/wiki/Installation-guide" target="_blank">Installation Guide</a>
+
+                    <br></br>
+
+                    <b>Checksum (Sha256sum): {checksum}</b>
                 </p>
 
                 <br></br>

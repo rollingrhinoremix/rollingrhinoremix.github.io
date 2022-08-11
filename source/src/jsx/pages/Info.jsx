@@ -11,7 +11,7 @@ import "../../css/Info/Info.css"
 import "../../css/general.css"
 
 // title string
-var pageTitle = "Rolling Rhino Remix // Info";
+var pageTitle = "Rolling Rhino Remix | Info";
 
 export default function InfoPage() {
     return (
