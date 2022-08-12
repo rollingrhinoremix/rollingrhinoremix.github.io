@@ -46,7 +46,16 @@ export default function InfoPage() {
                                     <br></br> {/* break line */}
 
                                     {/* description */}
-                                    <span>"{developer.description}"</span>
+                                    {() => {
+                                        // create span
+                                        var span = document.createElement("span");
+
+                                        // set innerHTML to description wrapped in quotes
+                                        span.innerHTML = `"`+developer.description+`"`;
+
+                                        // return it
+                                        return span;
+                                    }}
                                 </p>
                             )
                         }}
@@ -72,7 +81,16 @@ export default function InfoPage() {
                                     <br></br> {/* break line */}
 
                                     {/* description */}
-                                    <span>{contributor.description}</span>
+                                    {() => {
+                                        // create span
+                                        var span = document.createElement("span");
+
+                                        // set innerHTML to description wrapped in quotes
+                                        span.innerHTML = contributor.description;
+
+                                        // return it
+                                        return span;
+                                    }}
                                 </p>
                             )
                         }}

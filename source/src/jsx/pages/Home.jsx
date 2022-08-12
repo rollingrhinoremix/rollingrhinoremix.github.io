@@ -29,7 +29,7 @@ export default function HomePage() {
             <h1 class="home-title gradient">Ubuntu just got rolling.</h1>
 
             {/* spacer */}
-            <div class="spacer"></div>
+            <div class="mini-spacer"></div>
 
             {/* section 1 */}
             <div class="card">
@@ -60,7 +60,7 @@ export default function HomePage() {
             {/* section 2 */}
             <div id="home-section2">
                 {/* spacer */}
-                <div class="spacer"></div>
+                <div class="mini-spacer"></div>
 
                 {/* header */}
                 <h1 id="home-section2-header" class="gradient">Why use Rolling Rhino Remix?</h1>
@@ -135,7 +135,7 @@ export default function HomePage() {
             </div>
 
             {/* spacer */}
-            <div class="spacer"></div>
+            <div class="mini-spacer"></div>
 
             {/* section 3 */}
             <div class="card">

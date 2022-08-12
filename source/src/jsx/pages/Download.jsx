@@ -93,7 +93,9 @@ export default function DownloadPage() {
 
                     <br></br>
 
-                    <b>Checksum (Sha256sum): {checksum}</b>
+                    {/* set word wrap here to allow breaking of words because the checksum is a very long "word" that wont fit on one line, 
+                        and to prevent it from overflowing i changed this parameter specifically for just this piece of text */}
+                    <b style="word-wrap: break-word;">Checksum (Sha256sum): {checksum}</b>
                 </p>
 
                 <br></br>

@@ -58,7 +58,7 @@ export default function DonatePage() {
             </div>
 
             {/* spacer */}
-            <div class="spacer"></div>
+            <div class="mini-spacer"></div>
 
             {/* anchor button that redirects to payment page 
             - wrap in a <p> element to fix a positioning issue where

@@ -44,9 +44,6 @@ export default function BrandingPage() {
                 Color palette can be found <a class="paragraph-link" href="https://design.ubuntu.com/brand/colour-palette/" target="_blank">here.</a>
             </p>
 
-            {/* mini spacer */}
-            <div class="mini-spacer"></div>
-
             {/* sections for logos */}
             <div id="branding-page-logos-section">
                 {/* title */}
@@ -89,7 +86,7 @@ export default function BrandingPage() {
             </div>
 
             {/* spacer */}
-            <div class="spacer"></div>
+            <div class="mini-spacer"></div>
 
             {/* sections for wallpapers */}
             <div id="branding-page-wallpapers-section">

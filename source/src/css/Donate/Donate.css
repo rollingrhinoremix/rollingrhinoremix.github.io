@@ -83,18 +83,18 @@
 
     color: #e95420;
 
-    box-shadow: 0px 1px 5px #000000;
+    box-shadow: 0px 2px 2px #000000;
 
     animation: donate-button-hover-on 0.25s;
 }
 
 @keyframes donate-button-hover-on {
     from {color: #ffffff; box-shadow: none;}
-    to {color: #e95420; box-shadow: 1px 1px 10px #000000;}
+    to {color: #e95420; box-shadow: 0px 2px 2px #000000;}
 }
 
 @keyframes donate-button-hover-off {
-    from {color: #e95420; box-shadow: 1px 1px 10px #000000;}
+    from {color: #e95420; box-shadow: 0px 2px 2px #000000;}
     to {color: #ffffff; box-shadow: none;}
 }
 
