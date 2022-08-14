@@ -1,5 +1,27 @@
 [
     {
+        "id": "community-distro",
+    
+        "title": "Community-led innovation + Development underway for 2022.09.01",
+    
+        "date": "August 13th, 2022",
+    
+        "paragraph": "The Rolling Rhino Remix team has been hard at work to begin the development of the next disk image release. Besides that, the development team has also been working on providing more power to the Rolling Rhino Remix community.",
+        
+        "sections": [
+            {
+                "title": "Becoming a community distribution",
+    
+                "paragraph": "We wanted to become a distribution created by the community, for the community and so we have implemented a number of changes for this. Rolling Rhino Remix has evolved into a fundamentally different distribution than what was envisioned. There have been countless times when the community has submitted pull requests which completely change the distribution for the better. We are relying on contributors more than ever now. With the personal lives of developers having become increasingly busy, we need your help. To do this, the community, along with the former development team will now be leading the development of the distribution.<br><br>The role of official developers will be transformed into <q>Core Contributors</q>, and they shall receive read/write access to repositories so that they are able to merge and submit pull requests to their respective repositories. Any developer with an exceptional record of active commits or innovation can become a trusted contributor. Chadano will remain as the Project Lead behind the distribution to help guide the development of the next release as well as utility development. Upon the resignation of any Project Lead, the wider community may vote on which trusted contributor should assume the position.<br><br><i>We need help from the community now more than ever to help see the project succeed and meet release deadlines, and we need <b>your</b> help to do it.</i>"
+            },
+            {
+                "title": "2022.09.01 development begins",
+    
+                "paragraph": "The development cycle of Rolling Rhino Remix kicks off once again with the development officially beginning on disk image 2022.09.01. The changes in this disk image release will be minimal, with all package and utility versions being shipped at their latest version by default as well as the 5.19.x kernel being pre-packaged in the distribution.<br><br>We aim to release a separate Windows Subsystem for Linux binary for Windows developers to be able to take full advantage of the Rolling Rhino Remix utilities and packages within their Windows machines. The installation for this will be detailed on our Wiki once released."
+            }
+        ]
+    },
+    {
         "id": "2022-08-01",
     
         "title": "Release 2022.08.01",
