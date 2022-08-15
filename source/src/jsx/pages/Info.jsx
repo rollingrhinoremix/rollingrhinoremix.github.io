@@ -9,9 +9,10 @@ import contributors from "../../../JSON/Contributors.json"
 // css
 import "../../css/Info/Info.css"
 import "../../css/general.css"
+import {For} from "solid-js";
 
 // title string
-var pageTitle = "Rolling Rhino Remix | Info";
+const pageTitle = "Rolling Rhino Remix | Information";
 
 export default function InfoPage() {
     return (
@@ -23,17 +24,18 @@ export default function InfoPage() {
             <div class="large-spacer"></div>
 
             {/* title */}
-            <h1 id="info-title" class="gradient">Info</h1>
+            <h1 id="info-title" class="gradient">Rolling Rhino Remix - Information</h1>
+            <hr class={"header-hr"}/>
 
             {/* contributors */}
             <div id="info-contributors-section" class="card">
                 {/* mini title */}
-                <h1 class="info-contributors-title">Official Developers</h1>
+                <h1 class="info-contributors-title">Core contributors</h1>
 
                 {/* flexbox container for contributors list */}
                 <div id="info-contributors-container">
                     {/* iterate through list of imported contributors JSON file */}
-                    <For each={contributors.developers}>
+                    <For each={contributors.coreContributors}>
                         {/* lambda JSX equation returns instance of contributor element with filled out data */}
                         {(developer) => {
                             return (
@@ -48,10 +50,10 @@ export default function InfoPage() {
                                     {/* description */}
                                     {() => {
                                         // create span
-                                        var span = document.createElement("span");
+                                        const span = document.createElement("span");
 
                                         // set innerHTML to description wrapped in quotes
-                                        span.innerHTML = `"`+developer.description+`"`;
+                                        span.innerHTML = developer.description;
 
                                         // return it
                                         return span;
@@ -83,7 +85,7 @@ export default function InfoPage() {
                                     {/* description */}
                                     {() => {
                                         // create span
-                                        var span = document.createElement("span");
+                                        const span = document.createElement("span");
 
                                         // set innerHTML to description wrapped in quotes
                                         span.innerHTML = contributor.description;
