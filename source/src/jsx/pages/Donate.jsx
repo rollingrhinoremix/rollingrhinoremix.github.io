@@ -6,32 +6,20 @@ import { Title } from "@solidjs/meta"
 // css
 import "../../css/Donate/Donate.css"
 import "../../css/general.css"
+import Page from "../components/Page";
 
 // title string
-var pageTitle = "Rolling Rhino Remix | Donate";
+const pageTitle = "Donate";
 
 export default function DonatePage() {
     return (
-        <div id="donate" class="page-width">
-            {/* metadata */}
-            <Title>{pageTitle}</Title>
-
-            {/* spacer */}
-            <div class="large-spacer"></div>
-
-            {/* title */}
-            <h1 id="donate-title" class="gradient">Donate to Rolling Rhino Remix</h1>
-            <hr class={"header-hr"}/>
-
-            {/* min spacer */}
-            <div class="mini-spacer"></div>
-
+        <Page title={pageTitle}>
             {/* paragraph */}
             <p id="donate-paragraph">
                 Thank you for choosing to donate to the Rolling Rhino Remix project. Your support means a lot to everyone working on the development team. <br></br>
                 By choosing to the donate to the project you are allowing us to continually improve the project and the infrastructure that holds it together. <br></br>
                 <br></br>
-                You can read how all donations are handled by the project 
+                You can read how all donations are handled by the project
                 <a class="paragraph-link" href="https://docs.google.com/document/d/1zPkauRfWKxWTuOD5jY9Fo7q39PgPK0tEOD_D9zNXdoQ/edit" target="_blank">here.</a>
             </p>
 
@@ -42,7 +30,7 @@ export default function DonatePage() {
             <div id="donate-arguments" class="card">
                 {/* title */}
                 <h2 class="gradient">Your donations will go to...</h2>
-                
+
                 {/* container for text */}
                 <div>
                     {/* list of arguments */}
@@ -61,7 +49,7 @@ export default function DonatePage() {
             {/* spacer */}
             <div class="mini-spacer"></div>
 
-            {/* anchor button that redirects to payment page 
+            {/* anchor button that redirects to payment page
             - wrap in a <p> element to fix a positioning issue where
                 the button is a bit more to the right than the left and not
                 properly centered, might be a margin or padding issue,
@@ -69,12 +57,7 @@ export default function DonatePage() {
             <p id="donate-button">
                 <a href="https://liberapay.com/Rolling-Rhino-Remix/" target="_blank">Donate via Liberapay</a>
             </p>
+        </Page>
+    );
 
-            {/* spacer */}
-            <div class="spacer"></div>
-
-            {/* instance footer */}
-            <Footer></Footer>
-        </div>
-    )
 }

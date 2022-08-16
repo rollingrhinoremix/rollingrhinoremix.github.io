@@ -13,15 +13,6 @@
 }
 
 #donate-paragraph {
-    position: relative;
-
-    left: 50%;
-
-    transform: translate(-50%, 0);
-
-    width: fit-content;
-
-    text-align: left;
 
     color: #ffffff;
 }
@@ -53,16 +44,11 @@
 }
 
 #donate-button {
-    position: relative;
-
-    left: 50%;
-
-    transform: translate(-50%, 0);
-
     width: fit-content;
 
     font-size: 1.5em;
 }
+
 #donate-button > a {
     text-decoration: none;
 

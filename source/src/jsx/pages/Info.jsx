@@ -1,8 +1,3 @@
-import Footer from "../components/Footer"
-
-// metadata
-import { Title } from "@solidjs/meta"
-
 // import contributors JSON
 import contributors from "../../../JSON/Contributors.json"
 
@@ -10,22 +5,14 @@ import contributors from "../../../JSON/Contributors.json"
 import "../../css/Info/Info.css"
 import "../../css/general.css"
 import {For} from "solid-js";
+import Page from "../components/Page";
 
 // title string
-const pageTitle = "Rolling Rhino Remix | Information";
+const pageTitle = "Information";
 
 export default function InfoPage() {
     return (
-        <div id="info" class="page-width">
-            {/* metadata */}
-            <Title>{pageTitle}</Title>
-
-            {/* spacer */}
-            <div class="large-spacer"></div>
-
-            {/* title */}
-            <h1 id="info-title" class="gradient">Rolling Rhino Remix - Information</h1>
-            <hr class={"header-hr"}/>
+        <Page title={pageTitle}>
 
             {/* contributors */}
             <div id="info-contributors-section" class="card">
@@ -118,7 +105,7 @@ export default function InfoPage() {
                 {/* mini spacer */}
                 <div class="mini-spacer"></div>
             </div>
-            
+
             {/* spacer */}
             <div class="spacer"></div>
 
@@ -130,7 +117,7 @@ export default function InfoPage() {
                 {/* text */}
                 <p id="info-press-text">
                     This is a collection of press, posts, and articles regarding <b>Rolling Rhino Remix.</b> <br></br>
-                    
+
                     <br></br>
 
                     {/* flexbox container for links */}
@@ -179,12 +166,6 @@ export default function InfoPage() {
                     </span>
                 </p>
             </div>
-
-            {/* spacer */}
-            <div class="spacer"></div>
-
-            {/* instance footer */}
-            <Footer></Footer>
-        </div>
+        </Page>
     )
 }
