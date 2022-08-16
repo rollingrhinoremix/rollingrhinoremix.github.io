@@ -22,6 +22,7 @@ export default function PageNotFound() {
 
             {/* header */}
             <h1 class="gradient">Error 404: Page Not found</h1>
+            <hr class={"header-hr"}/>
 
             {/* paragraph */}
             <p>

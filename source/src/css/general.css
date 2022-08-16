@@ -73,6 +73,18 @@
     margin: -1px;
 }
 
+.header-hr {
+    width: 80%;
+    height: 0.25em;
+    background: #ffffff;
+
+    border-radius: 25px;
+    border: none;
+
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
 /* portrait mode */
 @media screen and (orientation: portrait) {
     .page-width {
