@@ -6,26 +6,14 @@ import { Title } from "@solidjs/meta"
 // css
 import "../../css/Branding/Branding.css"
 import "../../css/general.css"
+import Page from "../components/Page";
 
 // title string
-var pageTitle = "Rolling Rhino Remix | Branding";
+var pageTitle = "Brand Guidelines";
 
 export default function BrandingPage() {
     return (
-        <div id="branding-page" class="page-width">
-            {/* metadata */}
-            <Title>{pageTitle}</Title>
-
-            {/* spacer */}
-            <div class="large-spacer"></div>
-
-            {/* title */}
-            <h1 id="branding-page-title" class="gradient">Rolling Rhino Remix - Brand Guidelines</h1>
-            <hr class={"header-hr"}/>
-
-            {/* mini spacer */}
-            <div class="mini-spacer"></div>
-        
+        <Page title={pageTitle}>
             {/* second mini title */}
             <h3 id="branding-page-title2">
                 Rolling Rhino Remix is <span class="gradient">YOUR </span>
@@ -53,8 +41,8 @@ export default function BrandingPage() {
                 {/* paragraph */}
                 <p>
                     There are a handful of variants of the Rolling Rhino Remix logo.
-                    We feel that it is integral to stick to the colour palette as much as possibile. 
-                    The logo has a purple splotch behind the rhino, this is the same shade as the Ubuntu 
+                    We feel that it is integral to stick to the colour palette as much as possibile.
+                    The logo has a purple splotch behind the rhino, this is the same shade as the Ubuntu
                     purple utilised in the gradient effect, separating the pieces.
                 </p>
 
@@ -68,7 +56,7 @@ export default function BrandingPage() {
                     <img class="branding-logo" src="assets/BrandingPage/Logos/logoLight.png" alt="Logo variation"/>
                     <img class="branding-logo" src="assets/BrandingPage/Logos/logoDark.png" alt="Logo variation"/>
                     <img class="branding-logo" src="assets/BrandingPage/Logos/logoGray.png" alt="Logo variation" style="margin: 0;"/>
-                
+
                     <div class="mini-spacer"></div>
                 </div>
 
@@ -96,8 +84,8 @@ export default function BrandingPage() {
 
                 {/* paragraph */}
                 <p>
-                    The desktop wallpaper is one of the <b>first things</b> a new user will notice about their operating system. 
-                    This is why we have designed two unique wallpapers to match our branding. 
+                    The desktop wallpaper is one of the <b>first things</b> a new user will notice about their operating system.
+                    This is why we have designed two unique wallpapers to match our branding.
                     The wallpapers will automatically change depending on whether the user is using light or dark mode.
                 </p>
 
@@ -109,16 +97,10 @@ export default function BrandingPage() {
 
                     <img class="branding-wallpaper" src="assets/BrandingPage/Wallpapers/wallpaperLight.png" alt="Wallpaper variation"/>
                     <img class="branding-wallpaper" src="assets/BrandingPage/Wallpapers/wallpaperDark.png" alt="Wallpaper variation" style="margin-bottom: 0;"/>
-                
+
                     <div class="mini-spacer"></div>
                 </div>
             </div>
-
-            {/* spacer */}
-            <div class="spacer"></div>
-
-            {/* instance footer */}
-            <Footer></Footer>
-        </div>
+        </Page>
     )
 }

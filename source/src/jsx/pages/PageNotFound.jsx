@@ -7,39 +7,26 @@ import { Title } from "@solidjs/meta"
 // css
 import "../../css/PageNotFound/PageNotFound.css"
 import "../../css/general.css"
+import Page from "../components/Page";
 
 // title string
-var pageTitle = "Rolling Rhino Remix | 404";
+const pageTitle = "404";
 
 export default function PageNotFound() {
     return (
-        <div id="error404">
-            {/* metadata */}
-            <Title>{pageTitle}</Title>
+        <Page title={pageTitle}>
+            <div class="error-404">
+                {/* paragraph */}
+                <p>
+                    Are you sure you've entered the correct address?
 
-            {/* spacer */}
-            <div class="large-spacer"></div>
+                    <br></br>
+                    <br></br>
 
-            {/* header */}
-            <h1 class="gradient">Error 404: Page Not found</h1>
-            <hr class={"header-hr"}/>
-
-            {/* paragraph */}
-            <p>
-                Are you sure you've entered the correct address?
-
-                <br></br>
-                <br></br>
-
-                {/* click to return to home */}
-                <NavLink class="paragraph-link" href="/">Click to return to Home.</NavLink>
-            </p>
-
-            {/* spacer */}
-            <div class="spacer"></div>
-
-            {/* footer */}
-            <Footer></Footer>
-        </div>
+                    {/* click to return to home */}
+                    <NavLink class="paragraph-link" href="/">Click to return to Home.</NavLink>
+                </p>
+            </div>
+        </Page>
     )
 }

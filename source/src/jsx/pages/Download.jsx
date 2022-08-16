@@ -9,9 +9,10 @@ import downloadInfo from "../../../JSON/Download.json"
 // css
 import "../../css/Download/Download.css"
 import "../../css/general.css"
+import Page from "../components/Page";
 
 // title string
-var pageTitle = "Rolling Rhino Remix | Download";
+const pageTitle = "Download";
 
 // version
 const version = downloadInfo.version;
@@ -44,20 +45,7 @@ const archiveorgLink = downloadInfo.mirrors.archiveorg;
 
 export default function DownloadPage() {
     return (
-        <div id="download" class="page-width">
-            {/* metadata */}
-            <Title>{pageTitle}</Title>
-
-            {/* spacer */}
-            <div class="large-spacer"></div>
-
-            {/* title */}
-            <h1 id="download-title" class="gradient">Rolling Rhino Remix - Download</h1>
-            <hr class={"header-hr"}/>
-
-            {/* spacer */}
-            <div class="spacer"></div>
-
+        <Page title={pageTitle}>
             {/* section 1 */}
             <div class="card">
                 {/* mini spacer */}
@@ -75,11 +63,11 @@ export default function DownloadPage() {
                 {/* a few links */}
                 <p class="download-section1-text">
                     <b>Current release: {version}</b>
-                    
+
                     <br></br>
 
                     <a class="paragraph-link" href={downloadInfo.releaseAnnouncement}>Release Announcement</a>
-                    
+
                     <br></br>
 
                     <b>ISO Size: {ISOSize}</b>
@@ -94,7 +82,7 @@ export default function DownloadPage() {
 
                     <br></br>
 
-                    {/* set word wrap here to allow breaking of words because the checksum is a very long "word" that wont fit on one line, 
+                    {/* set word wrap here to allow breaking of words because the checksum is a very long "word" that wont fit on one line,
                         and to prevent it from overflowing i changed this parameter specifically for just this piece of text */}
                     <b style="word-wrap: break-word;">Checksum (Sha256sum): {checksum}</b>
                 </p>
@@ -144,12 +132,6 @@ export default function DownloadPage() {
                 {/* mini spacer */}
                 <div class="mini-spacer"></div>
             </div>
-
-            {/* spacer */}
-            <div class="spacer"></div>
-
-            {/* footer */}
-            <Footer></Footer>
-        </div>
+        </Page>
     )
 }

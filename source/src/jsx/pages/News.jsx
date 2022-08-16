@@ -1,6 +1,6 @@
 import Footer from "../components/Footer"
 import NewsPost from "../components/NewsPost"
-import NewsPostSharePopup from "../components//NewsPostSharePopup"
+import NewsPostSharePopup from "../components/NewsPostSharePopup"
 import { For } from "solid-js"
 
 // metadata
@@ -12,9 +12,10 @@ import posts from "../../../JSON/News.json"
 // css
 import "../../css/News/News.css"
 import "../../css/general.css"
+import Page from "../components/Page";
 
 // title string
-var pageTitle = "Rolling Rhino Remix | News";
+const pageTitle = "News";
 
 export default function NewsPage() {
     const togglePopup = (visible) => {
@@ -40,25 +41,12 @@ export default function NewsPage() {
     }
 
     return (
-        <div id="news" class="page-width">
-            {/* metadata */}
-            <Title>{pageTitle}</Title>
-
-            {/* spacer */}
-            <div class="large-spacer"></div>
-
-            {/* header */}
-            <h1 id="news-title" class="gradient">Rolling Rhino Remix - News</h1>
-            <hr class={"header-hr"}/>
-
-            {/* spacer */}
-            <div class="spacer"></div>
-
+        <Page title={pageTitle}>
             {/* div containing all news posts */}
             <div id="news-posts-container">
                 {/* iterate through each post that has been fetched from the JSON data */}
                 <For each={posts}>
-                    {/* lambda function to get indexed post object 
+                    {/* lambda function to get indexed post object
                     and return new instance of NewsPost element,
                     also passing in the post object's info as props */}
                     {(post) => <NewsPost
@@ -71,15 +59,7 @@ export default function NewsPage() {
                     ></NewsPost>}
                 </For>
             </div>
-
-            {/* put spacer here */}
-            <div class="spacer"></div>
-
-            {/* instance the footer */}
-            <Footer></Footer>
-
-            {/* shared post notif popup */}
             <NewsPostSharePopup></NewsPostSharePopup>
-        </div>
-    )
+        </Page>
+    );
 }
