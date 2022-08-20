@@ -1,0 +1,19 @@
+#error404 {
+    position: absolute;
+
+    width: 100%;
+
+    color: #ffffff;
+}
+#error404 > * {
+    text-align: center;
+}
+#error404 > h1 {
+    position: relative;
+
+    left: 50%;
+
+    transform: translate(-50%, 0);
+
+    width: fit-content;
+}

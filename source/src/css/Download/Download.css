@@ -1,0 +1,39 @@
+#download {
+    position: absolute;
+}
+
+#download-title {
+    position: relative;
+
+    left: 50%;
+
+    transform: translate(-50%, 0);
+
+    width: fit-content;
+
+    color: #ffffff; /* fallback if gradient doesn't work */
+}
+
+/* -------------- SECTION 1 -------------- */
+
+.download-section1-text {
+    position: relative;
+
+    left: 2em;
+
+    max-width: 80%;
+}
+
+.download-section1-title {
+    position: relative;
+
+    text-align: center;
+}
+
+
+/* mobile optimization */
+@media screen and (orientation: portrait) {
+    #download-section1 {
+        width: 80%;
+    }
+}

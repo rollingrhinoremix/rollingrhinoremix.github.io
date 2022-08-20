@@ -1,0 +1,85 @@
+.spacer {
+    position: relative;
+    height: 3em;
+    width: 100vw;
+}
+
+.mini-spacer {
+    position: relative;
+    height: 1em;
+    width: 100vw;
+}
+
+.large-spacer {
+    position: relative;
+    height: 4em;
+    width: 100vw;
+}
+
+/* code text */
+.code {
+    position: relative;
+
+    padding: 1px 4px 1px 4px;
+
+    border-radius: 5px;
+    background: #1b1b1b;
+}
+
+/* gradient text, mostly for headers */
+.gradient {
+    background-image: -webkit-linear-gradient(left, #e95420, #ca43bd);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.page-width {
+    width: 100vw;
+}
+
+.card {
+    position: relative;
+
+    left: 50%;
+
+    transform: translate(-50%, 0);
+
+    width: 60%;
+
+    padding: 1em;
+
+    border-radius: 25px;
+
+    background: #4e4e4e;
+    color: #ffffff;
+
+    box-shadow: 0px 2px 3px #000000;
+}
+
+.paragraph-link {
+    color: #f08965;
+}
+.paragraph-link:hover {
+    color: #000000;
+    background: #f08965;
+
+    text-decoration: none;
+
+    padding: 0px 1px 0px 1px;
+
+    border-radius: 1px;
+
+    margin: -1px;
+}
+
+/* portrait mode */
+@media screen and (orientation: portrait) {
+    .page-width {
+        width: 100vw;
+    }
+
+    .card {
+        width: 80%;
+    }
+}
