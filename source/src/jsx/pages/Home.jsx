@@ -22,6 +22,12 @@ export default function HomePage() {
             {/* title */}
             <h1 class="home-title gradient">Rolling Rhino Remix</h1>
 
+            {/* title hr */}
+            <hr class="title-hr"></hr>
+
+            {/* mini spacer */}
+            <div class="mini-spacer"></div>
+
             {/* laptop image */}
             <img id="home-laptop-image" src="assets/HomePage/laptop.png" alt="Laptop Image"/>
 

@@ -71,6 +71,21 @@
     margin-bottom: 0;
 }
 
+#info-other-contributors-link {
+    text-align: center;
+
+    font-family: 'Roboto Mono';
+    font-weight: bold;
+    font-size: 1.25em;
+
+    text-decoration: none;
+
+    color: #f08965;
+}
+#info-other-contributors-link:hover {
+    text-decoration: underline;
+}
+
 #info-press-section {
 }
 

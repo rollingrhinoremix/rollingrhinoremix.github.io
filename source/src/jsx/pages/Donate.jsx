@@ -20,7 +20,10 @@ export default function DonatePage() {
             <div class="large-spacer"></div>
 
             {/* title */}
-            <h1 id="donate-title" class="gradient">Donate to Rolling Rhino Remix</h1>
+            <h1 id="donate-title" class="gradient">Rolling Rhino Remix - Donate</h1>
+
+            {/* title hr */}
+            <hr class="title-hr"></hr>
 
             {/* min spacer */}
             <div class="mini-spacer"></div>

@@ -73,6 +73,27 @@
     margin: -1px;
 }
 
+.title-hr {
+    position: relative;
+
+    left: 50%;
+
+    transform: translate(-50%, 0);
+
+    width: 30%;
+    height: 0.2em;
+
+    background-image: -webkit-linear-gradient(left, #e95420, #ca43bd);
+
+    opacity: 1;
+
+    border-radius: 25px;
+
+    border: none;
+
+    margin: 0;
+}
+
 /* portrait mode */
 @media screen and (orientation: portrait) {
     .page-width {

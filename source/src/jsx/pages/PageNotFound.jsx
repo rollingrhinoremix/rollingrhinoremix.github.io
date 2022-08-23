@@ -23,15 +23,28 @@ export default function PageNotFound() {
             {/* header */}
             <h1 class="gradient">Error 404: Page Not found</h1>
 
-            {/* paragraph */}
+            {/* title hr */}
+            <hr class="title-hr"></hr>
+
+            {/* spacer */}
+            <div class="spacer"></div>
+
+            {/* header 2 */}
+            <h2>Are you sure you've entered the correct address?</h2>
+
+            {/* mini spacer */}
+            <div class="mini-spacer"></div>
+
+            {/* 404 page image */}
+            <img src="./assets/place-holder.png" alt="xxx"/>
+
+            {/* mini spacer */}
+            <div class="mini-spacer"></div>
+
+            {/* wrap link in paragraph */}
             <p>
-                Are you sure you've entered the correct address?
-
-                <br></br>
-                <br></br>
-
                 {/* click to return to home */}
-                <NavLink class="paragraph-link" href="/">Click to return to Home.</NavLink>
+                <NavLink class="paragraph-link" href="/">Return to Home.</NavLink>
             </p>
 
             {/* spacer */}

@@ -22,6 +22,9 @@ export default function BrandingPage() {
             {/* title */}
             <h1 id="branding-page-title" class="gradient">Rolling Rhino Remix - Brand Guidelines</h1>
 
+            {/* title hr */}
+            <hr class="title-hr"></hr>
+
             {/* mini spacer */}
             <div class="mini-spacer"></div>
         
@@ -41,7 +44,7 @@ export default function BrandingPage() {
 
                 <br></br>
 
-                Color palette can be found <a class="paragraph-link" href="https://design.ubuntu.com/brand/colour-palette/" target="_blank">here.</a>
+                Color palette can be found <a class="paragraph-link" href="https://design.ubuntu.com/brand/colour-palette/" target="_blank">here</a>.
             </p>
 
             {/* sections for logos */}

@@ -1,87 +1,34 @@
 {
-    "developers": [
+    "coreContributors": [
         {
-            "name": "MrBeeBenson",
+            "name": "Chadano",
 
-            "description": "I am MrBeeBenson, I am the current Project Lead and founder of Rolling Rhino Remix. I coordinate the development within the project as well as take user feedback and work on updates.",
+            "description": "Current Project Lead and founder of Rolling Rhino Remix. Coordinates the development within the project as well as takes user feedback and works on updates.",
 
             "ghLink": "https://github.com/MrBeeBenson"
         },
         {
-            "name": "Billy G",
-
-            "description": "I'm Billy, the lead of infrastructure.",
-
-            "ghLink": "https://github.com/jbrgilbrech"
-        },
-        {
             "name": "Plasma",
 
-            "description": "I'm Plasma, I am deputy project lead, and I'm also in charge of <span class='code'>rhino-deinst</span>.",
+            "description": "Deputy project lead, also in charge of <span class='code'>rhino-deinst</span>.",
 
             "ghLink": "https://github.com/Henryws"
         },
         {
             "name": "Wizard28",
 
-            "description": "I am Wizard28, I am a developer and in charge of <span class='code'>rhino-config</span>, <span class='code'>rhino-system</span> and <span class='code'>rhino-config</span> related <span class='code'>rhino-update</span> patches.",
+            "description": "In charge of <span class='code'>rhino-config</span>, <span class='code'>rhino-system</span> and related <span class='code'>rhino-update</span> patches.",
 
             "ghLink": "https://github.com/wizard-28"
         },
         {
             "name": "Notmax6677",
 
-            "description": "Hey, i'm Notmax6677, the lead web developer for the current build of Rolling Rhino Remix's website.",
+            "description": "The lead web developer for the current build of Rolling Rhino Remix's website.",
 
             "ghLink": "https://github.com/notmax6677"
         }
     ],
-
-    "contributors": [
-        {
-            "name": "raluvy95",
-
-            "description": "Squashed a bug in <span class='code'>rhino-update</span>.",
-
-            "ghLink": "https://github.com/raluvy95"
-        },
-        {
-            "name": "TheOceanBreeze",
-
-            "description": "Submitted a patch to rhino-update to reword the prompt in rhino-update. Removed <span class='code'>sudo snap refresh</span> from <span class='code'>rhino-update</span>.",
-
-            "ghLink": "https://github.com/TheOceanBreeze"
-        },
-        {
-            "name": "Tricantivu",
-
-            "description": "Improved the <span class='code'>.sources.sh</span> script and <span class='code'>.bashrc</span> aliases.",
-
-            "ghLink": "https://github.com/tricantivu"
-        },
-        {
-            "name": "JoshBeer",
-
-            "description": "Removed <span class='code'>sudo</span> from <span class='code'>.sources.sh</span>.",
-
-            "ghLink": "https://github.com/JoshBeer"
-        },
-        {
-            "name": "Kreblskulm",
-
-            "description": "Added a feature to <span class='code'>rhino-update</span> to ensure that the same kernel version is not reinstalled multiple times.",
-
-            "ghLink": "https://kreblskulm.github.io"
-        },
-        {
-            "name": "X4X5",
-
-            "description": "Added various desktops to <span class='code'>rhino-deinst</span>.",
-
-            "ghLink": "https://github.com/X4X5"
-        }
-    ],
-
     "spelling": [
         "TheOceanBreeze",
 

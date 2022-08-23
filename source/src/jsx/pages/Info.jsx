@@ -19,28 +19,34 @@ export default function InfoPage() {
             {/* metadata */}
             <Title>{pageTitle}</Title>
 
-            {/* spacer */}
+            {/* large spacer */}
             <div class="large-spacer"></div>
 
             {/* title */}
-            <h1 id="info-title" class="gradient">Info</h1>
+            <h1 id="info-title" class="gradient">Rolling Rhino Remix - Information</h1>
+
+            {/* title hr */}
+            <hr class="title-hr"></hr>
+
+            {/* spacer */}
+            <div class="spacer"></div>
 
             {/* contributors */}
             <div id="info-contributors-section" class="card">
                 {/* mini title */}
-                <h1 class="info-contributors-title">Official Developers</h1>
+                <h1 class="info-contributors-title">Core Contributors</h1>
 
                 {/* flexbox container for contributors list */}
                 <div id="info-contributors-container">
                     {/* iterate through list of imported contributors JSON file */}
-                    <For each={contributors.developers}>
+                    <For each={contributors.coreContributors}>
                         {/* lambda JSX equation returns instance of contributor element with filled out data */}
-                        {(developer) => {
+                        {(cc) => {
                             return (
                                 <p class="info-contributor">
                                     {/* name */}
-                                    <a href={developer.ghLink} target="_blank">
-                                        {developer.name}
+                                    <a href={cc.ghLink} target="_blank">
+                                        {cc.name}
                                     </a>
 
                                     <br></br> {/* break line */}
@@ -51,7 +57,7 @@ export default function InfoPage() {
                                         var span = document.createElement("span");
 
                                         // set innerHTML to description wrapped in quotes
-                                        span.innerHTML = `"`+developer.description+`"`;
+                                        span.innerHTML = cc.description;
 
                                         // return it
                                         return span;
@@ -61,40 +67,14 @@ export default function InfoPage() {
                         }}
                     </For>
 
-                    {/* spacer */}
-                    <div class="spacer"></div>
+                    {/* mini spacer */}
+                    <div class="mini-spacer"></div>
 
-                    {/* another mini title lol */}
-                    <h1 class="info-contributors-title">Contributors</h1>
+                    {/* link to other contributors */}
+                    <a id="info-other-contributors-link" href="google.com" target="_blank">See other contributors on our Github repository.</a>
 
-                    {/* iterate through list of imported contributors JSON file */}
-                    <For each={contributors.contributors}>
-                        {/* lambda JSX equation returns instance of contributor element with filled out data */}
-                        {(contributor) => {
-                            return (
-                                <p class="info-contributor">
-                                    {/* name */}
-                                    <a href={contributor.ghLink} target="_blank">
-                                        {contributor.name}
-                                    </a>
-
-                                    <br></br> {/* break line */}
-
-                                    {/* description */}
-                                    {() => {
-                                        // create span
-                                        var span = document.createElement("span");
-
-                                        // set innerHTML to description wrapped in quotes
-                                        span.innerHTML = contributor.description;
-
-                                        // return it
-                                        return span;
-                                    }}
-                                </p>
-                            )
-                        }}
-                    </For>
+                    {/* mini spacer */}
+                    <div class="mini-spacer"></div>
 
                     {/* title again */}
                     <h1 class="info-contributors-title">Fixed spelling mistakes & typos</h1>

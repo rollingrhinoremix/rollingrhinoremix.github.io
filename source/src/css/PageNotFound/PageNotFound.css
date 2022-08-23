@@ -17,3 +17,13 @@
 
     width: fit-content;
 }
+
+#error404 > img {
+    position: relative;
+
+    left: 50%;
+
+    transform: translate(-50%, 0);
+
+    width: 30%;
+}
