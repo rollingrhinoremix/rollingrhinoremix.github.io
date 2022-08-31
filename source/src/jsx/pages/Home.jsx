@@ -10,7 +10,7 @@ import "../../css/general.css"
 // title string
 var pageTitle = "Rolling Rhino Remix | Home";
 
-export default function HomePage() {
+export default function Home() {
     return (
         <div id="home-page" class="page-width">
             {/* metadata */}
@@ -29,7 +29,7 @@ export default function HomePage() {
             <div class="mini-spacer"></div>
 
             {/* laptop image */}
-            <img id="home-laptop-image" src="assets/HomePage/laptop.png" alt="Laptop Image"/>
+            <img id="home-laptop-image" src="assets/Home/laptop.png" alt="Laptop Image"/>
 
             {/* title */}
             <h1 class="home-title gradient">Ubuntu just got rolling.</h1>
@@ -57,7 +57,7 @@ export default function HomePage() {
                     </p>
                     
                     {/* image */}
-                    <img id="home-image1" src="assets/HomePage/section1.png"/>
+                    <img id="home-image1" src="assets/Home/section1.png"/>
                 </div>
 
                 <div class="mini-spacer"></div>
@@ -88,7 +88,7 @@ export default function HomePage() {
                     {/* grid object */}
                     <div class="home-section2-grid-object">
                         {/* image */}
-                        <img src="assets/HomePage/EasyInstallation.png"/>
+                        <img src="assets/Home/EasyInstallation.png"/>
                         {/* text */}
                         <p>
                             Rolling Rhino Remix offers a no-frills, slightly modified version of Ubuntu's Ubiquity installer. 
@@ -100,7 +100,7 @@ export default function HomePage() {
                     {/* grid object */}
                     <div class="home-section2-grid-object home-section2-end-line-grid-object">
                         {/* image */}
-                        <img src="assets/HomePage/Minimal.png"/>
+                        <img src="assets/Home/Minimal.png"/>
                         {/* text */}
                         <p>
                             Our minimal installation option comes with no un-necessary packages and no Desktop Environment out of the box, 
@@ -112,7 +112,7 @@ export default function HomePage() {
                     {/* grid object */}
                     <div class="home-section2-grid-object home-section2-bottom-row-grid-object">
                         {/* image */}
-                        <img src="assets/HomePage/rhino.png"/>
+                        <img src="assets/Home/rhino.png"/>
                         {/* text */}
                         <p>
                             Rolling Rhino Remix provides many different quality of life and command-line utilities to 
@@ -128,7 +128,7 @@ export default function HomePage() {
                     {/* grid object */}
                     <div class="home-section2-grid-object home-section2-end-line-grid-object home-section2-bottom-row-grid-object" style="margin-bottom: 0;">
                         {/* image */}
-                        <img src="assets/HomePage/partners.png"/>
+                        <img src="assets/Home/partners.png"/>
                         {/* text */}
                         <p>
                             Rolling Rhino Remix has partnered with two large open source projects, Pacstall and Nala. 

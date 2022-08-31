@@ -10,7 +10,7 @@ import "../../css/general.css"
 // title string
 var pageTitle = "Rolling Rhino Remix | Branding";
 
-export default function BrandingPage() {
+export default function Branding() {
     return (
         <div id="branding-page" class="page-width">
             {/* metadata */}
@@ -67,9 +67,9 @@ export default function BrandingPage() {
                 <div id="branding-page-logos-images-container" class="card">
                     <div class="mini-spacer"></div>
 
-                    <img class="branding-logo" src="assets/BrandingPage/Logos/logoLight.png" alt="Logo variation"/>
-                    <img class="branding-logo" src="assets/BrandingPage/Logos/logoDark.png" alt="Logo variation"/>
-                    <img class="branding-logo" src="assets/BrandingPage/Logos/logoGray.png" alt="Logo variation" style="margin: 0;"/>
+                    <img class="branding-logo" src="assets/Branding/Logos/logoLight.png" alt="Logo variation"/>
+                    <img class="branding-logo" src="assets/Branding/Logos/logoDark.png" alt="Logo variation"/>
+                    <img class="branding-logo" src="assets/Branding/Logos/logoGray.png" alt="Logo variation" style="margin: 0;"/>
                 
                     <div class="mini-spacer"></div>
                 </div>
@@ -81,8 +81,8 @@ export default function BrandingPage() {
                 <div id="branding-page-logos-banners-container" class="card">
                     <div class="mini-spacer"></div>
 
-                    <img class="branding-banner-logo" src="assets/BrandingPage/Logos/logoBannerLight.png" alt="Banner logo variation"/>
-                    <img class="branding-banner-logo" src="assets/BrandingPage/Logos/logoBannerDark.png" alt="Banner logo variation" style="margin-bottom: 0;"/>
+                    <img class="branding-banner-logo" src="assets/Branding/Logos/logoBannerLight.png" alt="Banner logo variation"/>
+                    <img class="branding-banner-logo" src="assets/Branding/Logos/logoBannerDark.png" alt="Banner logo variation" style="margin-bottom: 0;"/>
 
                     <div class="mini-spacer"></div>
                 </div>
@@ -109,8 +109,8 @@ export default function BrandingPage() {
                 <div id="branding-page-wallpapers-container" class="card">
                     <div class="mini-spacer"></div>
 
-                    <img class="branding-wallpaper" src="assets/BrandingPage/Wallpapers/wallpaperLight.png" alt="Wallpaper variation"/>
-                    <img class="branding-wallpaper" src="assets/BrandingPage/Wallpapers/wallpaperDark.png" alt="Wallpaper variation" style="margin-bottom: 0;"/>
+                    <img class="branding-wallpaper" src="assets/Branding/Wallpapers/wallpaperLight.png" alt="Wallpaper variation"/>
+                    <img class="branding-wallpaper" src="assets/Branding/Wallpapers/wallpaperDark.png" alt="Wallpaper variation" style="margin-bottom: 0;"/>
                 
                     <div class="mini-spacer"></div>
                 </div>

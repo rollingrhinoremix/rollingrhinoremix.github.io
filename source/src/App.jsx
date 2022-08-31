@@ -3,10 +3,10 @@ import { createSignal, Show } from "solid-js";
 import { MetaProvider } from "@solidjs/meta"
 import HamburgerMenu from "./jsx/components/HamburgerMenu";
 import DesktopNavbar from "./jsx/components/DesktopNavbar";
-import BrandingPage from "./jsx/pages/Branding";
+import Branding from "./jsx/pages/Branding";
 import DonatePage from "./jsx/pages/Donate";
 import DownloadPage from "./jsx/pages/Download";
-import HomePage from "./jsx/pages/Home";
+import Home from "./jsx/pages/Home";
 import InfoPage from "./jsx/pages/Info";
 import NewsPage from "./jsx/pages/News";
 import PageNotFound from "./jsx/pages/PageNotFound";
@@ -47,7 +47,7 @@ function App() {
                 {/* pages managed by the router */}
                 <Routes id="router">
                     {/* home page */}
-                    <Route path="/" element={<HomePage/>}/>
+                    <Route path="/" element={<Home/>}/>
 
                     {/* download page */}
                     <Route path="/download" element={<DownloadPage/>}/>
@@ -62,7 +62,7 @@ function App() {
                     <Route path="/donate" element={<DonatePage/>}/>
 
                     {/* branding page */}
-                    <Route path="/branding" element={<BrandingPage/>}/>
+                    <Route path="/branding" element={<Branding/>}/>
 
                     {/* error 404 - page not found */}
                     <Route path="/:id" element={<PageNotFound/>}/>

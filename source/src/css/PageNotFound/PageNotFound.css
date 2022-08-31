@@ -27,3 +27,11 @@
 
     width: 30%;
 }
+
+/* mobile port */
+@media screen and (orientation: portrait) {
+    /* increase size of image */
+    #error404 > img {
+        width: 80%;
+    }
+}

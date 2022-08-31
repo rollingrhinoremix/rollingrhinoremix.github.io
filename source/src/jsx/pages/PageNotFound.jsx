@@ -36,7 +36,7 @@ export default function PageNotFound() {
             <div class="mini-spacer"></div>
 
             {/* 404 page image */}
-            <img src="./assets/place-holder.png" alt="xxx"/>
+            <img src="./assets/error404.png" alt="xxx"/>
 
             {/* mini spacer */}
             <div class="mini-spacer"></div>

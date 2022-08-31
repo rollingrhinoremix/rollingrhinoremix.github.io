@@ -71,26 +71,7 @@ export default function InfoPage() {
                     <div class="mini-spacer"></div>
 
                     {/* link to other contributors */}
-                    <a id="info-other-contributors-link" href="google.com" target="_blank">See other contributors on our Github repository.</a>
-
-                    {/* mini spacer */}
-                    <div class="mini-spacer"></div>
-
-                    {/* title again */}
-                    <h1 class="info-contributors-title">Fixed spelling mistakes & typos</h1>
-
-                    {/* iterate through list of imported contributors JSON file */}
-                    <For each={contributors.spelling}>
-                        {/* lambda JSX equation returns instance of contributor element with filled out data */}
-                        {(sContributor) => {
-                            return (
-                                <p class="info-spelling-contributor">
-                                    {sContributor}
-                                </p>
-                            )
-                        }}
-                    </For>
-
+                    <a id="info-other-contributors-link" href="https://github.com/rollingrhinoremix" target="_blank">See other contributors on our Github repository.</a>
                 </div>
 
                 {/* mini spacer */}
