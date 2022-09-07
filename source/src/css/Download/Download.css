@@ -33,6 +33,10 @@
 
 /* mobile optimization */
 @media screen and (orientation: portrait) {
+    #download-title {
+        text-align: center;
+    }
+
     #download-section1 {
         width: 80%;
     }

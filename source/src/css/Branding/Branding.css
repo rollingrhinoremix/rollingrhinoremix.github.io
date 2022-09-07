@@ -124,8 +124,18 @@
 /* mobile optimization */
 @media screen and (orientation: portrait) {
     #branding-page-title {
-        font-size: 1.6em;
+        text-align: center;
     }
+
+    #branding-page-title2 {
+        position: relative;
+
+        left: 50%;
+        transform: translate(-50%, 0);
+
+        width: 80%;
+    }
+
     #branding-page-paragraph {
         position: relative;
 
