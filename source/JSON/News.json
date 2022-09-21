@@ -1,5 +1,22 @@
 [
     {
+        "id": "2022-09-01",
+    
+        "title": "Release 2022.09.01",
+    
+        "date": "September 7th, 2022",
+    
+        "paragraph": "It has been over a month since the last release of Rolling Rhino Remix. The development team has worked hard on both the Rolling Rhino Remix Linux Distribution as well as the WSL port which will release later this month.<br><br>• Please note, due to the delayed release, Disk image number will show 2022.09.07 rather than 2022.09.01.",
+        
+        "sections": [
+            {
+                "title": "What's new?",
+    
+                "paragraph": "• Rolling Rhino Remix 2022.09.01 has shipped with the 5.19.5 kernel by default.<br>• All packages have been upgraded to their latest version.<br>• Bug fixes.<br><br>If you are using an already existing installation of Rolling Rhino Remix then you will be able to upgrade to the latest version with <span class='code'>rhino-update</span> if you do not have these changes already.<br><br>If you wish to download Rolling Rhino Remix with a fresh disk image then you can download it <a href='/download' target='_blank'>here</a>."
+            }
+        ]
+    },
+    {
         "id": "community-distro",
     
         "title": "Community-led innovation + Development underway for 2022.09.01",

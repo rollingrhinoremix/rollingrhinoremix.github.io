@@ -114,4 +114,7 @@
 
 /* mobile optimizations */
 @media screen and (orientation: portrait) {
+    #info-title {
+        text-align: center;
+    }
 }
