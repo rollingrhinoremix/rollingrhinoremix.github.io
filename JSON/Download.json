@@ -1,23 +1,19 @@
 {
-    "version": "2022.08.01",
+    "version": "2022.09.01",
 
-    "ISOSize": "3.6 GB",
+    "ISOSize": "3.8 GB",
 
-    "kernel": "5.18.15",
+    "kernel": "5.19.5",
 
-    "checksum": "1e9a4b766f2e6379c28aa581a1875264b2377d580d50959e520bd37ceb82b3dc rolling-2022-08-01.iso",
+    "checksum": "f3d4a65c48ece7d5ae91b9540eb21dd7809f1cc023c5ad0a426f5087c89f4a24 rolling-2022-09-07.iso",
 
     "mirrors": {
-        "jovarkOS": "https://rollingrhino.jovarkos.org/rolling-2022-08-01.iso",
-
-        "googleDrive": "https://drive.google.com/file/d/1NxUO7dRsc0YeWgwiXeSLm1SOTIarLiYw/view?usp=sharing",
+        "googleDrive": "https://drive.google.com/file/d/1pMxNlsOxvdhiAzRW2wkGHsfELPxqg5ql/view?usp=sharing",
         
-        "meganz": "https://mega.nz/file/U2BUybqb#-s5pxMAtUZMfdKN79oI73Ai0dyqcVFxXrlEQgLxbfTE",
+        "meganz": "https://mega.nz/file/MuwSWR7C#TUGnE2VIFDnrD-YNlojoPC3lH3RpsIvXd5JusOt1duY",
 
-        "mediafire": "https://www.mediafire.com/file/0pzvddjlqyxmhxk/rolling-2022-08-01.iso/file",
-
-        "archiveorg": "https://archive.org/details/rolling-2022-08-01"
+        "archiveorg": "https://archive.org/details/rolling-2022-09-07"
     },
 
-    "releaseAnnouncement": "/news#2022-08-01"
+    "releaseAnnouncement": "/news#2022-09-01"
 }
