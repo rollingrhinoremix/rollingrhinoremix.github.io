@@ -201,7 +201,7 @@ export default function Home() {
                         <br></br>
                         <br></br>
 
-                        <a class="paragraph-link" href="https://gitlab.com/volian/nala" target="_blank">Nala</a> is a libapt-pkg 
+                        <a class="paragraph-link" href="https://gitlab.com/volian/nala" target="_blank">Nala</a> is a <span class="code">libapt-pkg</span> 
                         front-end which improves the core functionality of apt. 
                         We have (once again) worked closely with the developers of Nala to integrate it into Rolling Rhino Remix. 
                         Nala provides functionality such as transaction history, parallel downloads and better output formatting. 
