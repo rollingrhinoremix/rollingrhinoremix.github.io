@@ -1,0 +1,32 @@
+{
+    "coreContributors": [
+        {
+            "name": "Chadano",
+
+            "description": "Current Project Lead and founder of Rolling Rhino Remix. Coordinates the development within the project as well as takes user feedback and works on updates.",
+
+            "ghLink": "https://github.com/MrBeeBenson"
+        },
+        {
+            "name": "Plasma",
+
+            "description": "Deputy project lead, also in charge of <span class='code'>rhino-deinst</span>.",
+
+            "ghLink": "https://github.com/Henryws"
+        },
+        {
+            "name": "Wizard28",
+
+            "description": "In charge of <span class='code'>rhino-config</span>, <span class='code'>rhino-system</span> and related <span class='code'>rhino-update</span> patches.",
+
+            "ghLink": "https://github.com/wizard-28"
+        },
+        {
+            "name": "Notmax6677",
+
+            "description": "The lead web developer for the current build of Rolling Rhino Remix's website.",
+
+            "ghLink": "https://github.com/notmax6677"
+        }
+    ]
+}
