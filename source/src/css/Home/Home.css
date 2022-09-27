@@ -193,6 +193,10 @@
         width: 90%;
     }
 
+    .home-title {
+        text-align: center;
+    }
+
     /* -------------- SECTION 1 -------------- */
     #home-section1-contents {
         flex-direction: column;
@@ -218,6 +222,9 @@
     }
 
     /* -------------- SECTION 2 -------------- */
+    #home-section2-header {
+        text-align: center;
+    }
     #home-section2-grid {
         flex-direction: column;
     }

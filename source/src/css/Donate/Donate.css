@@ -100,6 +100,10 @@
 
 /* mobile optimization */
 @media screen and (orientation: portrait) {
+    #donate-title {
+        text-align: center;
+    }
+
     #donate-paragraph {
         position: relative;
 

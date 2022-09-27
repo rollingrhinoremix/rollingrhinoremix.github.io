@@ -12,3 +12,10 @@
 
     color: #ffffff;
 }
+
+/* mobile port */
+@media screen and (orientation: portrait) {
+    #news-title {
+        text-align: center;
+    }
+}

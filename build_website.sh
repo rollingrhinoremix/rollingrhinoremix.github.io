@@ -6,9 +6,7 @@
 
 # ----- START OF SCRIPT -----
 
-# remove old build:
-
-rm ./index.html # remove old index.html
+# remove old build (KEEP index.html!!!):
 
 rm -r assets # remove old assets folder
 
@@ -29,6 +27,8 @@ npm run build # build website
 # move build to root folder:
 
 cd dist # go into dist folder
+
+rm index.html # remove unnecessary index.html
 
 mv ./* ../.. # move all contents to root folder
 
@@ -61,3 +61,9 @@ rm -r ./node_modules
 echo "" # empty line
 
 echo "Website build complete!" # finish message
+
+echo "" # another empty line
+
+# echo message to manually change new JS and CSS files to required names
+echo "Please rename 'index.********.js' and 'index.********.css' to 'script.js' and 'style.css'."
+echo "They are located in './assets'"
