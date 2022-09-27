@@ -4,9 +4,7 @@
 
 # ----- START OF SCRIPT -----
 
-# remove old build:
-
-Remove-Item -Recurse index.html
+# remove old build (KEEP index.html!!!):
 
 Remove-Item -Recurse assets
 
@@ -27,6 +25,8 @@ npm run build
 # move build to root folder:
 
 Set-Location dist
+
+Remove-Item index.html
 
 Move-Item ./* ../..
 
@@ -65,3 +65,8 @@ Set-Location ..
 Write-Output ""
 
 Write-Output "Website build complete!"
+
+Write-Output ""
+
+Write-Output "Please rename 'index.********.js' and 'index.********.css' to 'script.js' and 'style.css'."
+Write-Output "They are located in './assets'"
