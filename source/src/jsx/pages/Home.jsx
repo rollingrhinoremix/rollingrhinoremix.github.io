@@ -92,7 +92,7 @@ export default function Home() {
                         {/* text */}
                         <p>
                             Rolling Rhino Remix offers a no-frills, slightly modified version of Ubuntu's Ubiquity installer. 
-                            This graphical installer makes the installation of Rolling Rhino Remix simple, easy and intutive and offers different methods of insallation such as 
+                            This graphical installer makes the installation of Rolling Rhino Remix simple, easy and intutive and offers different methods of installation such as 
                             our minimal option which comes with no desktop environment or extra packages, allowing you to customise your system from the ground up.
                         </p>
                     </div>
