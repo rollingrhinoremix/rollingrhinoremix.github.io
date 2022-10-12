@@ -130,7 +130,7 @@
 
     margin-right: 20%;
 
-    margin-bottom: 5%;
+    margin-bottom: 2em;
 }
 .home-section2-grid-object > img {
     width: 100%;
@@ -239,7 +239,7 @@
 
         height: 80%;
 
-        margin: 0 0 20% 0; /* reset all other margins but at the same time set bottom margin to 30% */
+        margin: 0 0 3em 0; /* reset all other margins but at the same time set bottom margin to 3em */
     }
     .home-section2-end-line-grid-object {
         margin: 0 0 30% 0;
